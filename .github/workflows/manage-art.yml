@@ -1,0 +1,115 @@
+name: Manage updated assets
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+env:
+  MAX_SIZE: 2048
+
+jobs:
+  process:
+    runs-on: ubuntu-latest
+    name: Process changed files
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          fetch-depth: 0  # OR "2" -> To retrieve the preceding commit.
+          lfs: 'false'
+      - name: Get changed files
+        id: changed-files
+        with:
+          files: raw
+          separator: ","
+        uses: tj-actions/changed-files@v5.2  
+      - uses: mfinelli/setup-imagemagick@v1        
+      - name: Process all modified files
+        run: |
+          max_size=${{env.MAX_SIZE}}
+          modified_files_string="${{ steps.changed-files.outputs.all_modified_files }}";
+          files_array=$(echo $modified_files_string | tr "," "\n")
+          for file in $files_array 
+          do
+              file_dir=$(dirname $file)
+              width=$(magick identify -ping -format '%w' $file[0])
+              height=$(magick identify -ping -format '%w' $file[0])
+              echo -e "- \e[97m$file\e[0m ($width x $height):"              
+              if [[ $file_dir == raw/extra* ]]; then
+                  echo -e "  \e[3mIgnoring asset in 'extra' folder\e[0m"
+              else          
+                  keywords=$(magick identify -quiet -format %[IPTC:2:25] $file[0])
+                  copyright=$(magick identify -quiet -format %[EXIF:COPYRIGHT*] $file[0])
+                  author=$(magick identify -quiet -format %[IPTC:2:80] $file[0])
+                  if [ -z "$author" ]; then                                            
+                      echo -e "  \e[93mWarning: no author information found\e[0m"
+                  else
+                      echo -e "  Author: \e[36m$author\e[0m"
+                  fi
+                  name=$(magick identify -quiet -format %[IPTC:2:5] $file[0])
+                  if [ -z "$name" ]; then                                            
+                      echo -e "  \e[93mWarning: no name information found\e[0m"
+                  else
+                      echo -e "  Name: \e[36m$author\e[0m"
+                  fi                  
+                  if [ -z "$copyright" ]; then                      
+                      echo -e "  \e[93mWarning: no copyright information found\e[0m"
+                  else
+                      echo -e "  Image copyright information: \e[36m$copyright\e[0m"
+                  fi                                    
+                  if [[ $(echo "$keywords" |  tr '[:lower:]' '[:upper:]' ) == *"SPRITE"* ]]; then
+                      isSprite=true
+                  else
+                      isSprite=false      
+                  fi
+                  name_ext=$(basename $file)
+                  name=$(echo "$name_ext" | cut -f 1 -d '.') 
+                  ext="${name_ext##*.}"                  
+                  if [ "$isSprite" = true ] ; then
+                      echo "  Sprite keyword detected: destination format is PNG"
+                      new_ext=".png"
+                  else
+                      echo "  Sprite keyword not detected: destination format is JPEG"
+                      new_ext=".jpg"
+                  fi
+                  output_file="${file_dir/raw/src/assets}/$name$new_ext"               
+                  mkdir -p ${file_dir/raw/src/assets}
+                  if (( width > max_size || height > max_size )); then
+                      echo "  Must be processed as is bigger than $max_size"
+                      echo "  Converting to $output_file"
+                      geometry="${max_size}x${max_size}"
+                      magick convert $file[0] -resize $geometry $output_file
+                  else              
+                      if [[ $(echo ".$ext" |  tr '[:lower:]' '[:upper:]' ) != $(echo "$new_ext" |  tr '[:lower:]' '[:upper:]' ) ]]; then
+                          echo "  Converting file format from $ext to $new_ext"
+                          magick convert $file[0] $output_file
+                      else
+                          echo "  Copying file to destination"
+                          cp $file $output_file
+                      fi                  
+                  fi
+              fi  
+              echo ""
+          done
+      - name: Archive generated images
+        uses: actions/upload-artifact@v2
+        with:
+          name: assets
+          path: src/assets
+      - name: Generate contact sheet
+        run: |
+           mkdir /tmp/contactsheet
+           cp -n raw/**/* /tmp/contactsheet 
+           montage -verbose -label '%[IPTC:2:5]' -define jpeg:size=320x320 -geometry 320x320+2+2 -font Arial /tmp/contactsheet/*[0] raw/contact-sheet.png          
+      - name: Update resources
+        uses: test-room-7/action-update-file@v1
+        with:
+            file-path: |
+               src/assets/**/*.jpg
+               src/assets/**/*.png
+               raw/contact-sheet.png
+            commit-msg: Update processed assets
+            github-token: ${{ secrets.GITHUB_TOKEN }}
+
