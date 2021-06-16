@@ -101,7 +101,7 @@ jobs:
       - name: Generate contact sheet
         run: |
            if [ -d "/tmp/contactsheet" ] 
-           them
+           then
              rm -rf /tmp/contactsheet
            else
              mkdir -p /tmp/contactsheet
