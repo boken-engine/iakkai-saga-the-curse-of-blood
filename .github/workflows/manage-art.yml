@@ -100,8 +100,10 @@ jobs:
           path: src/assets
       - name: Generate contact sheet
         run: |
-           mkdir -p /tmp/contactsheet
-           rm /tmp/contactsheet/*
+           if [ -d "/tmp/contactsheet" ] 
+             rm -rf /tmp/contactsheet
+           else
+             mkdir -p /tmp/contactsheet
            cp -n raw/**/* /tmp/contactsheet 
            montage -verbose -label '%[IPTC:2:5]' -define jpeg:size=320x320 -geometry 320x320+2+2 -font Arial /tmp/contactsheet/*[0] raw/contact-sheet.png          
       - name: Update resources
