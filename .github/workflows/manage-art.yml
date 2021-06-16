@@ -107,6 +107,7 @@ jobs:
              mkdir -p /tmp/contactsheet
            fi
            cp -n raw/**/* /tmp/contactsheet 
+           magick -list font
            montage -verbose -label '%[IPTC:2:5]' -define jpeg:size=320x320 -geometry 320x320+2+2 -font  x:fixed /tmp/contactsheet/*[0] raw/contact-sheet.png          
       - name: Update resources
         uses: test-room-7/action-update-file@v1
