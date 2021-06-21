@@ -33,7 +33,7 @@ jobs:
           modified_files_string="${{ steps.changed-files.outputs.all_modified_files }}";          
           if ${{env.PROCESS_ALL}} == "true" then
               echo "Processing all files"
-              files_array = "$raw"/*
+              files_array = (raw/*)
           else
               echo "Processing only changed files"
               files_array = $(echo $modified_files_string | tr "," "\n")
