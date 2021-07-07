@@ -9,6 +9,7 @@ on:
       - main
 env:
   MAX_SIZE: 2048
+  PROCESS_ALL: 'true'
 
 jobs:
   process:
@@ -29,8 +30,15 @@ jobs:
       - name: Process all modified files
         run: |
           max_size=${{env.MAX_SIZE}}
-          modified_files_string="${{ steps.changed-files.outputs.all_modified_files }}";
-          files_array=$(echo $modified_files_string | tr "," "\n")
+          modified_files_string="${{ steps.changed-files.outputs.all_modified_files }}";          
+          if [ ${{env.PROCESS_ALL}} = "true" ] 
+          then
+              echo "Processing all files"
+              files_array=$(find raw -type f)
+          else
+              echo "Processing only changed files"
+              files_array=$(echo $modified_files_string | tr "," "\n")
+          fi
           for file in $files_array 
           do
               file_dir=$(dirname $file)
@@ -104,7 +112,6 @@ jobs:
             file-path: |
                src/assets/**/*.jpg
                src/assets/**/*.png
-               raw/contact-sheet.png
             commit-msg: Update processed assets
             github-token: ${{ secrets.GITHUB_TOKEN }}
       - name: Generate contact sheet
@@ -117,3 +124,10 @@ jobs:
            fi
            cp -n src/assets/**/* /tmp/contactsheet 
            montage -verbose -label '%[IPTC:2:5]' -define jpeg:size=240x240 -geometry 240x240+2+2 -font DejaVu-Sans /tmp/contactsheet/*[0] raw/contact-sheet.png        
+      - name: Update contact sheet
+        uses: test-room-7/action-update-file@v1
+        with:
+            file-path: |
+               raw/contact-sheet.png
+            commit-msg: Update processed assets
+            github-token: ${{ secrets.GITHUB_TOKEN }}
