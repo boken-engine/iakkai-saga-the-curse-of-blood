@@ -97,17 +97,7 @@ jobs:
         uses: actions/upload-artifact@v2
         with:
           name: assets
-          path: src/assets
-      - name: Generate contact sheet
-        run: |
-           if [ -d "/tmp/contactsheet" ] 
-           then
-             rm -rf /tmp/contactsheet
-           else
-             mkdir -p /tmp/contactsheet
-           fi
-           cp -n raw/**/* /tmp/contactsheet 
-           montage -verbose -label '%[IPTC:2:5]' -define jpeg:size=320x320 -geometry 320x320+2+2 -font DejaVu-Sans /tmp/contactsheet/*[0] raw/contact-sheet.png          
+          path: src/assets 
       - name: Update resources
         uses: test-room-7/action-update-file@v1
         with:
@@ -117,4 +107,13 @@ jobs:
                raw/contact-sheet.png
             commit-msg: Update processed assets
             github-token: ${{ secrets.GITHUB_TOKEN }}
-
+      - name: Generate contact sheet
+        run: |
+           if [ -d "/tmp/contactsheet" ] 
+           then
+             rm -rf /tmp/contactsheet
+           else
+             mkdir -p /tmp/contactsheet
+           fi
+           cp -n raw/**/* /tmp/contactsheet 
+           montage -verbose -label '%[IPTC:2:5]' -define jpeg:size=240x240 -geometry 240x240+2+2 -font DejaVu-Sans /tmp/contactsheet/*[0] raw/contact-sheet.png        
