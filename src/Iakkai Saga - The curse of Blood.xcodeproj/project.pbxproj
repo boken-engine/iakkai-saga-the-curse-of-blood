@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -24,6 +24,7 @@
 		5DA305652696DA9F007A51CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5DA305682696DA9F007A51CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5DA3056A2696DA9F007A51CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5DE49DE22696F2060009C301 /* BokenEngine.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = BokenEngine.xcframework; path = Carthage/Build/BokenEngine.xcframework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +43,7 @@
 			children = (
 				5DA3055B2696DA9E007A51CE /* Iakkai Saga - The Curse of Blood */,
 				5DA3055A2696DA9E007A51CE /* Products */,
+				5DE49DE12696F2060009C301 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -67,6 +69,14 @@
 			path = "Iakkai Saga - The Curse of Blood";
 			sourceTree = "<group>";
 		};
+		5DE49DE12696F2060009C301 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5DE49DE22696F2060009C301 /* BokenEngine.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -77,6 +87,7 @@
 				5DA305552696DA9E007A51CE /* Sources */,
 				5DA305562696DA9E007A51CE /* Frameworks */,
 				5DA305572696DA9E007A51CE /* Resources */,
+				5DE49DE62696F20D0009C301 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -131,6 +142,28 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5DE49DE62696F20D0009C301 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"$(SRCROOT)/input.xcfilelist",
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+				"$(SRCROOT)/output.xcfilelist",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/opt/homebrew/bin/carthage copy-frameworks\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		5DA305552696DA9E007A51CE /* Sources */ = {
