@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  Iakkai Saga: The curse of Blood
+//  Iakkai Saga - The Curse of Blood
 //
 //  Created by Yeray on 8/7/21.
 //

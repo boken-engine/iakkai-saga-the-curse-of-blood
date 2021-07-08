@@ -7,27 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5DA3051D2696D561007A51CE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA3051C2696D561007A51CE /* AppDelegate.swift */; };
-		5DA3051F2696D561007A51CE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA3051E2696D561007A51CE /* SceneDelegate.swift */; };
-		5DA305212696D561007A51CE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA305202696D561007A51CE /* ContentView.swift */; };
-		5DA305232696D562007A51CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DA305222696D562007A51CE /* Assets.xcassets */; };
-		5DA305262696D562007A51CE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DA305252696D562007A51CE /* Preview Assets.xcassets */; };
-		5DA305292696D562007A51CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DA305272696D562007A51CE /* LaunchScreen.storyboard */; };
+		5DA3053D2696D96E007A51CE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA3053C2696D96E007A51CE /* AppDelegate.swift */; };
+		5DA3053F2696D96E007A51CE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA3053E2696D96E007A51CE /* SceneDelegate.swift */; };
+		5DA305412696D96E007A51CE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA305402696D96E007A51CE /* ContentView.swift */; };
+		5DA305432696D96F007A51CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DA305422696D96F007A51CE /* Assets.xcassets */; };
+		5DA305462696D96F007A51CE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DA305452696D96F007A51CE /* Preview Assets.xcassets */; };
+		5DA305492696D96F007A51CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DA305472696D96F007A51CE /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		5DA305192696D561007A51CE /* Iakkai Saga: The curse of Blood.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Iakkai Saga: The curse of Blood.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5DA3051C2696D561007A51CE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5DA3051E2696D561007A51CE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		5DA305202696D561007A51CE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		5DA305222696D562007A51CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		5DA305252696D562007A51CE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		5DA305282696D562007A51CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		5DA3052A2696D562007A51CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5DA305392696D96E007A51CE /* Iakkai Saga - The Curse of Blood.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Iakkai Saga - The Curse of Blood.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DA3053C2696D96E007A51CE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5DA3053E2696D96E007A51CE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		5DA305402696D96E007A51CE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5DA305422696D96F007A51CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5DA305452696D96F007A51CE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5DA305482696D96F007A51CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5DA3054A2696D96F007A51CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		5DA305162696D561007A51CE /* Frameworks */ = {
+		5DA305362696D96E007A51CE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -37,40 +37,40 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		5DA305102696D560007A51CE = {
+		5DA305302696D96E007A51CE = {
 			isa = PBXGroup;
 			children = (
-				5DA3051B2696D561007A51CE /* Iakkai Saga: The curse of Blood */,
-				5DA3051A2696D561007A51CE /* Products */,
+				5DA3053B2696D96E007A51CE /* Iakkai Saga - The Curse of Blood */,
+				5DA3053A2696D96E007A51CE /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		5DA3051A2696D561007A51CE /* Products */ = {
+		5DA3053A2696D96E007A51CE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5DA305192696D561007A51CE /* Iakkai Saga: The curse of Blood.app */,
+				5DA305392696D96E007A51CE /* Iakkai Saga - The Curse of Blood.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		5DA3051B2696D561007A51CE /* Iakkai Saga: The curse of Blood */ = {
+		5DA3053B2696D96E007A51CE /* Iakkai Saga - The Curse of Blood */ = {
 			isa = PBXGroup;
 			children = (
-				5DA3051C2696D561007A51CE /* AppDelegate.swift */,
-				5DA3051E2696D561007A51CE /* SceneDelegate.swift */,
-				5DA305202696D561007A51CE /* ContentView.swift */,
-				5DA305222696D562007A51CE /* Assets.xcassets */,
-				5DA305272696D562007A51CE /* LaunchScreen.storyboard */,
-				5DA3052A2696D562007A51CE /* Info.plist */,
-				5DA305242696D562007A51CE /* Preview Content */,
+				5DA3053C2696D96E007A51CE /* AppDelegate.swift */,
+				5DA3053E2696D96E007A51CE /* SceneDelegate.swift */,
+				5DA305402696D96E007A51CE /* ContentView.swift */,
+				5DA305422696D96F007A51CE /* Assets.xcassets */,
+				5DA305472696D96F007A51CE /* LaunchScreen.storyboard */,
+				5DA3054A2696D96F007A51CE /* Info.plist */,
+				5DA305442696D96F007A51CE /* Preview Content */,
 			);
-			path = "Iakkai Saga: The curse of Blood";
+			path = "Iakkai Saga - The Curse of Blood";
 			sourceTree = "<group>";
 		};
-		5DA305242696D562007A51CE /* Preview Content */ = {
+		5DA305442696D96F007A51CE /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				5DA305252696D562007A51CE /* Preview Assets.xcassets */,
+				5DA305452696D96F007A51CE /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -78,38 +78,38 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5DA305182696D561007A51CE /* Iakkai Saga: The curse of Blood */ = {
+		5DA305382696D96E007A51CE /* Iakkai Saga - The Curse of Blood */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5DA3052D2696D562007A51CE /* Build configuration list for PBXNativeTarget "Iakkai Saga: The curse of Blood" */;
+			buildConfigurationList = 5DA3054D2696D96F007A51CE /* Build configuration list for PBXNativeTarget "Iakkai Saga - The Curse of Blood" */;
 			buildPhases = (
-				5DA305152696D561007A51CE /* Sources */,
-				5DA305162696D561007A51CE /* Frameworks */,
-				5DA305172696D561007A51CE /* Resources */,
+				5DA305352696D96E007A51CE /* Sources */,
+				5DA305362696D96E007A51CE /* Frameworks */,
+				5DA305372696D96E007A51CE /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Iakkai Saga: The curse of Blood";
-			productName = "Iakkai Saga: The curse of Blood";
-			productReference = 5DA305192696D561007A51CE /* Iakkai Saga: The curse of Blood.app */;
+			name = "Iakkai Saga - The Curse of Blood";
+			productName = "Iakkai Saga - The Curse of Blood";
+			productReference = 5DA305392696D96E007A51CE /* Iakkai Saga - The Curse of Blood.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		5DA305112696D560007A51CE /* Project object */ = {
+		5DA305312696D96E007A51CE /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1250;
 				LastUpgradeCheck = 1250;
 				TargetAttributes = {
-					5DA305182696D561007A51CE = {
+					5DA305382696D96E007A51CE = {
 						CreatedOnToolsVersion = 12.5;
 					};
 				};
 			};
-			buildConfigurationList = 5DA305142696D560007A51CE /* Build configuration list for PBXProject "Iakkai Saga: The curse of Blood" */;
+			buildConfigurationList = 5DA305342696D96E007A51CE /* Build configuration list for PBXProject "Iakkai Saga - The Curse of Blood" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -117,47 +117,47 @@
 				en,
 				Base,
 			);
-			mainGroup = 5DA305102696D560007A51CE;
-			productRefGroup = 5DA3051A2696D561007A51CE /* Products */;
+			mainGroup = 5DA305302696D96E007A51CE;
+			productRefGroup = 5DA3053A2696D96E007A51CE /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5DA305182696D561007A51CE /* Iakkai Saga: The curse of Blood */,
+				5DA305382696D96E007A51CE /* Iakkai Saga - The Curse of Blood */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		5DA305172696D561007A51CE /* Resources */ = {
+		5DA305372696D96E007A51CE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5DA305292696D562007A51CE /* LaunchScreen.storyboard in Resources */,
-				5DA305262696D562007A51CE /* Preview Assets.xcassets in Resources */,
-				5DA305232696D562007A51CE /* Assets.xcassets in Resources */,
+				5DA305492696D96F007A51CE /* LaunchScreen.storyboard in Resources */,
+				5DA305462696D96F007A51CE /* Preview Assets.xcassets in Resources */,
+				5DA305432696D96F007A51CE /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		5DA305152696D561007A51CE /* Sources */ = {
+		5DA305352696D96E007A51CE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5DA3051D2696D561007A51CE /* AppDelegate.swift in Sources */,
-				5DA3051F2696D561007A51CE /* SceneDelegate.swift in Sources */,
-				5DA305212696D561007A51CE /* ContentView.swift in Sources */,
+				5DA3053D2696D96E007A51CE /* AppDelegate.swift in Sources */,
+				5DA3053F2696D96E007A51CE /* SceneDelegate.swift in Sources */,
+				5DA305412696D96E007A51CE /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		5DA305272696D562007A51CE /* LaunchScreen.storyboard */ = {
+		5DA305472696D96F007A51CE /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				5DA305282696D562007A51CE /* Base */,
+				5DA305482696D96F007A51CE /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -165,7 +165,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		5DA3052B2696D562007A51CE /* Debug */ = {
+		5DA3054B2696D96F007A51CE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -226,7 +226,7 @@
 			};
 			name = Debug;
 		};
-		5DA3052C2696D562007A51CE /* Release */ = {
+		5DA3054C2696D96F007A51CE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -281,40 +281,40 @@
 			};
 			name = Release;
 		};
-		5DA3052E2696D562007A51CE /* Debug */ = {
+		5DA3054E2696D96F007A51CE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"Iakkai Saga: The curse of Blood/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Iakkai Saga - The Curse of Blood/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = "Iakkai Saga: The curse of Blood/Info.plist";
+				INFOPLIST_FILE = "Iakkai Saga - The Curse of Blood/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "bokenengine.Iakkai-Saga--The-curse-of-Blood";
+				PRODUCT_BUNDLE_IDENTIFIER = "bokenengine.Iakkai-Saga---The-Curse-of-Blood";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		5DA3052F2696D562007A51CE /* Release */ = {
+		5DA3054F2696D96F007A51CE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"Iakkai Saga: The curse of Blood/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Iakkai Saga - The Curse of Blood/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = "Iakkai Saga: The curse of Blood/Info.plist";
+				INFOPLIST_FILE = "Iakkai Saga - The Curse of Blood/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "bokenengine.Iakkai-Saga--The-curse-of-Blood";
+				PRODUCT_BUNDLE_IDENTIFIER = "bokenengine.Iakkai-Saga---The-Curse-of-Blood";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -324,25 +324,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5DA305142696D560007A51CE /* Build configuration list for PBXProject "Iakkai Saga: The curse of Blood" */ = {
+		5DA305342696D96E007A51CE /* Build configuration list for PBXProject "Iakkai Saga - The Curse of Blood" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5DA3052B2696D562007A51CE /* Debug */,
-				5DA3052C2696D562007A51CE /* Release */,
+				5DA3054B2696D96F007A51CE /* Debug */,
+				5DA3054C2696D96F007A51CE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5DA3052D2696D562007A51CE /* Build configuration list for PBXNativeTarget "Iakkai Saga: The curse of Blood" */ = {
+		5DA3054D2696D96F007A51CE /* Build configuration list for PBXNativeTarget "Iakkai Saga - The Curse of Blood" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5DA3052E2696D562007A51CE /* Debug */,
-				5DA3052F2696D562007A51CE /* Release */,
+				5DA3054E2696D96F007A51CE /* Debug */,
+				5DA3054F2696D96F007A51CE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 5DA305112696D560007A51CE /* Project object */;
+	rootObject = 5DA305312696D96E007A51CE /* Project object */;
 }
