@@ -6,12 +6,17 @@
 //
 
 import UIKit
+import BokenEngine
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+
+        // Boken Engine initialization
+        let sceneManager = try! SceneManager()
+        sceneManager.setRootView(self.view)
+        try! sceneManager.loadTitleScene()
     }
 
 

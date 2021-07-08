@@ -1,6 +1,5 @@
 {
     "appTitle": "Iakkai Saga - The Curse of the Blood",
-    "backgroundMusic": "backmusic",
     "scenes": [
         {
             "sceneId": "SC001",
@@ -8,10 +7,10 @@
                 "elementsArray": [
                 {
                     "type": "image",
-                    "imageFile": "title",
+                    "imageFile": "title.jpg",
                     "posX": 0.5,
                     "posY": 0.5,
-                    "scale": 0.75,
+                    "scale": 0.25,
                     "transformations": []
                 }
             ]},
@@ -699,7 +698,8 @@
                     "transformations": []
                 },
                 {
-                    "type": "The Hunter leads you to a trail at the end of the field. The trail leads into the thick of the darkness of the wood.",
+                    "type": "textLabel",
+                    "content": "The Hunter leads you to a trail at the end of the field. The trail leads into the thick of the darkness of the wood.",
                     "content": "",
                     "posX": 0.5,
                     "posY": 0.86,
@@ -1815,8 +1815,7 @@
                 },
                                 {
                     "type": "image",
-                    "imageFile": "archmage_f_color.png
-",
+                    "imageFile": "archmage_f_color.png",
                     "posX": 0.5,
                     "posY": 0.5,
                     "scale": 0,
