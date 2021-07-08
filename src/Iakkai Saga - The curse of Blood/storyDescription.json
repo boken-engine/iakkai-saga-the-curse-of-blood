@@ -1,0 +1,3121 @@
+{
+    "appTitle": "Iakkai Saga - The Curse of the Blood",
+    "backgroundMusic": "backmusic",
+    "scenes": [
+        {
+            "sceneId": "SC001",
+            "elements": {
+                "elementsArray": [
+                {
+                    "type": "image",
+                    "imageFile": "title",
+                    "posX": 0.5,
+                    "posY": 0.5,
+                    "scale": 0.75,
+                    "transformations": []
+                }
+            ]},
+            "branches": [
+                {
+                    "label": "Credits",
+                    "target": "credits"
+                },
+                {
+                    "label": "START",
+                    "target": "Slide01"
+                }
+            ],
+            "background": "black",
+            "navigation": "none"
+        },
+        {
+            "sceneId": "SC003",
+            "elements": {
+                "elementsArray": [
+                {
+                    "type": "image",
+                    "imageFile": "map",
+                    "posX": 0.5,
+                    "posY": 0.5,
+                    "scale": 0,
+                    "transformations": []
+                },
+                {
+                    "type": "textLabel",
+                    "content": "Welcome adventurer! \n You are about to embark in the world of Iakkai. It is a world of magic and ancient lore, where good and evil are in constant battle.",
+                    "posX": 0.5,
+                    "posY": 0.86,
+                    "fontSize": 36,
+                    "fontSizeH": 48
+                }
+            ]},
+            "background": "black",
+            "navigation": "next"
+        },
+        {
+            "sceneId": "SC004",
+            "elements": {
+                "elementsArray": [
+                {
+                    "type": "image",
+                    "imageFile": "map",
+                    "posX": 0.5,
+                    "posY": 0.5,
+                    "scale": 0,
+                    "transformations": []
+                },
+                {
+                    "type": "textLabel",
+                    "content": "Gods of light and darkness stroll the world and try to help or destroy the races they cherish. You live at a time where the darkness is gaining strength again and heroes are needed.",
+                    "posX": 0.5,
+                    "posY": 0.86,
+                    "fontSize": 36,
+                    "fontSizeH": 48
+                }
+            ]},
+            "background": "black",
+            "navigation": "both"
+        },
+        {
+            "sceneId": "SC005",
+            "elements": {
+                "elementsArray": [
+                {
+                    "type": "image",
+                    "imageFile": "map-closeup",
+                    "posX": 0.5,
+                    "posY": 0.5,
+                    "scale": 0,
+                    "transformations": []
+                },
+                {
+                    "type": "textLabel",
+                    "content": "You belong to the kingdom of men, in the Midlands, where King Alias has been ruling in peace for many years. King Alias united and led the kingdoms of light to victory over the ancient darkness and brought understanding among the many races.",
+                    "posX": 0.5,
+                    "posY": 0.86,
+                    "fontSize": 36,
+                    "fontSizeH": 48
+                }
+            ]},
+            "background": "black",
+            "navigation": "both"
+        },
+        {
+            "sceneId": "SC006",
+            "elements": {
+                "elementsArray": [
+                {
+                    "type": "image",
+                    "imageFile": "castle",
+                    "posX": 0.5,
+                    "posY": 0.5,
+                    "scale": 0,
+                    "transformations": []
+                },
+                                {
+                    "type": "image",
+                    "imageFile": "fighter_f_color",
+                    "posX": 0.5,
+                    "posY": 0.5,
+                    "scale": 0,
+                    "transformations": []
+                },
+                {
+                    "type": "textLabel",
+                    "content": "You were born and raised close to the castle where the Queen took notice of you. Your noble heart, growing skills and interest in the world made you enter his service and now she is asking of your assistance.",
+                    "posX": 0.5,
+                    "posY": 0.86,
+                    "fontSize": 36,
+                    "fontSizeH": 48
+                }
+            ]},
+            "background": "black",
+            "navigation": "both"
+        },
+        {
+            "sceneId": "SC007",
+            "elements": {
+                "elementsArray": [
+                {
+                    "type": "image",
+                    "imageFile": "throne-room",
+                    "posX": 0.5,
+                    "posY": 0.5,
+                    "scale": 0,
+                    "transformations": []
+                },
+                {
+                    "type": "image",
+                    "imageFile": "queen_s_color",
+                    "posX": 0.5,
+                    "posY": 0.5,
+                    "scale": 0,
+                    "transformations": []
+                },
+                {
+                    "type": "image",
+                    "imageFile": "fighter_b_color",
+                    "posX": 0.5,
+                    "posY": 0.5,
+                    "scale": 0,
+                    "transformations": []
+                },                
+                {
+                    "type": "textLabel",
+                    "content": "My loyal league. I need your help. It seems as though something strange is happening again.",
+                    "posX": 0.5,
+                    "posY": 0.86,
+                    "fontSize": 36,
+                    "fontSizeH": 48,
+                    "style": "bold"
+                }
+            ]},
+            "background": "black",
+            "navigation": "both"
+        },
+        {
+            "sceneId": "SC008",
+            "elements": {
+                "elementsArray": [
+                {
+                    "type": "image",
+                    "imageFile": "throne-room",
+                    "posX": 0.5,
+                    "posY": 0.5,
+                    "scale": 0,
+                    "transformations": []
+                },
+                {
+                    "type": "image",
+                    "imageFile": "queen_f_color",
+                    "posX": 0.5,
+                    "posY": 0.5,
+                    "scale": 0,
+                    "transformations": []
+                },
+                {
+                    "type": "image",
+                    "imageFile": "fighter_b_color",
+                    "posX": 0.5,
+                    "posY": 0.5,
+                    "scale": 0,
+                    "transformations": []
+                },   
+                {
+                    "type": "textLabel",
+                    "content": "I have had notice of problems in the closeby villages and have already sent some of my other retainers to investigate but none has come back. Please be carefull, I trust you like no other and believe in you good sense to solve this mistery.",
+                    "posX": 0.5,
+                    "posY": 0.86,
+                    "fontSize": 36,
+                    "fontSizeH": 48,
+                    "style": "bold"
+                }
+            ]},
+            "background": "black",
+            "navigation": "both"
+        },
+         {
+            "sceneId": "SC009",
+            "elements": {
+                "elementsArray": [
+                {
+                    "type": "image",
+                    "imageFile": "throne-room",
+                    "posX": 0.5,
+                    "posY": 0.5,
+                    "scale": 0,
+                    "transformations": []
+                },
+                                {
+                    "type": "image",
+                    "imageFile": "queen-f-color",
+                    "posX": 0.5,
+                    "posY": 0.5,
+                    "scale": 0,
+                    "transformations": []
+                },
+                {
+                    "type": "textLabel",
+                    "content": "I fear that the darkness is coming back and gaining strength, trying to weaken and corrupt us, so be careful. Your first village to Investigate is Wolfswood. Help, and collaborate with those that need us and report back once you have solved the mistery.",
+                    "posX": 0.5,
+                    "posY": 0.86,
+                    "fontSize": 36,
+                    "fontSizeH": 48,
+                    "style": "bold"
+                }
+            ]},
+            "background": "black",
+            "navigation": "both"
+        },
+        {
+            "sceneId": "SC010",
+            "elements": {
+                "elementsArray": [
+                {
+                    "type": "image",
+                    "imageFile": "map-travelling",
+                    "posX": 0.5,
+                    "posY": 0.5,
+                    "scale": 0,
+                    "transformations": []
+                },
+                {
+                    "type": "textLabel",
+                    "content": "You spend 2 weeks travelling through the countryside to your destination the Village of Wolfswood.",
+                    "posX": 0.5,
+                    "posY": 0.86,
+                    "fontSize": 36,
+                    "fontSizeH": 48
+                }
+            ]},
+            "background": "black",
+            "navigation": "both"
+        },
+        {
+            "sceneId": "SC011",
+            "elements": {
+                "elementsArray": [
+                {
+                    "type": "image",
+                    "imageFile": "wolfswood",
+                    "posX": 0.5,
+                    "posY": 0.5,
+                    "scale": 0,
+                    "transformations": []
+                },
+                {
+                    "type": "textLabel",
+                    "content": "Villages are the backbone of the kingdom supplying food and essential materials such as wood, stone, iron ore, meat, vegetables, etc. The village of Wolfswood, produces meat, and leather from its cattle.",
+                    "posX": 0.5,
+                    "posY": 0.86,
+                    "fontSize": 36,
+                    "fontSizeH": 48
+                }
+            ]},
+            "background": "black",
+            "navigation": "both"
+        },
+        {
+            "sceneId": "SC012",
+            "elements": {
+                "elementsArray": [
+                {
+                    "type": "image",
+                    "imageFile": "wolfswood",
+                    "posX": 0.5,
+                    "posY": 0.5,
+                    "scale": 0,
+                    "transformations": []
+                },
+                {
+                    "type": "image",
+                    "imageFile": "villagers_f_color",
+                    "posX": 0.5,
+                    "posY": 0.5,
+                    "scale": 0,
+                    "transformations": []
+                },                
+                {
+                    "type": "textLabel",
+                    "content": "At arrival to the village people you are met by the village council who recognize the queens uniform that you wear.",
+                    "posX": 0.5,
+                    "posY": 0.86,
+                    "fontSize": 36,
+                    "fontSizeH": 48
+                }
+            ]},
+            "background": "black",
+            "navigation": "both"
+        },
+        {
+            "sceneId": "SC013",
+            "elements": {
+                "elementsArray": [
+                {
+                    "type": "image",
+                    "imageFile": "wolfswood",
+                    "posX": 0.5,
+                    "posY": 0.5,
+                    "scale": 0,
+                    "transformations": []
+                },
+                                {
+                    "type": "image",
+                    "imageFile": "villagers_f_color.png",
+                    "posX": 0.5,
+                    "posY": 0.5,
+                    "scale": 0,
+                    "transformations": []
+                },
+                {
+                    "type": "textLabel",
+                    "content": "Good day! Has the king sent you to help us?",
+                    "posX": 0.5,
+                    "posY": 0.86,
+                    "fontSize": 36,
+                    "fontSizeH": 48,
+                    "style": "bold"
+                },
+                                {
+                    "type": "textLabel",
+                    "content": "YES, I have come to help, but I need to know more of what has happened",
+                    "posX": 0.5,
+                    "posY": 0.93,
+                    "fontSize": 36,
+                    "fontSizeH": 48,
+                    "style": "bold"
+                }
+            ]},
+            "background": "black",
+            "navigation": "both"
+        },
+                {
+            "sceneId": "SC014",
+            "elements": {
+                "elementsArray": [
+                {
+                    "type": "image",
+                    "imageFile": "wolfswood",
+                    "posX": 0.5,
+                    "posY": 0.5,
+                    "scale": 0,
+                    "transformations": []
+                },
+                                {
+                    "type": "image",
+                    "imageFile": "villagers_f_color",
+                    "posX": 0.5,
+                    "posY": 0.5,
+                    "scale": 0,
+                    "transformations": []
+                },
+                {
+                    "type": "textLabel",
+                    "content": "These are excellent news! As of recently our cattle are being attacked at night. They are being killed by wolfs we think. What is strange though is that we find them killed but not devoured.",
+                    "posX": 0.5,
+                    "posY": 0.86,
+                    "fontSize": 36,
+                    "fontSizeH": 48,
+                    "style": "bold"
+                }
+            ]},
+            "background": "black",
+            "navigation": "both"
+        },
+                {
+            "sceneId": "SC016",
+            "elements": {
+                "elementsArray": [
+                {
+                    "type": "image",
+                    "imageFile": "wolfswood",
+                    "posX": 0.5,
+                    "posY": 0.5,
+                    "scale": 0,
+                    "transformations": []
+                },
+                                {
+                    "type": "image",
+                    "imageFile": "villagers_f_color.png",
+                    "posX": 0.5,
+                    "posY": 0.5,
+                    "scale": 0,
+                    "transformations": []
+                },
+                {
+                    "type": "textLabel",
+                    "content": "Go see for yourself and then you can speak to the village hunter. if you need help.",
+                    "posX": 0.5,
+                    "posY": 0.86,
+                    "fontSize": 36,
+                    "fontSizeH": 48,
+                    "style": "bold"
+                }
+            ]},
+            "background": "black",
+            "navigation": "both"
+        },
+        {
+            "sceneId": "SC017",
+            "elements": {
+                "elementsArray": [
+                {
+                    "type": "image",
+                    "imageFile": "wolfswood",
+                    "posX": 0.5,
+                    "posY": 0.5,
+                    "scale": 0,
+                    "transformations": []
+                },
+                                {
+                    "type": "image",
+                    "imageFile": "villagers_f_color.png",
+                    "posX": 0.5,
+                    "posY": 0.5,
+                    "scale": 0,
+                    "transformations": []
+                },
+                {
+                    "type": "textLabel",
+                    "content": "The villagers direct you to the field and tell you where to find the hunter and warn you:\nBe careful it does not seem to be a common wolf, it is much larger judging from its footprints.",
+                    "posX": 0.5,
+                    "posY": 0.86,
+                    "fontSize": 36,
+                    "fontSizeH": 48
+                },
+                {
+                    "type": "textLabel",
+                    "content": "Be careful it does not seem to be a common wolf, it is much larger judging from its footprints.",
+                    "posX": 0.5,
+                    "posY": 0.92,
+                    "fontSize": 36,
+                    "fontSizeH": 48,
+                    "style": "bold"
+                }                
+            ]},
+            "background": "black",
+            "navigation": "none",            
+            "branches": [
+                {
+                    "label": "Go to the field",
+                    "target": "SC018"
+                },
+                {
+                    "label": "Ask the village hunter for help",
+                    "target": "SC022"
+                }
+            ]
+        },
+        {
+            "sceneId": "SC018",
+            "elements": {
+                "elementsArray": [
+                {
+                    "type": "image",
+                    "imageFile": "cattle",
+                    "posX": 0.5,
+                    "posY": 0.5,
+                    "scale": 0,
+                    "transformations": []
+                },
+                {
+                    "type": "textLabel",
+                    "content": "When you arrive at the field, clouds of flies and a stench of blood and entrails greet you. You find several cattle lying close to the wood's in pools of blood with their entrails all over the place.",
+                    "posX": 0.5,
+                    "posY": 0.86,
+                    "fontSize": 36,
+                    "fontSizeH": 48
+                }
+            ]},
+            "background": "black",
+            "navigation": "next"
+        },
+        {
+            "sceneId": "SC019",
+            "elements": {
+                "elementsArray": [
+                {
+                    "type": "image",
+                    "imageFile": "wolfsteps",
+                    "posX": 0.5,
+                    "posY": 0.5,
+                    "scale": 0,
+                    "transformations": []
+                },
+                {
+                    "type": "textLabel",
+                    "content": "While walking through the field you find a trail of large wolf footprints. The trail leads into the thick of the darkness of the wood.",
+                    "posX": 0.5,
+                    "posY": 0.86,
+                    "fontSize": 36,
+                    "fontSizeH": 48
+                }
+            ]},
+            "background": "black",
+            "navigation": "none",            
+            "branches": [
+                {
+                    "label": "Follow the trail alone",
+                    "target": "SC020"
+                },
+                {
+                    "label": "Ask the village hunter for help",
+                    "target": "SC022"
+                }
+            ]
+        },
+        {
+            "sceneId": "SC020",
+            "elements": {
+                "elementsArray": [
+                {
+                    "type": "image",
+                    "imageFile": "woods",
+                    "posX": 0.5,
+                    "posY": 0.5,
+                    "scale": 0,
+                    "transformations": []
+                },
+                {
+                    "type": "image",
+                    "imageFile": "fighter_b_color",
+                    "posX": 0.5,
+                    "posY": 0.5,
+                    "scale": 0,
+                    "transformations": []
+                },                
+                {
+                    "type": "textLabel",
+                    "content": "You enter the woods following the trail. The night is creeping in slowly and it becomes more and more difficult to follow. While you advance the animals become quiet and and you have to decide to:",
+                    "posX": 0.5,
+                    "posY": 0.86,
+                    "fontSize": 36,
+                    "fontSizeH": 48
+                }
+            ]},
+            "background": "black",
+            "navigation": "none",            
+            "branches": [
+                {
+                    "label": "Continue searching",
+                    "target": "SC021"
+                },
+                {
+                    "label": "Ask the village hunter for help",
+                    "target": "SC022"
+                }
+            ]
+        },
+        {
+            "sceneId": "SC021",
+            "elements": {
+                "elementsArray": [
+                {
+                    "type": "image",
+                    "imageFile": "woods",
+                    "posX": 0.5,
+                    "posY": 0.5,
+                    "scale": 0,
+                    "transformations": []
+                },
+                {
+                    "type": "textLabel",
+                    "content": "You stumble in the dark and hear the howling of a wolf feeling eyes observing you. You pass the night awake and lost until in the morning you manage to exit the woods and can see the village again. You conclude that you need the hunters help.",
+                    "posX": 0.5,
+                    "posY": 0.86,
+                    "fontSize": 36,
+                    "fontSizeH": 48
+                }
+            ]},
+            "background": "black",
+            "navigation": "next"
+        },
+        {
+            "sceneId": "SC022",
+            "elements": {
+                "elementsArray": [
+                {
+                    "type": "image",
+                    "imageFile": "woods",
+                    "posX": 0.5,
+                    "posY": 0.5,
+                    "scale": 0,
+                    "transformations": []
+                },
+                                {
+                    "type": "image",
+                    "imageFile": "archer_f_color",
+                    "posX": 0.5,
+                    "posY": 0.5,
+                    "scale": 0,
+                    "transformations": []
+                },
+                {
+                    "type": "textLabel",
+                    "content": "Good day! I have heard that finally the Queen has sent help. Have you seen the field?",
+                    "posX": 0.5,
+                    "posY": 0.86,
+                    "fontSize": 36,
+                    "fontSizeH": 48,
+                    "style": "bold"
+                }
+            ]},
+            "background": "black",
+            "navigation": "none",            
+            "branches": [
+                {
+                    "label": "Yes",
+                    "target": "SC023"
+                },
+                {
+                    "label": "No",
+                    "target": "SC025"
+                }
+            ]
+        },
+        {
+            "sceneId": "SC023",
+            "elements": {
+                "elementsArray": [
+                {
+                    "type": "image",
+                    "imageFile": "woods",
+                    "posX": 0.5,
+                    "posY": 0.5,
+                    "scale": 0,
+                    "transformations": []
+                },
+                                {
+                    "type": "image",
+                    "imageFile": "archer_f_color",
+                    "posX": 0.5,
+                    "posY": 0.5,
+                    "scale": 0,
+                    "transformations": []
+                },
+                {
+                    "type": "textLabel",
+                    "content": "You may have noticed all the cattle was killed as if for pleasure and not for food. The trail at the end of the field leading into the wood tells you how many wolves there are and their size. It is only one. A really large one, at least three times the size of a normal wolf and it is hunting alone.",
+                    "posX": 0.5,
+                    "posY": 0.86,
+                    "fontSize": 36,
+                    "fontSizeH": 48,
+                    "style": "bold"
+                }
+            ]},
+            "background": "black",
+            "navigation": "next"
+        },
+        {
+            "sceneId": "SC024",
+            "elements": {
+                "elementsArray": [
+                {
+                    "type": "image",
+                    "imageFile": "wolfsteps",
+                    "posX": 0.5,
+                    "posY": 0.5,
+                    "scale": 0,
+                    "transformations": []
+                },
+                {
+                    "type": "The Hunter leads you to a trail at the end of the field. The trail leads into the thick of the darkness of the wood.",
+                    "content": "",
+                    "posX": 0.5,
+                    "posY": 0.86,
+                    "fontSize": 36,
+                    "fontSizeH": 48
+                }
+            ]},
+            "background": "black",
+            "navigation": "both"
+        },
+        {
+            "sceneId": "SC025",
+            "elements": {
+                "elementsArray": [
+                {
+                    "type": "image",
+                    "imageFile": "wolfsteps",
+                    "posX": 0.5,
+                    "posY": 0.5,
+                    "scale": 0,
+                    "transformations": []
+                },
+                {
+                    "type": "textLabel",
+                    "content": "The two of you go to the field where all the cattle lies dead ripped apart and covered with flies.",
+                    "posX": 0.5,
+                    "posY": 0.86,
+                    "fontSize": 36,
+                    "fontSizeH": 48
+                },
+                {
+                    "type": "textLabel",
+                    "content": "You may have noticed all the cattle was killed as if for pleasure and not for food. This trail tells you how many wolves there are and their size. It is only one. A really large one, at least three times the size of a normal wolf and it is hunting alone.",
+                    "posX": 0.5,
+                    "posY": 0.92,
+                    "fontSize": 36,
+                    "fontSizeH": 48,
+                    "style": "bold"
+                }
+            ]},
+            "background": "black",
+            "navigation": "both"
+        },
+        {
+            "sceneId": "SC026",
+            "elements": {
+                "elementsArray": [
+                {
+                    "type": "image",
+                    "imageFile": "wolves_s_color.png",
+                    "posX": 0.5,
+                    "posY": 0.5,
+                    "scale": 0,
+                    "transformations": []
+                },
+                {
+                    "type": "textLabel",
+                    "content": "Normal wolves do hunt in packs. A group of wolves that follow the so called Alpha wolf. They hunt for food and not for fun. They kill and afterwards eat their prey. In the woods they have sufficient food and seldom venture out.",
+                    "posX": 0.5,
+                    "posY": 0.86,
+                    "fontSize": 36,
+                    "fontSizeH": 48
+                }
+            ]},
+            "background": "black",
+            "navigation": "both"
+        },
+        {
+            "sceneId": "SC027",
+            "elements": {
+                "elementsArray": [
+                {
+                    "type": "image",
+                    "imageFile": "wolves_s_color",
+                    "posX": 0.5,
+                    "posY": 0.5,
+                    "scale": 0,
+                    "transformations": []
+                },
+                {
+                    "type": "textLabel",
+                    "content": "Wolves will usually flee from humans and only attack them to defend their welp, if hungry or infected by rabies. If they have rabies they attack any animal or person and die after some time. This howevever is no normal wolf and it has been attacking for almost two months now. This was yesterday.",
+                    "posX": 0.5,
+                    "posY": 0.86,
+                    "fontSize": 36,
+                    "fontSizeH": 48
+                }
+            ]},
+            "background": "black",
+            "navigation": "both"
+        },
+        {
+            "sceneId": "SC028",
+            "elements": {
+                "elementsArray": [
+                {
+                    "type": "image",
+                    "imageFile": "woods",
+                    "posX": 0.5,
+                    "posY": 0.5,
+                    "scale": 0,
+                    "transformations": []
+                },
+                {
+                    "type": "textLabel",
+                    "content": "The two of us together should be able to manage. though so do not worry. It may take us some days to find its lair but I have brought food and necessary equipment.",
+                    "posX": 0.5,
+                    "posY": 0.86,
+                    "fontSize": 36,
+                    "fontSizeH": 48,
+                    "style": "bold"
+                }
+            ]},
+            "background": "black",
+            "navigation": "both"
+        },        
+        {
+            "sceneId": "SC029",
+            "elements": {
+                "elementsArray": [
+                {
+                    "type": "image",
+                    "imageFile": "woods",
+                    "posX": 0.5,
+                    "posY": 0.5,
+                    "scale": 0,
+                    "transformations": []
+                },
+                {
+                    "type": "textLabel",
+                    "content": "At first the hunter is happy to talk and tell you about the forest and the hunter displays his skills seeking the trail. However, as the days progress and you two get deeper and deeper into the woods his mood becomes darker and darker, and a worried expression sets on his face.",
+                    "posX": 0.5,
+                    "posY": 0.86,
+                    "fontSize": 36,
+                    "fontSizeH": 48
+                }
+            ]},
+            "background": "black",
+            "navigation": "both"
+        },
+        {
+            "sceneId": "SC030",
+            "elements": {
+                "elementsArray": [
+                {
+                    "type": "image",
+                    "imageFile": "campfire",
+                    "posX": 0.5,
+                    "posY": 0.5,
+                    "scale": 0,
+                    "transformations": []
+                },
+                {
+                    "type": "image",
+                    "imageFile": "archer_f_color",
+                    "posX": 0.5,
+                    "posY": 0.5,
+                    "scale": 0,
+                    "transformations": []
+                },
+                {
+                    "type": "image",
+                    "imageFile": "fighter_b_color",
+                    "posX": 0.5,
+                    "posY": 0.5,
+                    "scale": 0,
+                    "transformations": []
+                },                
+                {
+                    "type": "textLabel",
+                    "content": "This definetly is no normal wolf, and I fear we will face it soon. During the whole track it has not eaten. and at times I have seen something that confuses me marks similar to human hands.",
+                    "posX": 0.5,
+                    "posY": 0.86,
+                    "fontSize": 36,
+                    "fontSizeH": 48,
+                    "style": "bold"
+                }
+            ]},
+            "background": "black",
+            "navigation": "both"
+        },
+        {
+            "sceneId": "SC031",
+            "elements": {
+                "elementsArray": [
+                {
+                    "type": "image",
+                    "imageFile": "campfire",
+                    "posX": 0.5,
+                    "posY": 0.5,
+                    "scale": 0,
+                    "transformations": []
+                },
+                {
+                    "type": "image",
+                    "imageFile": "archer_f_color",
+                    "posX": 0.5,
+                    "posY": 0.5,
+                    "scale": 0,
+                    "transformations": []
+                },
+                {
+                    "type": "image",
+                    "imageFile": "fighter_b_color",
+                    "posX": 0.5,
+                    "posY": 0.5,
+                    "scale": 0,
+                    "transformations": []
+                },    
+                {
+                    "type": "textLabel",
+                    "content": "It reminds me of my grandfather's tales of the old times when the woods were home to monsters. Evil monsters that killed for pleasure and to satiate their need for blood. Such monsters were half human and half animal.",
+                    "posX": 0.5,
+                    "posY": 0.86,
+                    "fontSize": 36,
+                    "fontSizeH": 48,
+                    "style": "bold"
+                }
+            ]},
+            "background": "black",
+            "navigation": "both"
+        },
+        {
+            "sceneId": "SC032",
+            "elements": {
+                "elementsArray": [
+                {
+                    "type": "image",
+                    "imageFile": "campfire",
+                    "posX": 0.5,
+                    "posY": 0.5,
+                    "scale": 0,
+                    "transformations": []
+                },
+                {
+                    "type": "image",
+                    "imageFile": "archer_f_color",
+                    "posX": 0.5,
+                    "posY": 0.5,
+                    "scale": 0,
+                    "transformations": []
+                },
+                {
+                    "type": "image",
+                    "imageFile": "fighter_b_color",
+                    "posX": 0.5,
+                    "posY": 0.5,
+                    "scale": 0,
+                    "transformations": []
+                },    
+                {
+                    "type": "textLabel",
+                    "content": "If we find its lair we should be careful and try to see what it is before facing and killing it. Because maybe we will not be enough or we may require the help of magic.",
+                    "posX": 0.5,
+                    "posY": 0.86,
+                    "fontSize": 36,
+                    "fontSizeH": 48,
+                    "style": "bold"
+                }
+            ]},
+            "background": "black",
+            "navigation": "both"
+        },
+        {
+            "sceneId": "SC033",
+            "elements": {
+                "elementsArray": [
+                {
+                    "type": "image",
+                    "imageFile": "cave-closed",
+                    "posX": 0.5,
+                    "posY": 0.5,
+                    "scale": 0,
+                    "transformations": []
+                },
+                {
+                    "type": "textLabel",
+                    "content": "The next day short before sunset the trails leads to a cave by a cliff with a small lake and river below. A large stone is set in front of its entrance and you find many tracks of humans and wolves. The stone is smeared with blood.",
+                    "posX": 0.5,
+                    "posY": 0.86,
+                    "fontSize": 36,
+                    "fontSizeH": 48
+                }
+            ]},
+            "background": "black",
+            "navigation": "none",            
+            "branches": [
+                {
+                    "label": "Move the stone and go inside",
+                    "target": "SC039"
+                },
+                {
+                    "label": "Hide your tracks and observe the cave from the outside before entering",
+                    "target": "SC034"
+                }
+            ]
+        },
+        {
+            "sceneId": "SC034",
+            "elements": {
+                "elementsArray": [
+                {
+                    "type": "image",
+                    "imageFile": "cave-closed",
+                    "posX": 0.5,
+                    "posY": 0.5,
+                    "scale": 0,
+                    "transformations": []
+                },
+                {
+                    "type": "textLabel",
+                    "content": "You two hide against the wind about 100 meters in the shadows of some large trees with clear sight of the entrance. After a couple hours the moon rises and you see a dark clad figure approaching the cave. The figure stops and lifts his head and starts looking around searching.",
+                    "posX": 0.5,
+                    "posY": 0.86,
+                    "fontSize": 36,
+                    "fontSizeH": 48
+                }
+            ]},
+            "background": "black",
+            "navigation": "next"
+        },
+        {
+            "sceneId": "SC035",
+            "elements": {
+                "elementsArray": [
+                {
+                    "type": "image",
+                    "imageFile": "cave-closed",
+                    "posX": 0.5,
+                    "posY": 0.5,
+                    "scale": 0,
+                    "transformations": []
+                },
+                {
+                    "type": "textLabel",
+                    "content": "The minutes pass and his eyes pierce the darkness looking for something. His head moves and he finally stares in your direction as if he had seen you. After some minutes he turns around and moves towards the cave's entrance, and with one strong push of his arms tilts the stone to one side to then enter the cave.",
+                    "posX": 0.5,
+                    "posY": 0.86,
+                    "fontSize": 36,
+                    "fontSizeH": 48
+                }
+            ]},
+            "background": "black",
+            "navigation": "both"
+        },
+        {
+            "sceneId": "SC036",
+            "elements": {
+                "elementsArray": [
+                {
+                    "type": "image",
+                    "imageFile": "cave",
+                    "posX": 0.5,
+                    "posY": 0.5,
+                    "scale": 0,
+                    "transformations": []
+                },
+                {
+                    "type": "textLabel",
+                    "content": "While waiting the darkness covers the forest. The last birds return to their nests and woods become quiet and the silence spreads everywhere. The moon rises, and you see how a fire is lit inside the cave.",
+                    "posX": 0.5,
+                    "posY": 0.86,
+                    "fontSize": 36,
+                    "fontSizeH": 48
+                }
+            ]},
+            "background": "black",
+            "navigation": "none",            
+            "branches": [
+                {
+                    "label": "Enter the cave",
+                    "target": "SC038"
+                },
+                {
+                    "label": "Wait and see",
+                    "target": "SC037"
+                }
+            ]
+        },
+        {
+            "sceneId": "SC037",
+            "elements": {
+                "elementsArray": [
+                {
+                    "type": "image",
+                    "imageFile": "cave",
+                    "posX": 0.5,
+                    "posY": 0.5,
+                    "scale": 0,
+                    "transformations": []
+                },
+                {
+                    "type": "textLabel",
+                    "content": "After 2 hours the fire is extinguished and the cave darkens.",
+                    "posX": 0.5,
+                    "posY": 0.86,
+                    "fontSize": 36,
+                    "fontSizeH": 48
+                }
+            ]},
+            "background": "black",
+            "navigation": "none",            
+            "branches": [
+                {
+                    "label": "Enter the cave",
+                    "target": "SC038"
+                }
+            ]
+        },
+        {
+            "sceneId": "SC038",
+            "elements": {
+                "elementsArray": [
+                {
+                    "type": "image",
+                    "imageFile": "cave-inside",
+                    "posX": 0.5,
+                    "posY": 0.5,
+                    "scale": 0,
+                    "transformations": []
+                },
+                {
+                    "type": "textLabel",
+                    "content": "When you enter the cave, you find clear signs of humans, a fire place some clothes made of large animal skins, and what appear to be weapons. Further down in the cave you find some animal skin clothes on the floor, a large pool of blood what seems to be small altar and an opening in the roof 3 meters from the floor from which light can enter.",
+                    "posX": 0.5,
+                    "posY": 0.86,
+                    "fontSize": 36,
+                    "fontSizeH": 48
+                }
+            ]},
+            "background": "black",
+            "navigation": "next"
+        },
+        {
+            "sceneId": "SC039",
+            "elements": {
+                "elementsArray": [
+                {
+                    "type": "image",
+                    "imageFile": "cave-inside",
+                    "posX": 0.5,
+                    "posY": 0.5,
+                    "scale": 0,
+                    "transformations": []
+                },
+                {
+                    "type": "textLabel",
+                    "content": "You are barely able to move the stone among the two. You finally manage though and tilt it to one side. When you enter the cave, you find clear signs of humans, a fire place some clothes made of large animal skins, and what appear to be weapons.",
+                    "posX": 0.5,
+                    "posY": 0.86,
+                    "fontSize": 36,
+                    "fontSizeH": 48
+                }
+            ]},
+            "background": "black",
+            "navigation": "both"
+        },
+        {
+            "sceneId": "SC040",
+            "elements": {
+                "elementsArray": [
+                {
+                    "type": "image",
+                    "imageFile": "cave-bloodpool",
+                    "posX": 0.5,
+                    "posY": 0.5,
+                    "scale": 0,
+                    "transformations": []
+                },
+                {
+                    "type": "textLabel",
+                    "content": "Further down in the cave you find some animal skin clothes on the floor, a large pool of blood what seems to be small altar and an opening in the roof 3 meters from the floor from which light can enter.",
+                    "posX": 0.5,
+                    "posY": 0.86,
+                    "fontSize": 36,
+                    "fontSizeH": 48
+                }
+            ]},
+            "background": "black",
+            "navigation": "both"
+        },
+        {
+            "sceneId": "SC041",
+            "elements": {
+                "elementsArray": [
+                {
+                    "type": "image",
+                    "imageFile": "cave-inside",
+                    "posX": 0.5,
+                    "posY": 0.5,
+                    "scale": 0,
+                    "transformations": []
+                },
+                                {
+                    "type": "image",
+                    "imageFile": "werewolf-f-color",
+                    "posX": 0.5,
+                    "posY": 0.5,
+                    "scale": 0,
+                    "transformations": []
+                },
+                {
+                    "type": "textLabel",
+                    "content": "While on your way out of the cave the entrance is blocked by a huge dark shadow and two yellow eyes stare at you. A deep growl rises and you hear. It turns around and speaks: Come outside you weaklings, come so that I can test you to see if you are worthy or I shall slay you in honor of my gods!",
+                    "posX": 0.5,
+                    "posY": 0.86,
+                    "fontSize": 36,
+                    "fontSizeH": 48
+                }
+            ]},
+            "background": "black",
+            "navigation": "both"
+        },
+        {
+            "sceneId": "SC042",
+            "elements": {
+                "elementsArray": [
+                {
+                    "type": "image",
+                    "imageFile": "cave-moonlight",
+                    "posX": 0.5,
+                    "posY": 0.5,
+                    "scale": 0,
+                    "transformations": []
+                },
+                                {
+                    "type": "image",
+                    "imageFile": "werewolf-s-snarling",
+                    "posX": 0.5,
+                    "posY": 0.5,
+                    "scale": 0,
+                    "transformations": []
+                },
+                {
+                    "type": "textLabel",
+                    "content": "You and the hunter step out into the open, and face the creature. The creature is half man and half wolf, of strong built, looming over you at over 8 feet. It is mostly covered with thick fur under which large muscles twitch with excitement. Its bulging neck holds a wolfhead which snarls at you.",
+                    "posX": 0.5,
+                    "posY": 0.86,
+                    "fontSize": 36,
+                    "fontSizeH": 48
+                }
+            ]},
+            "background": "black",
+            "navigation": "none",            
+            "branches": [
+                {
+                    "label": "Fight",
+                    "target": "SC043"
+                },
+                                {
+                    "label": "Try to escape",
+                    "target": "SC046"
+                }
+            ]
+        },
+        {
+            "sceneId": "SC043",
+            "elements": {
+                "elementsArray": [
+                {
+                    "type": "image",
+                    "imageFile": "cave-moonlight",
+                    "posX": 0.5,
+                    "posY": 0.5,
+                    "scale": 0,
+                    "transformations": []
+                },
+                {
+                    "type": "image",
+                    "imageFile": "werewolf_s_snarling",
+                    "posX": 0.5,
+                    "posY": 0.5,
+                    "scale": 0,
+                    "transformations": []
+                },
+                {
+                    "type": "image",
+                    "imageFile": "archer_fighting_color",
+                    "posX": 0.5,
+                    "posY": 0.5,
+                    "scale": 0,
+                    "transformations": []
+                },
+                {
+                    "type": "image",
+                    "imageFile": "fighter_s_attacking",
+                    "posX": 0.5,
+                    "posY": 0.5,
+                    "scale": 0,
+                    "transformations": []
+                },                
+                {
+                    "type": "textLabel",
+                    "content": "You and the Hunter ready yourselves for its attack. The hunter with bow and arrow and you with your shield and sword. The hunter shoots his first arrow and hits the creature in the chest, thus it howls and attacks. It jumps at you not caring about the hunter's arrows. Its left claw rips away your shield, the right claw tries to grab you by the shoulder and the wolf head shoots forward to bite your throat..",
+                    "posX": 0.5,
+                    "posY": 0.86,
+                    "fontSize": 36,
+                    "fontSizeH": 48
+                }
+            ]},
+            "background": "black",
+            "navigation": "next"
+        },
+        {
+            "sceneId": "SC044",
+            "elements": {
+                "elementsArray": [
+                {
+                    "type": "image",
+                    "imageFile": "cave-moonlight",
+                    "posX": 0.5,
+                    "posY": 0.5,
+                    "scale": 0,
+                    "transformations": []
+                },
+                {
+                    "type": "image",
+                    "imageFile": "werewolf_s_snarling",
+                    "posX": 0.5,
+                    "posY": 0.5,
+                    "scale": 0,
+                    "transformations": []
+                },
+                {
+                    "type": "image",
+                    "imageFile": "archer_fighting_color",
+                    "posX": 0.5,
+                    "posY": 0.5,
+                    "scale": 0,
+                    "transformations": []
+                },
+                {
+                    "type": "image",
+                    "imageFile": "fighter_s_attacking",
+                    "posX": 0.5,
+                    "posY": 0.5,
+                    "scale": 0,
+                    "transformations": []
+                },    
+                {
+                    "type": "textLabel",
+                    "content": "Using your reaction you manage to hit the creature from the side. In a trained move your sword enters the creatures side from the armpit up and until its hilt cutting through flesh like butter. The creature howls out of pain and stumbles to then kick you away from it, with its blood rushing out of the wound.",
+                    "posX": 0.5,
+                    "posY": 0.86,
+                    "fontSize": 36,
+                    "fontSizeH": 48
+                }
+            ]},
+            "background": "black",
+            "navigation": "both"
+        },
+        {
+            "sceneId": "SC044A",
+            "elements": {
+                "elementsArray": [
+                {
+                    "type": "image",
+                    "imageFile": "cave-moonlight",
+                    "posX": 0.5,
+                    "posY": 0.5,
+                    "scale": 0,
+                    "transformations": []
+                },
+                                {
+                    "type": "image",
+                    "imageFile": "werewolf_s_snarling_bloodied",
+                    "posX": 0.5,
+                    "posY": 0.5,
+                    "scale": 0,
+                    "transformations": []
+                },
+                {
+                    "type": "textLabel",
+                    "content": "While you lie on the floor covered in its blood and paralyzed by fear. It grabs the hilt of the sword and slowly pulls it out. It looks at you and speaks out loud:",
+                    "posX": 0.5,
+                    "posY": 0.86,
+                    "fontSize": 36,
+                    "fontSizeH": 48
+                }
+            ]},
+            "background": "black",
+            "navigation": "both"
+        },
+        {
+            "sceneId": "SC044B",
+            "elements": {
+                "elementsArray": [
+                {
+                    "type": "image",
+                    "imageFile": "cave-moonlight",
+                    "posX": 0.5,
+                    "posY": 0.5,
+                    "scale": 0,
+                    "transformations": []
+                },
+                                {
+                    "type": "image",
+                    "imageFile": "werewolf_s_howling",
+                    "posX": 0.5,
+                    "posY": 0.5,
+                    "scale": 0,
+                    "transformations": []
+                },
+                {
+                    "type": "textLabel",
+                    "content": "You are worthy! What a pity though that you are not of my tribe so I have to kill you anyway",
+                    "posX": 0.5,
+                    "posY": 0.86,
+                    "fontSize": 36,
+                    "fontSizeH": 48,
+                    "style": "bold"
+                },
+                                {
+                    "type": "textLabel",
+                    "content": "And it starts howling at the moon.",
+                    "posX": 0.5,
+                    "posY": 0.92,
+                    "fontSize": 36,
+                    "fontSizeH": 48
+                }
+            ]},
+            "background": "black",
+            "navigation": "none",            
+            "branches": [
+                {
+                    "label": "Fight",
+                    "target": "SC044C"
+                },
+                                {
+                    "label": "Try to escape",
+                    "target": "SC046"
+                }
+            ]
+        },
+        {
+            "sceneId": "SC044C",
+            "elements": {
+                "elementsArray": [
+                {
+                    "type": "image",
+                    "imageFile": "cave-moonlight",
+                    "posX": 0.5,
+                    "posY": 0.5,
+                    "scale": 0,
+                    "transformations": []
+                },
+                {
+                    "type": "image",
+                    "imageFile": "werewolf_s_snarling",
+                    "posX": 0.5,
+                    "posY": 0.5,
+                    "scale": 0,
+                    "transformations": []
+                },
+                {
+                    "type": "image",
+                    "imageFile": "archer_fighting_color",
+                    "posX": 0.5,
+                    "posY": 0.5,
+                    "scale": 0,
+                    "transformations": []
+                },
+                {
+                    "type": "image",
+                    "imageFile": "fighter_s_attacking",
+                    "posX": 0.5,
+                    "posY": 0.5,
+                    "scale": 0,
+                    "transformations": []
+                },   
+                {
+                    "type": "textLabel",
+                    "content": "The Hunter behind you manages to shoot two arrows and then jumps at the werewolf drawing his sword. Though hit in the head the creature jumps at the hunter and grabs him pressing him to itself and biting his neck while his spine breaks. You in despair grab the sword again and attack it from behind without success since it slams you with the hunters torn body.",
+                    "posX": 0.5,
+                    "posY": 0.86,
+                    "fontSize": 36,
+                    "fontSizeH": 48
+                }
+            ]},
+            "background": "black",
+            "navigation": "next"
+        },
+        {
+            "sceneId": "SC045",
+            "elements": {
+                "elementsArray": [
+                {
+                    "type": "image",
+                    "imageFile": "cave-moonlight",
+                    "posX": 0.5,
+                    "posY": 0.5,
+                    "scale": 0,
+                    "transformations": []
+                },
+                {
+                    "type": "image",
+                    "imageFile": "werewolf_s_snarling",
+                    "posX": 0.5,
+                    "posY": 0.5,
+                    "scale": 0,
+                    "transformations": []
+                },
+                {
+                    "type": "image",
+                    "imageFile": "archer_fighting_color",
+                    "posX": 0.5,
+                    "posY": 0.5,
+                    "scale": 0,
+                    "transformations": []
+                },
+                {
+                    "type": "image",
+                    "imageFile": "fighter_s_attacking",
+                    "posX": 0.5,
+                    "posY": 0.5,
+                    "scale": 0,
+                    "transformations": []
+                },   
+                {
+                    "type": "textLabel",
+                    "content": "Again you fall to the ground and have the werewolf at your throat ripping you appart. You die in agony with the sight of a howling werewolf.",
+                    "posX": 0.5,
+                    "posY": 0.86,
+                    "fontSize": 36,
+                    "fontSizeH": 48
+                }
+            ]},
+            "background": "black",
+            "navigation": "none",            
+            "branches": [
+                  {
+                    "label": "Go back",
+                    "target": "SC044B"
+                }
+            ]
+        },
+        {
+            "sceneId": "SC046",
+            "elements": {
+                "elementsArray": [
+                {
+                    "type": "image",
+                    "imageFile": "cave-moonlight",
+                    "posX": 0.5,
+                    "posY": 0.5,
+                    "scale": 0,
+                    "transformations": []
+                },
+                {
+                    "type": "image",
+                    "imageFile": "werewolf_b_color",
+                    "posX": 0.5,
+                    "posY": 0.5,
+                    "scale": 0,
+                    "transformations": []
+                },
+                {
+                    "type": "image",
+                    "imageFile": "archer_b_color",
+                    "posX": 0.5,
+                    "posY": 0.5,
+                    "scale": 0,
+                    "transformations": []
+                },
+                {
+                    "type": "image",
+                    "imageFile": "Fighter_b_color",
+                    "posX": 0.5,
+                    "posY": 0.5,
+                    "scale": 0,
+                    "transformations": []
+                },   
+                {
+                    "type": "textLabel",
+                    "content": "The Hunter behind you manages to shoot two arrows and then jumps towards you to grab you under the arms and run for the cliff. The creature even though shot in the head jumps behind you and the hunter. Its claws hitting you in the back ripping through your flesh while you and the hunter fall over the cliff.",
+                    "posX": 0.5,
+                    "posY": 0.86,
+                    "fontSize": 36,
+                    "fontSizeH": 48
+                }
+            ]},
+            "background": "black",
+            "navigation": "next"
+        },
+                {
+            "sceneId": "SC046",
+            "elements": {
+                "elementsArray": [
+                {
+                    "type": "image",
+                    "imageFile": "cave-moonlight",
+                    "posX": 0.5,
+                    "posY": 0.5,
+                    "scale": 0,
+                    "transformations": []
+                },
+                                {
+                    "type": "image",
+                    "imageFile": "scape",
+                    "posX": 0.5,
+                    "posY": 0.5,
+                    "scale": 0,
+                    "transformations": []
+                },
+                {
+                    "type": "textLabel",
+                    "content": "The Hunter behind you manages to shoot two arrows and then jumps towards you to grab you under the arms and run for the cliff. The creature even though shot in the head jumps behind you and the hunter. Its claws hitting you in the back ripping through your flesh while you and the hunter fall over the cliff.",
+                    "posX": 0.5,
+                    "posY": 0.86,
+                    "fontSize": 36,
+                    "fontSizeH": 48
+                }
+            ]},
+            "background": "black",
+            "navigation": "next"
+        },
+        {
+            "sceneId": "SC047",
+            "elements": {
+                "elementsArray": [
+                {
+                    "type": "image",
+                    "imageFile": "falling",
+                    "posX": 0.5,
+                    "posY": 0.5,
+                    "scale": 0,
+                    "transformations": []
+                },
+                {
+                    "type": "image",
+                    "imageFile": "archer_s_falling",
+                    "posX": 0.5,
+                    "posY": 0.5,
+                    "scale": 0,
+                    "transformations": []
+                },
+                {
+                    "type": "image",
+                    "imageFile": "fighter_s_falling",
+                    "posX": 0.5,
+                    "posY": 0.5,
+                    "scale": 0,
+                    "transformations": []
+                },                
+                {
+                    "type": "textLabel",
+                    "content": "After several seconds of freefall you hit the water. Yourself weakened and hurt faint due to the impact. The hunter grabs you by your ripped clothes and saves you from drowning while at the same holding on to the a large wooden log which passes by due to the rivers current. In a few seconds you are travelling fast down the river while in the background the creature howls out of rage.",
+                    "posX": 0.5,
+                    "posY": 0.86,
+                    "fontSize": 36,
+                    "fontSizeH": 48
+                }
+            ]},
+            "background": "black",
+            "navigation": "both"
+        },
+        {
+            "sceneId": "SC048",
+            "elements": {
+                "elementsArray": [
+                {
+                    "type": "image",
+                    "imageFile": "mage-bedroom",
+                    "posX": 0.5,
+                    "posY": 0.5,
+                    "scale": 0,
+                    "transformations": []
+                },
+                                {
+                    "type": "image",
+                    "imageFile": "fighter_f_color",
+                    "posX": 0.5,
+                    "posY": 0.5,
+                    "scale": 0,
+                    "transformations": []
+                },
+                {
+                    "type": "textLabel",
+                    "content": "When you wake up you are not in the woods anymore but lying in a large bedroom, bandages covering your entire chest. Your head hurts from the noise around you, but you do not feel any pain besides this. You feel strong, strangely strong and alive. You touch your back covered in bandages where the claws ripped your flesh, but do not feel any pain. You cannot believe that you survived.",
+                    "posX": 0.5,
+                    "posY": 0.86,
+                    "fontSize": 36,
+                    "fontSizeH": 48
+                }
+            ]},
+            "background": "black",
+            "navigation": "both"
+        },
+        {
+            "sceneId": "SC049",
+            "elements": {
+                "elementsArray": [
+                {
+                    "type": "image",
+                    "imageFile": "mage-tower",
+                    "posX": 0.5,
+                    "posY": 0.5,
+                    "scale": 0,
+                    "transformations": []
+                },
+                {
+                    "type": "image",
+                    "imageFile": "archmage_f_color",
+                    "posX": 0.5,
+                    "posY": 0.5,
+                    "scale": 0,
+                    "transformations": []
+                },
+                {
+                    "type": "image",
+                    "imageFile": "archer_f_color",
+                    "posX": 0.5,
+                    "posY": 0.5,
+                    "scale": 0,
+                    "transformations": []
+                },
+                {
+                    "type": "image",
+                    "imageFile": "fighter_b_no_cape",
+                    "posX": 0.5,
+                    "posY": 0.5,
+                    "scale": 0,
+                    "transformations": []
+                },                
+                {
+                    "type": "textLabel",
+                    "content": "When you step outside of your bed you hear steps approaching in the hallway and then the door to your room opens. The hunter and another person enter. The stranger, is tall and thin almost looking frail. Her attire is a large robe of intense blue covered with what you recognize as ancient runes. Both the hunter and the stranger have a surprised look on their face and remain quiet for a moment.",
+                    "posX": 0.5,
+                    "posY": 0.86,
+                    "fontSize": 36,
+                    "fontSizeH": 48
+                }
+            ]},
+            "background": "black",
+            "navigation": "both"
+        },
+        {
+            "sceneId": "SC050",
+            "elements": {
+                "elementsArray": [
+                {
+                    "type": "image",
+                    "imageFile": "mage-tower",
+                    "posX": 0.5,
+                    "posY": 0.5,
+                    "scale": 0,
+                    "transformations": []
+                },
+                                {
+                    "type": "image",
+                    "imageFile": "archmage_f_color",
+                    "posX": 0.5,
+                    "posY": 0.5,
+                    "scale": 0,
+                    "transformations": []
+                },
+                {
+                    "type": "textLabel",
+                    "content": "Good morning! Finally you have awakened. We were worried that you would not survive. Your entire back was ripped at the spine. Incredible though that you have recovered and are already standing in so little time. I applied my healing skills to cure you but I cannot credit myself for such a fast recovery.",
+                    "posX": 0.5,
+                    "posY": 0.86,
+                    "fontSize": 36,
+                    "fontSizeH": 48,
+                    "style": "bold"
+                }
+            ]},
+            "background": "black",
+            "navigation": "both"
+        },
+        {
+            "sceneId": "SC051",
+            "elements": {
+                "elementsArray": [
+                {
+                    "type": "image",
+                    "imageFile": "mage-tower",
+                    "posX": 0.5,
+                    "posY": 0.5,
+                    "scale": 0,
+                    "transformations": []
+                },
+                                {
+                    "type": "image",
+                    "imageFile": "archmage_f_color",
+                    "posX": 0.5,
+                    "posY": 0.5,
+                    "scale": 0,
+                    "transformations": []
+                },
+                {
+                    "type": "textLabel",
+                    "content": "My name is Alchimea, I am the queen's archmage and personal healer. Ron, whom you know as the village's hunter, here standing beside me is an old travel companion of mine and he brought you here barely alive. It has been a week since then. But your recovery is astonishing.",
+                    "posX": 0.5,
+                    "posY": 0.86,
+                    "fontSize": 36,
+                    "fontSizeH": 48
+                }
+            ]},
+            "background": "black",
+            "navigation": "both"
+        },       
+        {
+            "sceneId": "SC053",
+            "elements": {
+                "elementsArray": [
+                {
+                    "type": "image",
+                    "imageFile": "mage-tower",
+                    "posX": 0.5,
+                    "posY": 0.5,
+                    "scale": 0,
+                    "transformations": []
+                },
+                                {
+                    "type": "image",
+                    "imageFile": "archmage_f_color.png
+",
+                    "posX": 0.5,
+                    "posY": 0.5,
+                    "scale": 0,
+                    "transformations": []
+                },
+                {
+                    "type": "textLabel",
+                    "content": "May I ask how you feel and have a look at your wounds?",
+                    "posX": 0.5,
+                    "posY": 0.86,
+                    "fontSize": 36,
+                    "fontSizeH": 48,
+                    "style": "bold"
+                },
+                {
+                    "type": "textLabel",
+                    "content": "You nod and quietly sit down on the bed, letting him take away the bandages. Alchimeo examines with his fingers pressing at different locations of your back, asking if you feel pain. You feel none at all.",
+                    "posX": 0.5,
+                    "posY": 0.92,
+                    "fontSize": 36,
+                    "fontSizeH": 48
+                }                
+            ]},
+            "background": "black",
+            "navigation": "both"
+        },          
+        {
+            "sceneId": "SC054",
+            "elements": {
+                "elementsArray": [
+                {
+                    "type": "image",
+                    "imageFile": "mage-tower",
+                    "posX": 0.5,
+                    "posY": 0.5,
+                    "scale": 0,
+                    "transformations": []
+                },
+                                {
+                    "type": "image",
+                    "imageFile": "archmage_f_color",
+                    "posX": 0.5,
+                    "posY": 0.5,
+                    "scale": 0,
+                    "transformations": []
+                },
+                {
+                    "type": "textLabel",
+                    "content": "Alchimea steps back and ponders holding a finger to her chin, then turns to Ron.",
+                    "posX": 0.5,
+                    "posY": 0.82,
+                    "fontSize": 36,
+                    "fontSizeH": 48
+                },                
+                {
+                    "type": "textLabel",
+                    "content": "Ron could you go to the first floor and bring some new clothes for our friend?",
+                    "posX": 0.5,
+                    "posY": 0.84,
+                    "fontSize": 36,
+                    "fontSizeH": 48,
+                    "style": "bold"
+                },
+                {
+                    "type": "textLabel",
+                    "content": "Ron leaves the room and you hear him walking down the hallway. Alchimeo grabs a chair and sits down in front of you and speaks:",
+                    "posX": 0.5,
+                    "posY": 0.90,
+                    "fontSize": 36,
+                    "fontSizeH": 48
+                },
+                {
+                    "type": "textLabel",
+                    "content": "Ron has told me about your encounter with the creature.",
+                    "posX": 0.5,
+                    "posY": 0.94,
+                    "fontSize": 36,
+                    "fontSizeH": 48,
+                    "style": "bold"
+                }                 
+            ]},
+            "background": "black",
+            "navigation": "both"
+        },          
+        {
+            "sceneId": "SC055",
+            "elements": {
+                "elementsArray": [
+                {
+                    "type": "image",
+                    "imageFile": "mage-tower",
+                    "posX": 0.5,
+                    "posY": 0.5,
+                    "scale": 0,
+                    "transformations": []
+                },
+                                {
+                    "type": "image",
+                    "imageFile": "archmage_f_color",
+                    "posX": 0.5,
+                    "posY": 0.5,
+                    "scale": 0,
+                    "transformations": []
+                },
+                {
+                    "type": "textLabel",
+                    "content": "I asked Ron to leave the room so that you and I could speak alone. You are lucky and on the other hand unlucky to be alive. Lucky because you can walk and continue living, but unlucky because you are not a normal human anymore. You now have been given a gift that some would call a curse.",
+                    "posX": 0.5,
+                    "posY": 0.86,
+                    "fontSize": 36,
+                    "fontSizeH": 48,
+                    "style": "bold"
+                }
+            ]},
+            "background": "black",
+            "navigation": "both"
+        },         
+        {
+            "sceneId": "SC057",
+            "elements": {
+                "elementsArray": [
+                {
+                    "type": "image",
+                    "imageFile": "mage-tower",
+                    "posX": 0.5,
+                    "posY": 0.5,
+                    "scale": 0,
+                    "transformations": []
+                },
+                                {
+                    "type": "image",
+                    "imageFile": "archmage_f_color",
+                    "posX": 0.5,
+                    "posY": 0.5,
+                    "scale": 0,
+                    "transformations": []
+                },
+                {
+                    "type": "textLabel",
+                    "content": "The creature you encountered probably belonged to the ancient Iakkai the first inhabitants of these lands. They have been thought to be extint but seemingly some are still alive. The Iakkai are gifted with magical abilities to transform their bodies and assume different animals in hybrid form. What they have is called the gift or curse of blood since it can only be passed on among the Iakkai people through blood.",
+                    "posX": 0.5,
+                    "posY": 0.86,
+                    "fontSize": 36,
+                    "fontSizeH": 48,
+                    "style": "bold"
+                }
+            ]},
+            "background": "black",
+            "navigation": "both"
+        },           
+        {
+            "sceneId": "SC058",
+            "elements": {
+                "elementsArray": [
+                {
+                    "type": "image",
+                    "imageFile": "mage-tower",
+                    "posX": 0.5,
+                    "posY": 0.5,
+                    "scale": 0,
+                    "transformations": []
+                },
+                                {
+                    "type": "image",
+                    "imageFile": "archmage_f_color",
+                    "posX": 0.5,
+                    "posY": 0.5,
+                    "scale": 0,
+                    "transformations": []
+                },
+                {
+                    "type": "textLabel",
+                    "content": "They believe that they receive their gift from their gods. The gift is passed on through their blood lines or through rituals where a half blood, from the union of humans and Iakkai, is accepted into the tribe and their blood is mixed with that of the leader, usually a pure blood. The purebloods can transfer their specific gift but halfboods can take the gift from any tribe they are accepted into.",
+                    "posX": 0.5,
+                    "posY": 0.86,
+                    "fontSize": 36,
+                    "fontSizeH": 48,
+                    "style": "bold"
+                }
+            ]},
+            "background": "black",
+            "navigation": "both"
+        },             
+        {
+            "sceneId": "SC059A",
+            "elements": {
+                "elementsArray": [
+                {
+                    "type": "image",
+                    "imageFile": "mage-tower",
+                    "posX": 0.5,
+                    "posY": 0.5,
+                    "scale": 0,
+                    "transformations": []
+                },
+                                {
+                    "type": "image",
+                    "imageFile": "archmage_f_color",
+                    "posX": 0.5,
+                    "posY": 0.5,
+                    "scale": 0,
+                    "transformations": []
+                },
+                {
+                    "type": "textLabel",
+                    "content": "Half bloods were forbidden to belong to more than one tribe since each tribe despised the others. The Iakkai you encountered was a Moon Iakkai, or Werewolf. The other tribes that existed are those of the Sun, the Wind, Ice and Water. The Iakkais' magic gave them heightened senses, strength and the ability to cure themselves almost instantly but made them vulnerable to certain elements.",
+                    "posX": 0.5,
+                    "posY": 0.86,
+                    "fontSize": 36,
+                    "fontSizeH": 48,
+                    "style": "bold"
+                }
+            ]},
+            "background": "black",
+            "navigation": "both"
+        },            
+        {
+            "sceneId": "SC059B",
+            "elements": {
+                "elementsArray": [
+                {
+                    "type": "image",
+                    "imageFile": "mage-tower",
+                    "posX": 0.5,
+                    "posY": 0.5,
+                    "scale": 0,
+                    "transformations": []
+                },
+                                {
+                    "type": "image",
+                    "imageFile": "archmage_f_color",
+                    "posX": 0.5,
+                    "posY": 0.5,
+                    "scale": 0,
+                    "transformations": []
+                },
+                {
+                    "type": "textLabel",
+                    "content": "It seems as though you my friend must have had some Iakkai blood since otherwise you would not have cured yourself so fast from such a heavy injury. I think that the werewolf must have had his own blood on his claw and been a pureblood, thus mixing his blood with yours when he injured you he activated your latent magic.",
+                    "posX": 0.5,
+                    "posY": 0.86,
+                    "fontSize": 36,
+                    "fontSizeH": 48,
+                    "style": "bold"
+                }
+            ]},
+            "background": "black",
+            "navigation": "both"
+        },             
+        {
+            "sceneId": "SC060",
+            "elements": {
+                "elementsArray": [
+                {
+                    "type": "image",
+                    "imageFile": "mage-tower",
+                    "posX": 0.5,
+                    "posY": 0.5,
+                    "scale": 0,
+                    "transformations": []
+                },
+                                {
+                    "type": "image",
+                    "imageFile": "archmage_f_color",
+                    "posX": 0.5,
+                    "posY": 0.5,
+                    "scale": 0,
+                    "transformations": []
+                },
+                {
+                    "type": "textLabel",
+                    "content": "By your face you do not believe me but the Iakkai look human when not in animal shape, so likely one of your ancestors was a pureblood Iakkai. In the old times it was not uncommon that Iakkai females would go live with humans to survive when their tribes were decimated. This happened because humans expanded and they encroached on the Iakkai territories.",
+                    "posX": 0.5,
+                    "posY": 0.86,
+                    "fontSize": 36,
+                    "fontSizeH": 48,
+                    "style": "bold"
+                }
+            ]},
+            "background": "black",
+            "navigation": "both"
+        },        
+        {
+            "sceneId": "SC061",
+            "elements": {
+                "elementsArray": [
+                {
+                    "type": "image",
+                    "imageFile": "mage-tower",
+                    "posX": 0.5,
+                    "posY": 0.5,
+                    "scale": 0,
+                    "transformations": []
+                },
+                                {
+                    "type": "image",
+                    "imageFile": "archmage_f_color",
+                    "posX": 0.5,
+                    "posY": 0.5,
+                    "scale": 0,
+                    "transformations": []
+                },
+                {
+                    "type": "textLabel",
+                    "content": "You my friend have their power now and if people find out they will fear you and only see you as a monster.  Humans always fear what they cannot understand, and most of the time judge someone by how he looks or where he comes from.   Only the wise know that no matter who or what you are it is your heart and conscious actions that define you.",
+                    "posX": 0.5,
+                    "posY": 0.86,
+                    "fontSize": 36,
+                    "fontSizeH": 48,
+                    "style": "bold"
+                }
+            ]},
+            "background": "black",
+            "navigation": "both"
+        },             
+        {
+            "sceneId": "SC062",
+            "elements": {
+                "elementsArray": [
+                {
+                    "type": "image",
+                    "imageFile": "mage-tower",
+                    "posX": 0.5,
+                    "posY": 0.5,
+                    "scale": 0,
+                    "transformations": []
+                },
+                                {
+                    "type": "image",
+                    "imageFile": "archmage_f_color",
+                    "posX": 0.5,
+                    "posY": 0.5,
+                    "scale": 0,
+                    "transformations": []
+                },
+                {
+                    "type": "textLabel",
+                    "content": "I know you have a good heart since while taking care of you I had to enter your mind to heal you and shared some of your memories. Some of these memories also make me believe that it was likely your grandmother, who was a Iakkai. Now rest and eat and tomorrow we will meet again. I will give you some special equipment that you may require to either kill or capture the Iakkai.",
+                    "posX": 0.5,
+                    "posY": 0.86,
+                    "fontSize": 36,
+                    "fontSizeH": 48,
+                    "style": "bold"
+                }
+            ]},
+            "background": "black",
+            "navigation": "both"
+        },        
+        {
+            "sceneId": "SC063",
+            "elements": {
+                "elementsArray": [
+                {
+                    "type": "image",
+                    "imageFile": "mage-tower",
+                    "posX": 0.5,
+                    "posY": 0.5,
+                    "scale": 0,
+                    "transformations": []
+                },
+                                {
+                    "type": "image",
+                    "imageFile": "archmage_f_color",
+                    "posX": 0.5,
+                    "posY": 0.5,
+                    "scale": 0,
+                    "transformations": []
+                },
+                {
+                    "type": "textLabel",
+                    "content": "The next morning you meet Alchimea, she takes you into a room alone and gives you several items. She tells you to try to capture the Iakkai to speak to him and gain more clarity over the situation to then report to the queen and hands over the items.",
+                    "posX": 0.5,
+                    "posY": 0.86,
+                    "fontSize": 36,
+                    "fontSizeH": 48
+                }
+            ]},
+            "background": "black",
+            "navigation": "both"
+        },           
+        {
+            "sceneId": "SC064",
+            "elements": {
+                "elementsArray": [
+                {
+                    "type": "image",
+                    "imageFile": "three-items",
+                    "posX": 0.5,
+                    "posY": 0.5,
+                    "scale": 0,
+                    "transformations": []
+                },
+                {
+                    "type": "textLabel",
+                    "content": "A sword made of silver. 20 silver arrow heads, a rope of strange texture and smell and an amulet made of stone. When handing over each item Alchimea speaks:",
+                    "posX": 0.5,
+                    "posY": 0.86,
+                    "fontSize": 36,
+                    "fontSizeH": 48
+                },
+                {
+                    "type": "textLabel",
+                    "content": "The Iakkai's healing power is slowed down when hurt through silver weapons.",
+                    "posX": 0.5,
+                    "posY": 0.92,
+                    "fontSize": 36,
+                    "fontSizeH": 48,
+                    "style": "bold"
+                }                
+            ]},
+            "background": "black",
+            "navigation": "both"
+        },           
+        {
+            "sceneId": "SC065",
+            "elements": {
+                "elementsArray": [
+                {
+                    "type": "image",
+                    "imageFile": "three-items",
+                    "posX": 0.5,
+                    "posY": 0.5,
+                    "scale": 0,
+                    "transformations": []
+                },
+                {
+                    "type": "textLabel",
+                    "content": "The rope is to lay a trap and bind the Iakkai if you can capture him  It will deactivate its magic. The weapons are if you cannot do this and must defend yourselves. The amulet prevents you from changing your shape but gives you access to your magic abilities of greater strength",
+                    "posX": 0.5,
+                    "posY": 0.92,
+                    "fontSize": 36,
+                    "fontSizeH": 48,
+                    "style": "bold"
+                }                
+            ]},
+            "background": "black",
+            "navigation": "both"
+        },
+        {
+            "sceneId": "SC066",
+            "elements": {
+                "elementsArray": [
+                {
+                    "type": "image",
+                    "imageFile": "three-items",
+                    "posX": 0.5,
+                    "posY": 0.5,
+                    "scale": 0,
+                    "transformations": []
+                },
+                {
+                    "type": "textLabel",
+                    "content": "Keep it always close to your chest in touch with your bare skin. It will warm up when you use your magic and help you control yourself.",
+                    "posX": 0.5,
+                    "posY": 0.86,
+                    "fontSize": 36,
+                    "fontSizeH": 48,
+                    "style": "bold"
+                }         
+            ]},
+            "background": "black",
+            "navigation": "both"
+        },
+        {
+            "sceneId": "SC067",
+            "elements": {
+                "elementsArray": [
+                {
+                    "type": "image",
+                    "imageFile": "mage-tower",
+                    "posX": 0.5,
+                    "posY": 0.5,
+                    "scale": 0,
+                    "transformations": []
+                },
+                                {
+                    "type": "image",
+                    "imageFile": "archmage_f_color",
+                    "posX": 0.5,
+                    "posY": 0.5,
+                    "scale": 0,
+                    "transformations": []
+                },
+                {
+                    "type": "textLabel",
+                    "content": "You still do not know how to control your new powers. It is something you will have to learn, the amulet will tell you when you are using them, and help you get to know what triggers these and how to use them. Your healing however does not seem to depend on you being transformed, so be careful that nobody notices it. So go now and try to bring the Moon Iakkai to me so we can speak with him.",
+                    "posX": 0.5,
+                    "posY": 0.86,
+                    "fontSize": 36,
+                    "fontSizeH": 48,
+                    "style": "bold"
+                }
+            ]},
+            "background": "black",
+            "navigation": "both"
+        },         
+        {
+            "sceneId": "SC068",
+            "elements": {
+                "elementsArray": [
+                {
+                    "type": "image",
+                    "imageFile": "mage-tower-outside",
+                    "posX": 0.5,
+                    "posY": 0.5,
+                    "scale": 0,
+                    "transformations": []
+                },
+                {
+                    "type": "image",
+                    "imageFile": "fighter_b_color",
+                    "posX": 0.5,
+                    "posY": 0.5,
+                    "scale": 0,
+                    "transformations": []
+                },
+                {
+                    "type": "image",
+                    "imageFile": "archer_b_color",
+                    "posX": 0.5,
+                    "posY": 0.5,
+                    "scale": 0,
+                    "transformations": []
+                },                
+                {
+                    "type": "textLabel",
+                    "content": "You depart from the Mage Tower and travelling back along the shore of the river towards the point where you fell into it. After a week you manage to climb up into the mountains and reach the point.",
+                    "posX": 0.5,
+                    "posY": 0.86,
+                    "fontSize": 36,
+                    "fontSizeH": 48
+                }
+            ]},
+            "background": "black",
+            "navigation": "both"
+        },     
+        {
+            "sceneId": "SC069",
+            "elements": {
+                "elementsArray": [
+                {
+                    "type": "image",
+                    "imageFile": "cave-closed",
+                    "posX": 0.5,
+                    "posY": 0.5,
+                    "scale": 0,
+                    "transformations": []
+                },
+                {
+                    "type": "image",
+                    "imageFile": "fighter_b_color",
+                    "posX": 0.5,
+                    "posY": 0.5,
+                    "scale": 0,
+                    "transformations": []
+                },
+                {
+                    "type": "image",
+                    "imageFile": "archer_b_color",
+                    "posX": 0.5,
+                    "posY": 0.5,
+                    "scale": 0,
+                    "transformations": []
+                },  
+                {
+                    "type": "textLabel",
+                    "content": "You carefully approach the cave and find it closed the entrance covered again by the large stone.  You and Ron talk to each other and must decide now to try to catch the werewolf alive and if not able to to kill him.",
+                    "posX": 0.5,
+                    "posY": 0.86,
+                    "fontSize": 36,
+                    "fontSizeH": 48
+                }
+            ]},
+            "background": "black",
+            "navigation": "none",            
+            "branches": [
+                {
+                    "label": "Lay a trap",
+                    "target": "SC070"
+                },
+                {
+                    "label": "Talk to him",
+                    "target": "SC071"
+                }
+            ]
+        },
+        {
+            "sceneId": "SC070",
+            "elements": {
+                "elementsArray": [
+                {
+                    "type": "image",
+                    "imageFile": "cave-closed",
+                    "posX": 0.5,
+                    "posY": 0.5,
+                    "scale": 0,
+                    "transformations": []
+                },
+                {
+                    "type": "textLabel",
+                    "content": "You convince Ron to help you lay a trap inside the cave and command Ron not to enter the cave for his safety since you will deal with him yourself showing Ron the sword in case that it does not work.",
+                    "posX": 0.5,
+                    "posY": 0.86,
+                    "fontSize": 36,
+                    "fontSizeH": 48
+                }
+            ]},
+            "background": "black",
+            "navigation": "none",            
+            "branches": [
+                {
+                    "label": "Next",
+                    "target": "SC073"
+                }
+            ]
+        },    
+        {
+            "sceneId": "SC071",
+            "elements": {
+                "elementsArray": [
+                {
+                    "type": "image",
+                    "imageFile": "cave-closed",
+                    "posX": 0.5,
+                    "posY": 0.5,
+                    "scale": 0,
+                    "transformations": []
+                },
+                {
+                    "type": "textLabel",
+                    "content": "You convince Ron to stay outside and trust your judgement. You tell him that you will lay the trap yourself and come out once he has captured or killed the werewolf. If in the morning he were not to come out he should wait for the figure to come out again and kill him with the arrows.",
+                    "posX": 0.5,
+                    "posY": 0.86,
+                    "fontSize": 36,
+                    "fontSizeH": 48
+                }
+            ]},
+            "background": "black",
+            "navigation": "next"
+        },           
+        {
+            "sceneId": "SC073",
+            "elements": {
+                "elementsArray": [
+                {
+                    "type": "image",
+                    "imageFile": "cave-inside",
+                    "posX": 0.5,
+                    "posY": 0.5,
+                    "scale": 0,
+                    "transformations": []
+                },
+                {
+                    "type": "textLabel",
+                    "content": "As you wait inside the cave and Ron is observing from the distance, the same person clad in dark robes approaches without fear and stops under some pinetrees 30 meters before the entrance. Ron see's how he bends and starts to change until the werewolf appears from under the robe, and it lifts its nose into the air smelling it.  It looks around and slowly starts pacing towards the entrance.",
+                    "posX": 0.5,
+                    "posY": 0.86,
+                    "fontSize": 36,
+                    "fontSizeH": 48
+                }
+            ]},
+            "background": "black",
+            "navigation": "next"
+        },         
+        {
+            "sceneId": "SC074",
+            "elements": {
+                "elementsArray": [
+                {
+                    "type": "image",
+                    "imageFile": "cave-inside",
+                    "posX": 0.5,
+                    "posY": 0.5,
+                    "scale": 0,
+                    "transformations": []
+                },
+                {
+                    "type": "image",
+                    "imageFile": "werewolf_b_color",
+                    "posX": 0.5,
+                    "posY": 0.5,
+                    "scale": 0,
+                    "transformations": []
+                },                
+                {
+                    "type": "textLabel",
+                    "content": "You again! Big mistake to have entered the cave and wait for me inside. I guess that you have seven lifes like a cat. This time however I will not give you any chance to escape and eat you alive.",
+                    "posX": 0.5,
+                    "posY": 0.86,
+                    "fontSize": 36,
+                    "fontSizeH": 48,
+                    "style": "bold"
+                },
+                {
+                    "type": "textLabel",
+                    "content": "The werewolf howls and jumps into the cave.",
+                    "posX": 0.5,
+                    "posY": 0.92,
+                    "fontSize": 36,
+                    "fontSizeH": 48
+                }                
+            ]},
+            "background": "black",
+            "navigation": "both"
+        },       
+        {
+            "sceneId": "SC075",
+            "elements": {
+                "elementsArray": [
+                {
+                    "type": "image",
+                    "imageFile": "cave-inside",
+                    "posX": 0.5,
+                    "posY": 0.5,
+                    "scale": 0,
+                    "transformations": []
+                },
+                {
+                    "type": "image",
+                    "imageFile": "werewolf_f_color",
+                    "posX": 0.5,
+                    "posY": 0.5,
+                    "scale": 0,
+                    "transformations": []
+                },                
+                {
+                    "type": "textLabel",
+                    "content": "As the creature enters the cave and slowly approaches you. You tell him to wait and see and that you mean no harm to him.  Filled with fear and foreboading you start to recite aloud words to control your fear.",
+                    "posX": 0.5,
+                    "posY": 0.86,
+                    "fontSize": 36,
+                    "fontSizeH": 48
+                }
+            ]},
+            "background": "black",
+            "navigation": "both"
+        },   
+        {
+            "sceneId": "SC076",
+            "elements": {
+                "elementsArray": [
+                {
+                    "type": "image",
+                    "imageFile": "cave-inside",
+                    "posX": 0.5,
+                    "posY": 0.5,
+                    "scale": 0,
+                    "transformations": []
+                },
+                {
+                    "type": "image",
+                    "imageFile": "werewolf_f_color",
+                    "posX": 0.5,
+                    "posY": 0.5,
+                    "scale": 0,
+                    "transformations": []
+                },                
+                {
+                    "type": "textLabel",
+                    "content": "Words your grandmother taught you to recite when you had nightmares and were afraid, and which now you come to realize their origin.",
+                    "posX": 0.5,
+                    "posY": 0.86,
+                    "fontSize": 36,
+                    "fontSizeH": 48
+                },
+                {
+                    "type": "textLabel",
+                    "content": "Lord Moon I honor thee with my life and will, so give me strength of heart and flesh.  Shine your light on me, make me see and bring peace to me.",
+                    "posX": 0.5,
+                    "posY": 0.92,
+                    "fontSize": 36,
+                    "fontSizeH": 48,
+                    "style": "bold"
+                }
+            ]},
+            "background": "black",
+            "navigation": "none",            
+            "branches": [
+                {
+                    "label": "Lure him to the trap",
+                    "target": "SC080"
+                },
+                {
+                    "label": "Talk to him",
+                    "target": "SC088"
+                }
+            ]
+        },   
+        {
+            "sceneId": "SC077",
+            "elements": {
+                "elementsArray": [
+                {
+                    "type": "image",
+                    "imageFile": "cave-inside",
+                    "posX": 0.5,
+                    "posY": 0.5,
+                    "scale": 0,
+                    "transformations": []
+                },           
+                {
+                    "type": "textLabel",
+                    "content": "While the werewolf sees you and starts racing towards you, you turn and run to lure him into the trap around the next corner in the back of the cave.  Once the werewolf turns after you around the corner the trap triggers and he is tangled in the lasso.",
+                    "posX": 0.5,
+                    "posY": 0.86,
+                    "fontSize": 36,
+                    "fontSizeH": 48
+                }
+            ]},
+            "background": "black",
+            "navigation": "next"
+        },           
+   
+        {
+            "sceneId": "SC080",
+            "elements": {
+                "elementsArray": [
+                {
+                    "type": "image",
+                    "imageFile": "cave-inside",
+                    "posX": 0.5,
+                    "posY": 0.5,
+                    "scale": 0,
+                    "transformations": []
+                },           
+                {
+                    "type": "image",
+                    "imageFile": "oldman_lying-color",
+                    "posX": 0.5,
+                    "posY": 0.5,
+                    "scale": 0,
+                    "transformations": []
+                },                    
+                {
+                    "type": "textLabel",
+                    "content": "Unable to move and weakend, he cries out and shouts at you.",
+                    "posX": 0.5,
+                    "posY": 0.86,
+                    "fontSize": 36,
+                    "fontSizeH": 48
+                },
+                {
+                    "type": "textLabel",
+                    "content": "Kill me you damned weakling if you are man enough to kill! I curse you and your kind. YOU ARE NOTHING BUT SCUM WITHOUT MERCY AND DARKNESS!!! WE JUST WANTED TO LIVE IN PEACE AND YOU BETRAYED US, TREATED US AS ANIMALS!! RATHER THAN ACCEPT AND UNDERSTAND US!!.",
+                    "posX": 0.5,
+                    "posY": 0.92,
+                    "fontSize": 36,
+                    "fontSizeH": 48,
+                    "style": "bold"
+                }                
+            ]},
+            "background": "black",
+            "navigation": "next"
+        },    
+        {
+            "sceneId": "SC081",
+            "elements": {
+                "elementsArray": [
+                {
+                    "type": "image",
+                    "imageFile": "cave-inside",
+                    "posX": 0.5,
+                    "posY": 0.5,
+                    "scale": 0,
+                    "transformations": []
+                },           
+                {
+                    "type": "image",
+                    "imageFile": "oldman_lying-color",
+                    "posX": 0.5,
+                    "posY": 0.5,
+                    "scale": 0,
+                    "transformations": []
+                },                    
+                {
+                    "type": "textLabel",
+                    "content": "We are so few now almost gone now!! I am tired of waiting, living, of killing, hating  of fleeing just finish me now, please!!.",
+                    "posX": 0.5,
+                    "posY": 0.86,
+                    "fontSize": 36,
+                    "fontSizeH": 48,
+                    "style": "bold"
+                },
+                {
+                    "type": "textLabel",
+                    "content": "He ends up crying and weeping in a pityfull state.  Over and over reciting a poem that sounds strangely familiar.  You feel sorry for him and lay aside the sword.",
+                    "posX": 0.5,
+                    "posY": 0.92,
+                    "fontSize": 36,
+                    "fontSizeH": 48
+                }                
+            ]},
+            "background": "black",
+            "navigation": "both"
+        },   
+        {
+            "sceneId": "SC082",
+            "elements": {
+                "elementsArray": [
+                {
+                    "type": "image",
+                    "imageFile": "cave-inside",
+                    "posX": 0.5,
+                    "posY": 0.5,
+                    "scale": 0,
+                    "transformations": []
+                },           
+                {
+                    "type": "image",
+                    "imageFile": "oldman_lying-color",
+                    "posX": 0.5,
+                    "posY": 0.5,
+                    "scale": 0,
+                    "transformations": []
+                },                    
+                {
+                    "type": "textLabel",
+                    "content": "His words have touched your soul and reminded you of you when your grandmother took care of you.  Inside of you, you feel the need to comfort him that he is not alone and that you mean him no harm. You kneel down besides him and touch his shoulder, and recite the last verse for him.",
+                    "posX": 0.5,
+                    "posY": 0.86,
+                    "fontSize": 36,
+                    "fontSizeH": 48
+                }
+            ]},
+            "background": "black",
+            "navigation": "both"
+        },
+        {
+            "sceneId": "SC083",
+            "elements": {
+                "elementsArray": [
+                {
+                    "type": "image",
+                    "imageFile": "cave-bloodpool",
+                    "posX": 0.5,
+                    "posY": 0.5,
+                    "scale": 0,
+                    "transformations": []
+                },           
+                {
+                    "type": "image",
+                    "imageFile": "oldman_lying-color",
+                    "posX": 0.5,
+                    "posY": 0.5,
+                    "scale": 0,
+                    "transformations": []
+                },                    
+                {
+                    "type": "textLabel",
+                    "content": "He looks up at you puzzled, while you step back and walk towards the back of the cave. You stop besides the pool of blood lit up by the moon rays that enter the cave through the roof's hole.You take off your clothes and amulet and finally pile them neatly on one side. Bringing to mind your grandmother's image and and her words.",
+                    "posX": 0.5,
+                    "posY": 0.86,
+                    "fontSize": 36,
+                    "fontSizeH": 48
+                }
+            ]},
+            "background": "black",
+            "navigation": "both"
+        },        
+        {
+            "sceneId": "SC084",
+            "elements": {
+                "elementsArray": [
+                {
+                    "type": "image",
+                    "imageFile": "cave-bloodpool",
+                    "posX": 0.5,
+                    "posY": 0.5,
+                    "scale": 0,
+                    "transformations": []
+                },           
+                {
+                    "type": "image",
+                    "imageFile": "fighter_f_color",
+                    "posX": 0.5,
+                    "posY": 0.5,
+                    "scale": 0,
+                    "transformations": []
+                },                    
+                {
+                    "type": "textLabel",
+                    "content": "Lord Moon I honor thee with my life and will, so give me strength of heart and flesh. Shine your light on me, make me see. and bring peace to me.",
+                    "posX": 0.5,
+                    "posY": 0.86,
+                    "fontSize": 36,
+                    "fontSizeH": 48,
+                    "style": "bold"
+                }
+            ]},
+            "background": "black",
+            "navigation": "both"
+        },          
+        {
+            "sceneId": "SC085",
+            "elements": {
+                "elementsArray": [
+                {
+                    "type": "image",
+                    "imageFile": "cave-bloodpool",
+                    "posX": 0.5,
+                    "posY": 0.5,
+                    "scale": 0,
+                    "transformations": []
+                },           
+                {
+                    "type": "image",
+                    "imageFile": "fighter_f_color",
+                    "posX": 0.5,
+                    "posY": 0.5,
+                    "scale": 0,
+                    "transformations": []
+                },                    
+                {
+                    "type": "textLabel",
+                    "content": "As you recite the words the moon's rays touch your head  and body.  You relax closing your eyes and notice how peace and calm make your heart beat slower and slower, but stronger and stronger. Slowly at first your body starts to change. You feel both pain and pleasure and an incredible energy surging through your veins.",
+                    "posX": 0.5,
+                    "posY": 0.86,
+                    "fontSize": 36,
+                    "fontSizeH": 48
+                }
+            ]},
+            "background": "black",
+            "navigation": "both"
+        },         
+        {
+            "sceneId": "SC086",
+            "elements": {
+                "elementsArray": [
+                {
+                    "type": "image",
+                    "imageFile": "cave-bloodpool",
+                    "posX": 0.5,
+                    "posY": 0.5,
+                    "scale": 0,
+                    "transformations": []
+                },           
+                {
+                    "type": "image",
+                    "imageFile": "star_s_color",
+                    "posX": 0.5,
+                    "posY": 0.5,
+                    "scale": 0,
+                    "transformations": []
+                },                    
+                {
+                    "type": "textLabel",
+                    "content": "When it stops you open your eyes and look at your hands and body unaware of the old man who stares at you in quiet astonishment, not believing what he sees.  You look around the cave and to the moon through the roof and a large howl escapes your throat.",
+                    "posX": 0.5,
+                    "posY": 0.86,
+                    "fontSize": 36,
+                    "fontSizeH": 48
+                }
+            ]},
+            "background": "black",
+            "navigation": "both"
+        },   
+        {
+            "sceneId": "SC087",
+            "elements": {
+                "elementsArray": [
+                {
+                    "type": "image",
+                    "imageFile": "cave-bloodpool",
+                    "posX": 0.5,
+                    "posY": 0.5,
+                    "scale": 0,
+                    "transformations": []
+                },           
+                {
+                    "type": "image",
+                    "imageFile": "star_f_color",
+                    "posX": 0.5,
+                    "posY": 0.5,
+                    "scale": 0,
+                    "transformations": []
+                },                    
+                {
+                    "type": "textLabel",
+                    "content": "You look at the pool lit up by the moon and see your reflection. that of a huge werewolf with a white streak on the forehead. Behind you, the old man say to himself and starts to cry. It cannot be. The legend has come true.  Here is Star.",
+                    "posX": 0.5,
+                    "posY": 0.86,
+                    "fontSize": 36,
+                    "fontSizeH": 48
+                }
+            ]},
+            "background": "black",
+            "navigation": "none",            
+            "branches": [
+                {
+                    "label": "Start again",
+                    "target": "SC001"
+                }
+            ]
+        },       
+        {
+            "sceneId": "SC088",
+            "elements": {
+                "elementsArray": [
+                {
+                    "type": "image",
+                    "imageFile": "cave-inside",
+                    "posX": 0.5,
+                    "posY": 0.5,
+                    "scale": 0,
+                    "transformations": []
+                },           
+                {
+                    "type": "image",
+                    "imageFile": "fighter_f_color",
+                    "posX": 0.5,
+                    "posY": 0.5,
+                    "scale": 0,
+                    "transformations": []
+                },                    
+                {
+                    "type": "textLabel",
+                    "content": "Wait, I mean you no harm. I am like you, let me prove it to you. I have been given these magical weapons to kill you, but I will not use them against one of my kind.",
+                    "posX": 0.5,
+                    "posY": 0.86,
+                    "fontSize": 36,
+                    "fontSizeH": 48,
+                    "style": "bold"
+                },
+                {
+                    "type": "textLabel",
+                    "content": "You drop the sword and the lasso. He looks at you puzzled, while you step back and walk towards the back of the cave.",
+                    "posX": 0.5,
+                    "posY": 0.92,
+                    "fontSize": 36,
+                    "fontSizeH": 48
+                }
+            ]},
+            "background": "black",
+            "navigation": "next"
+        },     
+        {
+            "sceneId": "SC089",
+            "elements": {
+                "elementsArray": [
+                {
+                    "type": "image",
+                    "imageFile": "cave-bloodpool",
+                    "posX": 0.5,
+                    "posY": 0.5,
+                    "scale": 0,
+                    "transformations": []
+                },           
+                {
+                    "type": "image",
+                    "imageFile": "fighter_s_color",
+                    "posX": 0.5,
+                    "posY": 0.5,
+                    "scale": 0,
+                    "transformations": []
+                },                    
+                {
+                    "type": "textLabel",
+                    "content": "You stop besides the pool of blood lit up by the moon's light that enters the cave through the roof's hole.",
+                    "posX": 0.5,
+                    "posY": 0.86,
+                    "fontSize": 36,
+                    "fontSizeH": 48
+                }
+            ]},
+            "background": "black",
+            "navigation": "both"
+        },             
+        {
+            "sceneId": "SC090",
+            "elements": {
+                "elementsArray": [
+                {
+                    "type": "image",
+                    "imageFile": "cave-bloodpool",
+                    "posX": 0.5,
+                    "posY": 0.5,
+                    "scale": 0,
+                    "transformations": []
+                },           
+                {
+                    "type": "image",
+                    "imageFile": "fighter_s_color",
+                    "posX": 0.5,
+                    "posY": 0.5,
+                    "scale": 0,
+                    "transformations": []
+                },                    
+                {
+                    "type": "textLabel",
+                    "content": "Lord Moon I honor thee with my life and will, so give me strength of heart and flesh. Shine your light on me, make me see. and bring peace to me.",
+                    "posX": 0.5,
+                    "posY": 0.86,
+                    "fontSize": 36,
+                    "fontSizeH": 48,
+                    "style": "bold"
+                },
+                {
+                    "type": "textLabel",
+                    "content": "As you recite the words the moon's rays touch your head  and body.  You relax closing your eyes and notice how peace and calm make your heart beat slower and slower, but stronger and stronger. Slowly at first your body starts to change.  You feel both pain and pleasure and an incredible energy surging through your veins.",
+                    "posX": 0.5,
+                    "posY": 0.92,
+                    "fontSize": 36,
+                    "fontSizeH": 48
+                }
+            ]},
+            "background": "black",
+            "navigation": "both"
+        },        
+        {
+            "sceneId": "SC091",
+            "elements": {
+                "elementsArray": [
+                {
+                    "type": "image",
+                    "imageFile": "cave-bloodpool",
+                    "posX": 0.5,
+                    "posY": 0.5,
+                    "scale": 0,
+                    "transformations": []
+                },           
+                {
+                    "type": "image",
+                    "imageFile": "star_s_color",
+                    "posX": 0.5,
+                    "posY": 0.5,
+                    "scale": 0,
+                    "transformations": []
+                },                    
+                {
+                    "type": "textLabel",
+                    "content": "When it stops you open your eyes and look at your hands and body unaware of the werewolf who stares at you in quiet astonishment, not believing what he sees.  You look around the cave and to the moon through the roof and a large howl escapes your throat.",
+                    "posX": 0.5,
+                    "posY": 0.86,
+                    "fontSize": 36,
+                    "fontSizeH": 48
+                }
+            ]},
+            "background": "black",
+            "navigation": "both"
+        },        
+        {
+            "sceneId": "SC092",
+            "elements": {
+                "elementsArray": [
+                {
+                    "type": "image",
+                    "imageFile": "cave-bloodpool",
+                    "posX": 0.5,
+                    "posY": 0.5,
+                    "scale": 0,
+                    "transformations": []
+                },           
+                {
+                    "type": "image",
+                    "imageFile": "star_f_color",
+                    "posX": 0.5,
+                    "posY": 0.5,
+                    "scale": 0,
+                    "transformations": []
+                },                    
+                {
+                    "type": "textLabel",
+                    "content": "You look at the pool lit up by the moon and see your reflection. that of a huge werewolf with a white streak on the forehead.  Behind you, the werewolf says to himself. It cannot be. The legend has come true. Here is Star.",
+                    "posX": 0.5,
+                    "posY": 0.86,
+                    "fontSize": 36,
+                    "fontSizeH": 48
+                }
+            ]},
+            "background": "black",
+            "navigation": "none",            
+            "branches": [
+                {
+                    "label": "Start again",
+                    "target": "SC001"
+                }
+            ]
+        },          
+        {
+            "sceneId": "CREDITS",
+            "elements": {
+                "elementsArray": [
+                {
+                    "type": "textLabel",
+                    "content": "CREDITS.",
+                    "posX": 0.5,
+                    "posY": 0.5,
+                    "fontSize": 36,
+                    "fontSizeH": 48
+                }
+            ]},
+            "background": "black",
+            "navigation": "none",            
+            "branches": [
+                {
+                    "label": "Back",
+                    "target": "SC001"
+                }
+            ]
+        }
+    ]
+}
