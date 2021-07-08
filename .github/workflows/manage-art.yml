@@ -9,7 +9,7 @@ on:
       - main
 env:
   MAX_SIZE: 2048
-  PROCESS_ALL: 'true'
+  PROCESS_ALL: 'false'
 
 jobs:
   process:
