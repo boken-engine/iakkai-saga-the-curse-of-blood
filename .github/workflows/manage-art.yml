@@ -132,6 +132,7 @@ jobs:
             commit-msg: Update processed assets
             github-token: ${{ secrets.GITHUB_TOKEN }}
       - name: Generate HTML index
+        run: |
           echo "
             <html>
               <head>
