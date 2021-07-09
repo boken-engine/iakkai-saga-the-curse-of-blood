@@ -131,3 +131,67 @@ jobs:
                raw/contact-sheet.png
             commit-msg: Update processed assets
             github-token: ${{ secrets.GITHUB_TOKEN }}
+      - name: Generate HTML index
+          echo "
+            <html>
+              <head>
+                <title>Iakkai Saga Art Index</title>
+              </head>
+              <style>
+              * {  box-sizing: border-box; }
+              .wrapper {
+                display:grid; 
+                grid-template-columns: repeat(2, 1fr); 
+                grid-gap:10px
+              }
+              .wrapper div div {
+                float:left; 
+                margin-left:10px; 
+                font-family: sans-serif; 
+                font-size: 0.7em; 
+                width: calc(59% - 10px)
+              }
+              .wrapper div img {
+                width: 40%;
+                max-width: 100%;
+                float: left;
+              }
+              </style>
+              <body>    
+                <div class='wrapper'>" > index.html
+              for file in src/assets/**/*; do
+                echo "Processing $file"
+                echo  "   
+                  <div>
+                  <img src='$file'/>
+                  <div> " >>  index.html
+                echo "<span style='font-weight:bold'>$file</span><br/>" >> index.html   
+                width=$(magick identify -ping -format '%w' $file[0])
+                height=$(magick identify -ping -format '%w' $file[0])
+                keywords=$(magick identify -quiet -format %[IPTC:2:25] $file[0])
+                copyright=$(magick identify -quiet -format %[EXIF:COPYRIGHT*] $file[0])
+                author=$(magick identify -quiet -format %[IPTC:2:80] $file[0])
+                name=$(magick identify -quiet -format %[IPTC:2:5] $file[0])
+                if [ -z "$name" ]; then                                            
+                  echo "  Warning: no name information found<br/>" >> index.html;
+                else
+                  echo "  Name: $name<br/>" >> index.html;
+                fi     
+                if [ -z "$author" ]; then                                            
+                  echo "  Warning: no author information found<br/>" >> index.html;
+                else
+                  echo "  Author: $author<br/>" >> index.html;
+                fi                  
+                if [ -z "$copyright" ]; then                      
+                  echo "  Warning: no copyright information found<br/>" >> index.html;
+                else
+                  echo "  Copyright: $copyright<br/>" >> index.html;
+                fi                                    
+                if [[ $(echo "$keywords" |  tr '[:lower:]' '[:upper:]' ) == *"SPRITE"* ]]; then
+                  echo "  SPRITE keyword detected" >> index.html;
+                else
+                  echo "" >> index.html;     
+                fi
+                echo "</div></div>" >> index.html
+              done
+            echo "</div></html>" >> index.html
