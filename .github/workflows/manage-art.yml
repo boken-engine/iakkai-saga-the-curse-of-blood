@@ -194,7 +194,7 @@ jobs:
         uses: test-room-7/action-update-file@v1
         with:
             file-path: |
-               raw/index.html
+               raw/art-index.html
                raw/contact-sheet.png
             commit-msg: Update art index and contact sheet
             github-token: ${{ secrets.GITHUB_TOKEN }}
