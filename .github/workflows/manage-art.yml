@@ -124,10 +124,77 @@ jobs:
            fi
            cp -n src/assets/**/* /tmp/contactsheet 
            montage -verbose -label '%[IPTC:2:5]' -define jpeg:size=240x240 -geometry 240x240+2+2 -font DejaVu-Sans /tmp/contactsheet/*[0] raw/contact-sheet.png        
-      - name: Update contact sheet
+      - name: Generate HTML index
+        run: |
+          echo "
+            <html>
+              <head>
+                <title>Iakkai Saga Art Index</title>
+              </head>
+              <style>
+              * {  box-sizing: border-box; }
+              .wrapper {
+                display:grid; 
+                grid-template-columns: repeat(2, 1fr); 
+                grid-gap:10px
+              }
+              .wrapper div div {
+                float:left; 
+                margin-left:10px; 
+                font-family: sans-serif; 
+                font-size: 0.7em; 
+                width: calc(59% - 10px)
+              }
+              .wrapper div img {
+                width: 40%;
+                max-width: 100%;
+                float: left;
+              }
+              </style>
+              <body>    
+                <div class='wrapper'>" > raw/art-index.html
+              for file in src/assets/**/*; do
+                echo "Processing $file"
+                echo  "   
+                  <div>
+                  <img src='../$file'/>
+                  <div> " >>  raw/art-index.html
+                echo "<span style='font-weight:bold'>$file</span><br/>" >> raw/art-index.html   
+                width=$(magick identify -ping -format '%w' $file[0])
+                height=$(magick identify -ping -format '%w' $file[0])
+                keywords=$(magick identify -quiet -format %[IPTC:2:25] $file[0])
+                copyright=$(magick identify -quiet -format %[EXIF:COPYRIGHT*] $file[0])
+                author=$(magick identify -quiet -format %[IPTC:2:80] $file[0])
+                name=$(magick identify -quiet -format %[IPTC:2:5] $file[0])
+                if [ -z "$name" ]; then                                            
+                  echo "  Warning: no name information found<br/>" >> raw/art-index.html;
+                else
+                  echo "  Name: $name<br/>" >> raw/art-index.html;
+                fi     
+                if [ -z "$author" ]; then                                            
+                  echo "  Warning: no author information found<br/>" >> raw/art-index.html;
+                else
+                  echo "  Author: $author<br/>" >> raw/art-index.html;
+                fi                  
+                if [ -z "$copyright" ]; then                      
+                  echo "  Warning: no copyright information found<br/>" >> raw/art-index.html;
+                else
+                  echo "  Copyright: $copyright<br/>" >> raw/art-index.html;
+                fi                                    
+                if [[ $(echo "$keywords" |  tr '[:lower:]' '[:upper:]' ) == *"SPRITE"* ]]; then
+                  echo "  SPRITE keyword detected" >> raw/art-index.html;
+                else
+                  echo "" >> raw/art-index.html;     
+                fi
+                echo "</div></div>" >> raw/art-index.html
+              done
+            echo "</div></html>" >> raw/art-index.html
+            
+      - name: Update contact sheet and HTML art index
         uses: test-room-7/action-update-file@v1
         with:
             file-path: |
+               raw/art-index.html
                raw/contact-sheet.png
-            commit-msg: Update processed assets
+            commit-msg: Update art index and contact sheet
             github-token: ${{ secrets.GITHUB_TOKEN }}
