@@ -765,7 +765,7 @@
                 "elementsArray": [
                 {
                     "type": "image",
-                    "imageFile": "wolves_s_color.png",
+                    "imageFile": "wolfs.jpg",
                     "posX": 0.5,
                     "posY": 0.5,
                     "scale": 0,
@@ -789,7 +789,7 @@
                 "elementsArray": [
                 {
                     "type": "image",
-                    "imageFile": "wolves_s_color.png",
+                    "imageFile": "wolfs.jpg",
                     "posX": 0.5,
                     "posY": 0.5,
                     "scale": 0,
@@ -862,7 +862,7 @@
                 "elementsArray": [
                 {
                     "type": "image",
-                    "imageFile": "campfire",
+                    "imageFile": "campfire.jpg",
                     "posX": 0.5,
                     "posY": 0.5,
                     "scale": 0,
@@ -871,16 +871,16 @@
                 {
                     "type": "image",
                     "imageFile": "archer-f-color.png",
-                    "posX": 0.5,
-                    "posY": 0.5,
+                    "posX": 0.25,
+                    "posY": 0.2,
                     "scale": 0,
                     "transformations": []
                 },
                 {
                     "type": "image",
                     "imageFile": "fighter-b-color.png",
-                    "posX": 0.5,
-                    "posY": 0.5,
+                    "posX": 0.75,
+                    "posY": 0.2,
                     "scale": 0,
                     "transformations": []
                 },                
@@ -903,7 +903,7 @@
                 "elementsArray": [
                 {
                     "type": "image",
-                    "imageFile": "campfire",
+                    "imageFile": "campfire.jpg",
                     "posX": 0.5,
                     "posY": 0.5,
                     "scale": 0,
@@ -912,16 +912,16 @@
                 {
                     "type": "image",
                     "imageFile": "archer-f-color.png",
-                    "posX": 0.5,
-                    "posY": 0.5,
+                    "posX": 0.25,
+                    "posY": 0.2,
                     "scale": 0,
                     "transformations": []
                 },
                 {
                     "type": "image",
                     "imageFile": "fighter-b-color.png",
-                    "posX": 0.5,
-                    "posY": 0.5,
+                    "posX": 0.75,
+                    "posY": 0.2,
                     "scale": 0,
                     "transformations": []
                 },    
@@ -944,7 +944,7 @@
                 "elementsArray": [
                 {
                     "type": "image",
-                    "imageFile": "campfire",
+                    "imageFile": "campfire.jpg",
                     "posX": 0.5,
                     "posY": 0.5,
                     "scale": 0,
@@ -953,16 +953,16 @@
                 {
                     "type": "image",
                     "imageFile": "archer-f-color.png",
-                    "posX": 0.5,
-                    "posY": 0.5,
+                    "posX": 0.25,
+                    "posY": 0.2,
                     "scale": 0,
                     "transformations": []
                 },
                 {
                     "type": "image",
                     "imageFile": "fighter-b-color.png",
-                    "posX": 0.5,
-                    "posY": 0.5,
+                    "posX": 0.75,
+                    "posY": 0.2,
                     "scale": 0,
                     "transformations": []
                 },    
@@ -985,7 +985,7 @@
                 "elementsArray": [
                 {
                     "type": "image",
-                    "imageFile": "cave-closed",
+                    "imageFile": "cave-closed.jpg",
                     "posX": 0.5,
                     "posY": 0.5,
                     "scale": 0,
@@ -995,7 +995,7 @@
                     "type": "textLabel",
                     "content": "The next day short before sunset the trails leads to a cave by a cliff with a small lake and river below. A large stone is set in front of its entrance and you find many tracks of humans and wolves. The stone is smeared with blood.",
                     "posX": 0.5,
-                    "posY": 0.05,
+                    "posY": 0.3,
                     "fontSize": 24,
                     "addBackground": true
                 }
@@ -1019,7 +1019,7 @@
                 "elementsArray": [
                 {
                     "type": "image",
-                    "imageFile": "cave-closed",
+                    "imageFile": "cave-closed.jpg",
                     "posX": 0.5,
                     "posY": 0.5,
                     "scale": 0,
@@ -1043,7 +1043,7 @@
                 "elementsArray": [
                 {
                     "type": "image",
-                    "imageFile": "cave-closed",
+                    "imageFile": "cave.jpg",
                     "posX": 0.5,
                     "posY": 0.5,
                     "scale": 0,
@@ -1067,7 +1067,7 @@
                 "elementsArray": [
                 {
                     "type": "image",
-                    "imageFile": "cave",
+                    "imageFile": "cave.jpg",
                     "posX": 0.5,
                     "posY": 0.5,
                     "scale": 0,
@@ -1077,7 +1077,7 @@
                     "type": "textLabel",
                     "content": "While waiting the darkness covers the forest. The last birds return to their nests and woods become quiet and the silence spreads everywhere. The moon rises, and you see how a fire is lit inside the cave.",
                     "posX": 0.5,
-                    "posY": 0.05,
+                    "posY": 0.25,
                     "fontSize": 24,
                     "addBackground": true
                 }
@@ -1101,7 +1101,7 @@
                 "elementsArray": [
                 {
                     "type": "image",
-                    "imageFile": "cave",
+                    "imageFile": "cave.jpg",
                     "posX": 0.5,
                     "posY": 0.5,
                     "scale": 0,
@@ -1111,7 +1111,7 @@
                     "type": "textLabel",
                     "content": "After 2 hours the fire is extinguished and the cave darkens.",
                     "posX": 0.5,
-                    "posY": 0.05,
+                    "posY": 0.15,
                     "fontSize": 24,
                     "addBackground": true
                 }
@@ -1131,7 +1131,7 @@
                 "elementsArray": [
                 {
                     "type": "image",
-                    "imageFile": "cave-inside",
+                    "imageFile": "cave-inside.jpg",
                     "posX": 0.5,
                     "posY": 0.5,
                     "scale": 0,
@@ -1155,7 +1155,7 @@
                 "elementsArray": [
                 {
                     "type": "image",
-                    "imageFile": "cave-inside",
+                    "imageFile": "cave-inside.jpg",
                     "posX": 0.5,
                     "posY": 0.5,
                     "scale": 0,
@@ -1179,7 +1179,7 @@
                 "elementsArray": [
                 {
                     "type": "image",
-                    "imageFile": "cave-bloodpool",
+                    "imageFile": "cave-bloodpool.jpg",
                     "posX": 0.5,
                     "posY": 0.5,
                     "scale": 0,
@@ -1203,7 +1203,7 @@
                 "elementsArray": [
                 {
                     "type": "image",
-                    "imageFile": "cave-inside",
+                    "imageFile": "cave-inside.jpg",
                     "posX": 0.5,
                     "posY": 0.5,
                     "scale": 0,
@@ -1211,18 +1211,27 @@
                 },
                                 {
                     "type": "image",
-                    "imageFile": "werewolf-f_color.png",
+                    "imageFile": "werewolf-f-color.png",
                     "posX": 0.5,
-                    "posY": 0.5,
+                    "posY": 0.35,
                     "scale": 0,
                     "transformations": []
                 },
                 {
                     "type": "textLabel",
-                    "content": "While on your way out of the cave the entrance is blocked by a huge dark shadow and two yellow eyes stare at you. A deep growl rises and you hear. It turns around and speaks: Come outside you weaklings, come so that I can test you to see if you are worthy or I shall slay you in honor of my gods!",
+                    "content": "While on your way out of the cave the entrance is blocked by a huge dark shadow and two yellow eyes stare at you. A deep growl rises and you hear. It turns around and speaks:",
+                    "posX": 0.5,
+                    "posY": 0.25,
+                    "fontSize": 24,
+                    "addBackground": true
+                },
+                {
+                    "type": "textLabel",
+                    "content": "Come outside you weaklings, come so that I can test you to see if you are worthy or I shall slay you in honor of my gods!",
                     "posX": 0.5,
                     "posY": 0.05,
                     "fontSize": 24,
+                    "style": "bold",
                     "addBackground": true
                 }
             ]},
@@ -1235,7 +1244,7 @@
                 "elementsArray": [
                 {
                     "type": "image",
-                    "imageFile": "cave-moonlight",
+                    "imageFile": "cave-moonlight.jpg",
                     "posX": 0.5,
                     "posY": 0.5,
                     "scale": 0,
@@ -1243,9 +1252,9 @@
                 },
                                 {
                     "type": "image",
-                    "imageFile": "werewolf-s-snarling",
-                    "posX": 0.5,
-                    "posY": 0.5,
+                    "imageFile": "werewolf-s-howling-color",
+                    "posX": 0.35,
+                    "posY": 0.25,
                     "scale": 0,
                     "transformations": []
                 },
@@ -1253,7 +1262,7 @@
                     "type": "textLabel",
                     "content": "You and the hunter step out into the open, and face the creature. The creature is half man and half wolf, of strong built, looming over you at over 8 feet. It is mostly covered with thick fur under which large muscles twitch with excitement. Its bulging neck holds a wolfhead which snarls at you.",
                     "posX": 0.5,
-                    "posY": 0.05,
+                    "posY": 0.2,
                     "fontSize": 24,
                     "addBackground": true
                 }
@@ -1275,36 +1284,36 @@
             "sceneId": "SC043",
             "elements": {
                 "elementsArray": [
+                    {
+                        "type": "image",
+                        "imageFile": "cave-moonlight.jpg",
+                        "posX": 0.5,
+                        "posY": 0.5,
+                        "scale": 0,
+                        "transformations": []
+                    },
+                                    {
+                        "type": "image",
+                        "imageFile": "werewolf-s-howling-color",
+                        "posX": 0.15,
+                        "posY": 0.45,
+                        "scale": 0.2,
+                        "transformations": []
+                    },
                 {
                     "type": "image",
-                    "imageFile": "cave-moonlight",
-                    "posX": 0.5,
-                    "posY": 0.5,
-                    "scale": 0,
+                    "imageFile": "archer-fight-color.png",
+                    "posX": 0.75,
+                    "posY": 0.45,
+                    "scale": 0.2,
                     "transformations": []
                 },
                 {
                     "type": "image",
-                    "imageFile": "werewolf_s_snarling",
-                    "posX": 0.5,
-                    "posY": 0.5,
-                    "scale": 0,
-                    "transformations": []
-                },
-                {
-                    "type": "image",
-                    "imageFile": "archer_fighting_color.png",
-                    "posX": 0.5,
-                    "posY": 0.5,
-                    "scale": 0,
-                    "transformations": []
-                },
-                {
-                    "type": "image",
-                    "imageFile": "fighter_s_attacking",
-                    "posX": 0.5,
-                    "posY": 0.5,
-                    "scale": 0,
+                    "imageFile": "fighter-fight-color.png",
+                    "posX": 0.75,
+                    "posY": 0.4,
+                    "scale": 0.2,
                     "transformations": []
                 },                
                 {
@@ -1325,7 +1334,7 @@
                 "elementsArray": [
                 {
                     "type": "image",
-                    "imageFile": "cave-moonlight",
+                    "imageFile": "cave-moonlight.jpg",
                     "posX": 0.5,
                     "posY": 0.5,
                     "scale": 0,
@@ -1333,28 +1342,28 @@
                 },
                 {
                     "type": "image",
-                    "imageFile": "werewolf_s_snarling",
-                    "posX": 0.5,
-                    "posY": 0.5,
-                    "scale": 0,
+                    "imageFile": "werewolf-s-howling-color",
+                    "posX": 0.15,
+                    "posY": 0.45,
+                    "scale": 0.2,
                     "transformations": []
                 },
                 {
-                    "type": "image",
-                    "imageFile": "archer_fighting_color.png",
-                    "posX": 0.5,
-                    "posY": 0.5,
-                    "scale": 0,
-                    "transformations": []
+                "type": "image",
+                "imageFile": "archer-fight-color.png",
+                "posX": 0.75,
+                "posY": 0.45,
+                "scale": 0.2,
+                "transformations": []
                 },
                 {
-                    "type": "image",
-                    "imageFile": "fighter_s_attacking",
-                    "posX": 0.5,
-                    "posY": 0.5,
-                    "scale": 0,
-                    "transformations": []
-                },    
+                "type": "image",
+                "imageFile": "fighter-fight-color.png",
+                "posX": 0.75,
+                "posY": 0.4,
+                "scale": 0.2,
+                "transformations": []
+                },
                 {
                     "type": "textLabel",
                     "content": "Using your reaction you manage to hit the creature from the side. In a trained move your sword enters the creatures side from the armpit up and until its hilt cutting through flesh like butter. The creature howls out of pain and stumbles to then kick you away from it, with its blood rushing out of the wound.",
@@ -1373,18 +1382,18 @@
                 "elementsArray": [
                 {
                     "type": "image",
-                    "imageFile": "cave-moonlight",
+                    "imageFile": "cave-moonlight.jpg",
                     "posX": 0.5,
                     "posY": 0.5,
                     "scale": 0,
                     "transformations": []
                 },
-                                {
+                {
                     "type": "image",
-                    "imageFile": "werewolf_s_snarling_bloodied",
+                    "imageFile": "werewolf-s-snarling-color-injured.png",
                     "posX": 0.5,
-                    "posY": 0.5,
-                    "scale": 0,
+                    "posY": 0.4,
+                    "scale": 0.3,
                     "transformations": []
                 },
                 {
@@ -1405,7 +1414,7 @@
                 "elementsArray": [
                 {
                     "type": "image",
-                    "imageFile": "cave-moonlight",
+                    "imageFile": "cave-moonlight.jpg",
                     "posX": 0.5,
                     "posY": 0.5,
                     "scale": 0,
@@ -1413,17 +1422,17 @@
                 },
                                 {
                     "type": "image",
-                    "imageFile": "werewolf_s_howling",
+                    "imageFile": "werewolf-s-howling-color.png",
                     "posX": 0.5,
-                    "posY": 0.5,
-                    "scale": 0,
+                    "posY": 0.4,
+                    "scale": 0.3,
                     "transformations": []
                 },
                 {
                     "type": "textLabel",
                     "content": "You are worthy! What a pity though that you are not of my tribe so I have to kill you anyway",
                     "posX": 0.5,
-                    "posY": 0.05,
+                    "posY": 0.3,
                     "fontSize": 24,
                     "addBackground": true,
                     "style": "bold"
@@ -1432,9 +1441,9 @@
                     "type": "textLabel",
                     "content": "And it starts howling at the moon.",
                     "posX": 0.5,
-                    "posY": 0.92,
-                    "fontSize": 36,
-                    "fontSizeH": 48
+                    "posY": 0.22,
+                    "addBackground": true,
+                    "fontSize": 24
                 }
             ]},
             "background": "black",
@@ -1456,7 +1465,7 @@
                 "elementsArray": [
                 {
                     "type": "image",
-                    "imageFile": "cave-moonlight",
+                    "imageFile": "cave-moonlight.jpg",
                     "posX": 0.5,
                     "posY": 0.5,
                     "scale": 0,
@@ -1504,7 +1513,7 @@
                 "elementsArray": [
                 {
                     "type": "image",
-                    "imageFile": "cave-moonlight",
+                    "imageFile": "cave-moonlight.jpg",
                     "posX": 0.5,
                     "posY": 0.5,
                     "scale": 0,
@@ -1558,7 +1567,7 @@
                 "elementsArray": [
                 {
                     "type": "image",
-                    "imageFile": "cave-moonlight",
+                    "imageFile": "cave-moonlight.jpg",
                     "posX": 0.5,
                     "posY": 0.5,
                     "scale": 0,
@@ -1606,7 +1615,7 @@
                 "elementsArray": [
                 {
                     "type": "image",
-                    "imageFile": "cave-moonlight",
+                    "imageFile": "cave-moonlight.jpg",
                     "posX": 0.5,
                     "posY": 0.5,
                     "scale": 0,
@@ -2374,7 +2383,7 @@
                 "elementsArray": [
                 {
                     "type": "image",
-                    "imageFile": "cave-closed",
+                    "imageFile": "cave-closed.jpg",
                     "posX": 0.5,
                     "posY": 0.5,
                     "scale": 0,
@@ -2424,7 +2433,7 @@
                 "elementsArray": [
                 {
                     "type": "image",
-                    "imageFile": "cave-closed",
+                    "imageFile": "cave-closed.jpg",
                     "posX": 0.5,
                     "posY": 0.5,
                     "scale": 0,
@@ -2454,7 +2463,7 @@
                 "elementsArray": [
                 {
                     "type": "image",
-                    "imageFile": "cave-closed",
+                    "imageFile": "cave-closed.jpg",
                     "posX": 0.5,
                     "posY": 0.5,
                     "scale": 0,
@@ -2478,7 +2487,7 @@
                 "elementsArray": [
                 {
                     "type": "image",
-                    "imageFile": "cave-inside",
+                    "imageFile": "cave-inside.jpg",
                     "posX": 0.5,
                     "posY": 0.5,
                     "scale": 0,
@@ -2502,7 +2511,7 @@
                 "elementsArray": [
                 {
                     "type": "image",
-                    "imageFile": "cave-inside",
+                    "imageFile": "cave-inside.jpg",
                     "posX": 0.5,
                     "posY": 0.5,
                     "scale": 0,
@@ -2543,7 +2552,7 @@
                 "elementsArray": [
                 {
                     "type": "image",
-                    "imageFile": "cave-inside",
+                    "imageFile": "cave-inside.jpg",
                     "posX": 0.5,
                     "posY": 0.5,
                     "scale": 0,
@@ -2575,7 +2584,7 @@
                 "elementsArray": [
                 {
                     "type": "image",
-                    "imageFile": "cave-inside",
+                    "imageFile": "cave-inside.jpg",
                     "posX": 0.5,
                     "posY": 0.5,
                     "scale": 0,
@@ -2626,7 +2635,7 @@
                 "elementsArray": [
                 {
                     "type": "image",
-                    "imageFile": "cave-inside",
+                    "imageFile": "cave-inside.jpg",
                     "posX": 0.5,
                     "posY": 0.5,
                     "scale": 0,
@@ -2651,7 +2660,7 @@
                 "elementsArray": [
                 {
                     "type": "image",
-                    "imageFile": "cave-inside",
+                    "imageFile": "cave-inside.jpg",
                     "posX": 0.5,
                     "posY": 0.5,
                     "scale": 0,
@@ -2692,7 +2701,7 @@
                 "elementsArray": [
                 {
                     "type": "image",
-                    "imageFile": "cave-inside",
+                    "imageFile": "cave-inside.jpg",
                     "posX": 0.5,
                     "posY": 0.5,
                     "scale": 0,
@@ -2733,7 +2742,7 @@
                 "elementsArray": [
                 {
                     "type": "image",
-                    "imageFile": "cave-inside",
+                    "imageFile": "cave-inside.jpg",
                     "posX": 0.5,
                     "posY": 0.5,
                     "scale": 0,
@@ -2765,7 +2774,7 @@
                 "elementsArray": [
                 {
                     "type": "image",
-                    "imageFile": "cave-bloodpool",
+                    "imageFile": "cave-bloodpool.jpg",
                     "posX": 0.5,
                     "posY": 0.5,
                     "scale": 0,
@@ -2797,7 +2806,7 @@
                 "elementsArray": [
                 {
                     "type": "image",
-                    "imageFile": "cave-bloodpool",
+                    "imageFile": "cave-bloodpool.jpg",
                     "posX": 0.5,
                     "posY": 0.5,
                     "scale": 0,
@@ -2830,7 +2839,7 @@
                 "elementsArray": [
                 {
                     "type": "image",
-                    "imageFile": "cave-bloodpool",
+                    "imageFile": "cave-bloodpool.jpg",
                     "posX": 0.5,
                     "posY": 0.5,
                     "scale": 0,
@@ -2862,7 +2871,7 @@
                 "elementsArray": [
                 {
                     "type": "image",
-                    "imageFile": "cave-bloodpool",
+                    "imageFile": "cave-bloodpool.jpg",
                     "posX": 0.5,
                     "posY": 0.5,
                     "scale": 0,
@@ -2894,7 +2903,7 @@
                 "elementsArray": [
                 {
                     "type": "image",
-                    "imageFile": "cave-bloodpool",
+                    "imageFile": "cave-bloodpool.jpg",
                     "posX": 0.5,
                     "posY": 0.5,
                     "scale": 0,
@@ -2932,7 +2941,7 @@
                 "elementsArray": [
                 {
                     "type": "image",
-                    "imageFile": "cave-inside",
+                    "imageFile": "cave-inside.jpg",
                     "posX": 0.5,
                     "posY": 0.5,
                     "scale": 0,
@@ -2973,7 +2982,7 @@
                 "elementsArray": [
                 {
                     "type": "image",
-                    "imageFile": "cave-bloodpool",
+                    "imageFile": "cave-bloodpool.jpg",
                     "posX": 0.5,
                     "posY": 0.5,
                     "scale": 0,
@@ -3005,7 +3014,7 @@
                 "elementsArray": [
                 {
                     "type": "image",
-                    "imageFile": "cave-bloodpool",
+                    "imageFile": "cave-bloodpool.jpg",
                     "posX": 0.5,
                     "posY": 0.5,
                     "scale": 0,
@@ -3046,7 +3055,7 @@
                 "elementsArray": [
                 {
                     "type": "image",
-                    "imageFile": "cave-bloodpool",
+                    "imageFile": "cave-bloodpool.jpg",
                     "posX": 0.5,
                     "posY": 0.5,
                     "scale": 0,
@@ -3078,7 +3087,7 @@
                 "elementsArray": [
                 {
                     "type": "image",
-                    "imageFile": "cave-bloodpool",
+                    "imageFile": "cave-bloodpool.jpg",
                     "posX": 0.5,
                     "posY": 0.5,
                     "scale": 0,
