@@ -1623,6 +1623,14 @@
                 },
                 {
                     "type": "image",
+                    "imageFile": "archer-s-falling.png",
+                    "posX": 0.8,
+                    "posY": 0.8,
+                    "scale": 0.2,
+                    "transformations": []
+                },
+                {
+                    "type": "image",
                     "imageFile": "fighter-s-falling.png",
                     "posX": 0.5,
                     "posY": 0.75,
