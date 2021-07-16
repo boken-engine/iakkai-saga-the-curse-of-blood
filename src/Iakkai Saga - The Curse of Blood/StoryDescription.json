@@ -1473,28 +1473,28 @@
                 },
                 {
                     "type": "image",
-                    "imageFile": "werewolf_s_snarling",
-                    "posX": 0.5,
-                    "posY": 0.5,
-                    "scale": 0,
+                    "imageFile": "werewolf-s-howling-color",
+                    "posX": 0.15,
+                    "posY": 0.45,
+                    "scale": 0.2,
                     "transformations": []
                 },
                 {
-                    "type": "image",
-                    "imageFile": "archer_fighting_color.png",
-                    "posX": 0.5,
-                    "posY": 0.5,
-                    "scale": 0,
-                    "transformations": []
+                "type": "image",
+                "imageFile": "archer-fight-color.png",
+                "posX": 0.75,
+                "posY": 0.45,
+                "scale": 0.2,
+                "transformations": []
                 },
                 {
-                    "type": "image",
-                    "imageFile": "fighter_s_attacking",
-                    "posX": 0.5,
-                    "posY": 0.5,
-                    "scale": 0,
-                    "transformations": []
-                },   
+                "type": "image",
+                "imageFile": "fighter-fight-color.png",
+                "posX": 0.75,
+                "posY": 0.4,
+                "scale": 0.2,
+                "transformations": []
+                },
                 {
                     "type": "textLabel",
                     "content": "The Hunter behind you manages to shoot two arrows and then jumps at the werewolf drawing his sword. Though hit in the head the creature jumps at the hunter and grabs him pressing him to itself and biting his neck while his spine breaks. You in despair grab the sword again and attack it from behind without success since it slams you with the hunters torn body.",
@@ -1521,33 +1521,33 @@
                 },
                 {
                     "type": "image",
-                    "imageFile": "werewolf_s_snarling",
-                    "posX": 0.5,
-                    "posY": 0.5,
-                    "scale": 0,
+                    "imageFile": "werewolf-s-howling-color",
+                    "posX": 0.15,
+                    "posY": 0.45,
+                    "scale": 0.2,
                     "transformations": []
                 },
                 {
-                    "type": "image",
-                    "imageFile": "archer_fighting_color.png",
-                    "posX": 0.5,
-                    "posY": 0.5,
-                    "scale": 0,
-                    "transformations": []
+                "type": "image",
+                "imageFile": "archer-fight-color.png",
+                "posX": 0.75,
+                "posY": 0.45,
+                "scale": 0.2,
+                "transformations": []
                 },
                 {
-                    "type": "image",
-                    "imageFile": "fighter_s_attacking",
-                    "posX": 0.5,
-                    "posY": 0.5,
-                    "scale": 0,
-                    "transformations": []
-                },   
+                "type": "image",
+                "imageFile": "fighter-fight-color.png",
+                "posX": 0.75,
+                "posY": 0.4,
+                "scale": 0.2,
+                "transformations": []
+                },
                 {
                     "type": "textLabel",
                     "content": "Again you fall to the ground and have the werewolf at your throat ripping you appart. You die in agony with the sight of a howling werewolf.",
                     "posX": 0.5,
-                    "posY": 0.05,
+                    "posY": 0.15,
                     "fontSize": 24,
                     "addBackground": true
                 }
@@ -1575,58 +1575,26 @@
                 },
                 {
                     "type": "image",
-                    "imageFile": "werewolf_b_color.png",
-                    "posX": 0.5,
-                    "posY": 0.5,
-                    "scale": 0,
+                    "imageFile": "werewolf-s-howling-color.png",
+                    "posX": 0.15,
+                    "posY": 0.45,
+                    "scale": 0.2,
                     "transformations": []
                 },
                 {
                     "type": "image",
-                    "imageFile": "archer_b_color.png",
-                    "posX": 0.5,
-                    "posY": 0.5,
-                    "scale": 0,
+                    "imageFile": "archer-fight-color.png",
+                    "posX": 0.75,
+                    "posY": 0.45,
+                    "scale": 0.2,
                     "transformations": []
                 },
                 {
                     "type": "image",
-                    "imageFile": "fighter-b-color.png",
-                    "posX": 0.5,
-                    "posY": 0.5,
-                    "scale": 0,
-                    "transformations": []
-                },   
-                {
-                    "type": "textLabel",
-                    "content": "The Hunter behind you manages to shoot two arrows and then jumps towards you to grab you under the arms and run for the cliff. The creature even though shot in the head jumps behind you and the hunter. Its claws hitting you in the back ripping through your flesh while you and the hunter fall over the cliff.",
-                    "posX": 0.5,
-                    "posY": 0.05,
-                    "fontSize": 24,
-                    "addBackground": true
-                }
-            ]},
-            "background": "black",
-            "navigation": "next"
-        },
-                {
-            "sceneId": "SC046",
-            "elements": {
-                "elementsArray": [
-                {
-                    "type": "image",
-                    "imageFile": "cave-moonlight.jpg",
-                    "posX": 0.5,
-                    "posY": 0.5,
-                    "scale": 0,
-                    "transformations": []
-                },
-                                {
-                    "type": "image",
-                    "imageFile": "scape",
-                    "posX": 0.5,
-                    "posY": 0.5,
-                    "scale": 0,
+                    "imageFile": "fighter-fight-color.png",
+                    "posX": 0.75,
+                    "posY": 0.4,
+                    "scale": 0.2,
                     "transformations": []
                 },
                 {
@@ -1647,7 +1615,7 @@
                 "elementsArray": [
                 {
                     "type": "image",
-                    "imageFile": "falling",
+                    "imageFile": "falling.jpg",
                     "posX": 0.5,
                     "posY": 0.5,
                     "scale": 0,
@@ -1655,18 +1623,10 @@
                 },
                 {
                     "type": "image",
-                    "imageFile": "archer_s_falling",
+                    "imageFile": "fighter-s-falling.png",
                     "posX": 0.5,
-                    "posY": 0.5,
-                    "scale": 0,
-                    "transformations": []
-                },
-                {
-                    "type": "image",
-                    "imageFile": "fighter_s_falling",
-                    "posX": 0.5,
-                    "posY": 0.5,
-                    "scale": 0,
+                    "posY": 0.75,
+                    "scale": 0.2,
                     "transformations": []
                 },                
                 {
@@ -1687,7 +1647,7 @@
                 "elementsArray": [
                 {
                     "type": "image",
-                    "imageFile": "mage-bedroom",
+                    "imageFile": "mage-bedroom.jpg",
                     "posX": 0.5,
                     "posY": 0.5,
                     "scale": 0,
@@ -1696,9 +1656,9 @@
                                 {
                     "type": "image",
                     "imageFile": "fighter-f-color-02.png",
-                    "posX": 0.5,
-                    "posY": 0.5,
-                    "scale": 0,
+                    "posX": 0.85,
+                    "posY": 0.35,
+                    "scale": 0.4,
                     "transformations": []
                 },
                 {
@@ -1719,15 +1679,7 @@
                 "elementsArray": [
                 {
                     "type": "image",
-                    "imageFile": "mage-tower",
-                    "posX": 0.5,
-                    "posY": 0.5,
-                    "scale": 0,
-                    "transformations": []
-                },
-                {
-                    "type": "image",
-                    "imageFile": "archmage_f_color.png",
+                    "imageFile": "mage-tower.jpg",
                     "posX": 0.5,
                     "posY": 0.5,
                     "scale": 0,
@@ -1736,17 +1688,25 @@
                 {
                     "type": "image",
                     "imageFile": "archer-f-color.png",
-                    "posX": 0.5,
-                    "posY": 0.5,
-                    "scale": 0,
+                    "posX": 0.85,
+                    "posY": 0.35,
+                    "scale": 0.3,
                     "transformations": []
                 },
                 {
                     "type": "image",
-                    "imageFile": "fighter_b_no_cape",
-                    "posX": 0.5,
-                    "posY": 0.5,
-                    "scale": 0,
+                    "imageFile": "archmage-f-color.png",
+                    "posX": 0.6,
+                    "posY": 0.35,
+                    "scale": 0.4,
+                    "transformations": []
+                },
+                {
+                    "type": "image",
+                    "imageFile": "fighter-b-color.png",
+                    "posX": 0.2,
+                    "posY": 0.2,
+                    "scale": 0.4,
                     "transformations": []
                 },                
                 {
@@ -1767,18 +1727,18 @@
                 "elementsArray": [
                 {
                     "type": "image",
-                    "imageFile": "mage-tower",
+                    "imageFile": "mage-tower.jpg",
                     "posX": 0.5,
                     "posY": 0.5,
                     "scale": 0,
                     "transformations": []
                 },
-                                {
+                {
                     "type": "image",
-                    "imageFile": "archmage_f_color.png",
+                    "imageFile": "archmage-f-color.png",
                     "posX": 0.5,
-                    "posY": 0.5,
-                    "scale": 0,
+                    "posY": 0.35,
+                    "scale": 0.4,
                     "transformations": []
                 },
                 {
@@ -1800,18 +1760,18 @@
                 "elementsArray": [
                 {
                     "type": "image",
-                    "imageFile": "mage-tower",
+                    "imageFile": "mage-tower.jpg",
                     "posX": 0.5,
                     "posY": 0.5,
                     "scale": 0,
                     "transformations": []
                 },
-                                {
+                {
                     "type": "image",
-                    "imageFile": "archmage_f_color.png",
+                    "imageFile": "archmage-f-color.png",
                     "posX": 0.5,
-                    "posY": 0.5,
-                    "scale": 0,
+                    "posY": 0.35,
+                    "scale": 0.4,
                     "transformations": []
                 },
                 {
@@ -1832,25 +1792,25 @@
                 "elementsArray": [
                 {
                     "type": "image",
-                    "imageFile": "mage-tower",
-                    "posX": 0.5,
-                    "posY": 0.5,
-                    "scale": 0,
-                    "transformations": []
-                },
-                                {
-                    "type": "image",
-                    "imageFile": "archmage_f_color.png",
+                    "imageFile": "mage-tower.jpg",
                     "posX": 0.5,
                     "posY": 0.5,
                     "scale": 0,
                     "transformations": []
                 },
                 {
+                    "type": "image",
+                    "imageFile": "archmage-f-color.png",
+                    "posX": 0.5,
+                    "posY": 0.35,
+                    "scale": 0.4,
+                    "transformations": []
+                },
+                {
                     "type": "textLabel",
                     "content": "May I ask how you feel and have a look at your wounds?",
                     "posX": 0.5,
-                    "posY": 0.05,
+                    "posY": 0.32,
                     "fontSize": 24,
                     "addBackground": true,
                     "style": "bold"
@@ -1859,9 +1819,9 @@
                     "type": "textLabel",
                     "content": "You nod and quietly sit down on the bed, letting him take away the bandages. Alchimeo examines with his fingers pressing at different locations of your back, asking if you feel pain. You feel none at all.",
                     "posX": 0.5,
-                    "posY": 0.92,
-                    "fontSize": 36,
-                    "fontSizeH": 48
+                    "posY": 0.05,
+                    "addBackground": true,
+                    "fontSize": 24
                 }                
             ]},
             "background": "black",
@@ -1873,7 +1833,7 @@
                 "elementsArray": [
                 {
                     "type": "image",
-                    "imageFile": "mage-tower",
+                    "imageFile": "mage-tower.jpg",
                     "posX": 0.5,
                     "posY": 0.5,
                     "scale": 0,
@@ -1881,9 +1841,9 @@
                 },
                                 {
                     "type": "image",
-                    "imageFile": "archmage_f_color.png",
+                    "imageFile": "archmage-f-color.png",
                     "posX": 0.5,
-                    "posY": 0.5,
+                    "posY": 0.35,
                     "scale": 0,
                     "transformations": []
                 },
@@ -1891,34 +1851,34 @@
                     "type": "textLabel",
                     "content": "Alchimea steps back and ponders holding a finger to her chin, then turns to Ron.",
                     "posX": 0.5,
-                    "posY": 0.82,
-                    "fontSize": 36,
-                    "fontSizeH": 48
+                    "posY": 0.45,
+                    "fontSize": 24,
+                    "addBackground": true
                 },                
                 {
                     "type": "textLabel",
                     "content": "Ron could you go to the first floor and bring some new clothes for our friend?",
                     "posX": 0.5,
-                    "posY": 0.84,
-                    "fontSize": 36,
-                    "fontSizeH": 48,
+                    "posY": 0.32,
+                    "fontSize": 24,
+                    "addBackground": true,
                     "style": "bold"
                 },
                 {
                     "type": "textLabel",
                     "content": "Ron leaves the room and you hear him walking down the hallway. Alchimeo grabs a chair and sits down in front of you and speaks:",
                     "posX": 0.5,
-                    "posY": 0.90,
-                    "fontSize": 36,
-                    "fontSizeH": 48
+                    "posY": 0.15,
+                    "fontSize": 24,
+                    "addBackground": true
                 },
                 {
                     "type": "textLabel",
                     "content": "Ron has told me about your encounter with the creature.",
                     "posX": 0.5,
-                    "posY": 0.94,
-                    "fontSize": 36,
-                    "fontSizeH": 48,
+                    "posY": 0.05,
+                    "fontSize": 24,
+                    "addBackground": true,
                     "style": "bold"
                 }                 
             ]},
@@ -1931,7 +1891,7 @@
                 "elementsArray": [
                 {
                     "type": "image",
-                    "imageFile": "mage-tower",
+                    "imageFile": "mage-tower.jpg",
                     "posX": 0.5,
                     "posY": 0.5,
                     "scale": 0,
@@ -1939,9 +1899,9 @@
                 },
                                 {
                     "type": "image",
-                    "imageFile": "archmage_f_color.png",
+                    "imageFile": "archmage-f-color.png",
                     "posX": 0.5,
-                    "posY": 0.5,
+                    "posY": 0.35,
                     "scale": 0,
                     "transformations": []
                 },
@@ -1964,7 +1924,7 @@
                 "elementsArray": [
                 {
                     "type": "image",
-                    "imageFile": "mage-tower",
+                    "imageFile": "mage-tower.jpg",
                     "posX": 0.5,
                     "posY": 0.5,
                     "scale": 0,
@@ -1972,9 +1932,9 @@
                 },
                                 {
                     "type": "image",
-                    "imageFile": "archmage_f_color.png",
+                    "imageFile": "archmage-f-color.png",
                     "posX": 0.5,
-                    "posY": 0.5,
+                    "posY": 0.35,
                     "scale": 0,
                     "transformations": []
                 },
@@ -1997,7 +1957,7 @@
                 "elementsArray": [
                 {
                     "type": "image",
-                    "imageFile": "mage-tower",
+                    "imageFile": "mage-tower.jpg",
                     "posX": 0.5,
                     "posY": 0.5,
                     "scale": 0,
@@ -2005,9 +1965,9 @@
                 },
                                 {
                     "type": "image",
-                    "imageFile": "archmage_f_color.png",
+                    "imageFile": "archmage-f-color.png",
                     "posX": 0.5,
-                    "posY": 0.5,
+                    "posY": 0.35,
                     "scale": 0,
                     "transformations": []
                 },
@@ -2030,7 +1990,7 @@
                 "elementsArray": [
                 {
                     "type": "image",
-                    "imageFile": "mage-tower",
+                    "imageFile": "mage-tower.jpg",
                     "posX": 0.5,
                     "posY": 0.5,
                     "scale": 0,
@@ -2038,9 +1998,9 @@
                 },
                                 {
                     "type": "image",
-                    "imageFile": "archmage_f_color.png",
+                    "imageFile": "archmage-f-color.png",
                     "posX": 0.5,
-                    "posY": 0.5,
+                    "posY": 0.35,
                     "scale": 0,
                     "transformations": []
                 },
@@ -2063,7 +2023,7 @@
                 "elementsArray": [
                 {
                     "type": "image",
-                    "imageFile": "mage-tower",
+                    "imageFile": "mage-tower.jpg",
                     "posX": 0.5,
                     "posY": 0.5,
                     "scale": 0,
@@ -2071,9 +2031,9 @@
                 },
                                 {
                     "type": "image",
-                    "imageFile": "archmage_f_color.png",
+                    "imageFile": "archmage-f-color.png",
                     "posX": 0.5,
-                    "posY": 0.5,
+                    "posY": 0.35,
                     "scale": 0,
                     "transformations": []
                 },
@@ -2096,7 +2056,7 @@
                 "elementsArray": [
                 {
                     "type": "image",
-                    "imageFile": "mage-tower",
+                    "imageFile": "mage-tower.jpg",
                     "posX": 0.5,
                     "posY": 0.5,
                     "scale": 0,
@@ -2104,9 +2064,9 @@
                 },
                                 {
                     "type": "image",
-                    "imageFile": "archmage_f_color.png",
+                    "imageFile": "archmage-f-color.png",
                     "posX": 0.5,
-                    "posY": 0.5,
+                    "posY": 0.35,
                     "scale": 0,
                     "transformations": []
                 },
@@ -2129,7 +2089,7 @@
                 "elementsArray": [
                 {
                     "type": "image",
-                    "imageFile": "mage-tower",
+                    "imageFile": "mage-tower.jpg",
                     "posX": 0.5,
                     "posY": 0.5,
                     "scale": 0,
@@ -2137,9 +2097,9 @@
                 },
                                 {
                     "type": "image",
-                    "imageFile": "archmage_f_color.png",
+                    "imageFile": "archmage-f-color.png",
                     "posX": 0.5,
-                    "posY": 0.5,
+                    "posY": 0.35,
                     "scale": 0,
                     "transformations": []
                 },
@@ -2162,7 +2122,7 @@
                 "elementsArray": [
                 {
                     "type": "image",
-                    "imageFile": "mage-tower",
+                    "imageFile": "mage-tower.jpg",
                     "posX": 0.5,
                     "posY": 0.5,
                     "scale": 0,
@@ -2170,9 +2130,9 @@
                 },
                                 {
                     "type": "image",
-                    "imageFile": "archmage_f_color.png",
+                    "imageFile": "archmage-f-color.png",
                     "posX": 0.5,
-                    "posY": 0.5,
+                    "posY": 0.35,
                     "scale": 0,
                     "transformations": []
                 },
@@ -2195,7 +2155,7 @@
                 "elementsArray": [
                 {
                     "type": "image",
-                    "imageFile": "mage-tower",
+                    "imageFile": "mage-tower.jpg",
                     "posX": 0.5,
                     "posY": 0.5,
                     "scale": 0,
@@ -2203,9 +2163,9 @@
                 },
                                 {
                     "type": "image",
-                    "imageFile": "archmage_f_color.png",
+                    "imageFile": "archmage-f-color.png",
                     "posX": 0.5,
-                    "posY": 0.5,
+                    "posY": 0.365,
                     "scale": 0,
                     "transformations": []
                 },
@@ -2227,7 +2187,7 @@
                 "elementsArray": [
                 {
                     "type": "image",
-                    "imageFile": "three-items",
+                    "imageFile": "three-items.jpg",
                     "posX": 0.5,
                     "posY": 0.5,
                     "scale": 0,
@@ -2237,7 +2197,7 @@
                     "type": "textLabel",
                     "content": "A sword made of silver. 20 silver arrow heads, a rope of strange texture and smell and an amulet made of stone. When handing over each item Alchimea speaks:",
                     "posX": 0.5,
-                    "posY": 0.05,
+                    "posY": 0.18,
                     "fontSize": 24,
                     "addBackground": true
                 },
@@ -2245,10 +2205,10 @@
                     "type": "textLabel",
                     "content": "The Iakkai's healing power is slowed down when hurt through silver weapons.",
                     "posX": 0.5,
-                    "posY": 0.92,
-                    "fontSize": 36,
-                    "fontSizeH": 48,
-                    "style": "bold"
+                    "posY": 0.05,
+                    "fontSize": 24,
+                    "style": "bold",
+                    "addBackground": true
                 }                
             ]},
             "background": "black",
@@ -2260,7 +2220,7 @@
                 "elementsArray": [
                 {
                     "type": "image",
-                    "imageFile": "three-items",
+                    "imageFile": "three-items.jpg",
                     "posX": 0.5,
                     "posY": 0.5,
                     "scale": 0,
@@ -2270,10 +2230,10 @@
                     "type": "textLabel",
                     "content": "The rope is to lay a trap and bind the Iakkai if you can capture him  It will deactivate its magic. The weapons are if you cannot do this and must defend yourselves. The amulet prevents you from changing your shape but gives you access to your magic abilities of greater strength",
                     "posX": 0.5,
-                    "posY": 0.92,
-                    "fontSize": 36,
-                    "fontSizeH": 48,
-                    "style": "bold"
+                    "posY": 0.05,
+                    "fontSize": 24,
+                    "style": "bold",
+                    "addBackground": true
                 }                
             ]},
             "background": "black",
@@ -2285,7 +2245,7 @@
                 "elementsArray": [
                 {
                     "type": "image",
-                    "imageFile": "three-items",
+                    "imageFile": "three-items.jpg",
                     "posX": 0.5,
                     "posY": 0.5,
                     "scale": 0,
@@ -2310,7 +2270,7 @@
                 "elementsArray": [
                 {
                     "type": "image",
-                    "imageFile": "mage-tower",
+                    "imageFile": "mage-tower.jpg",
                     "posX": 0.5,
                     "posY": 0.5,
                     "scale": 0,
@@ -2318,9 +2278,9 @@
                 },
                                 {
                     "type": "image",
-                    "imageFile": "archmage_f_color.png",
+                    "imageFile": "archmage-f-color.png",
                     "posX": 0.5,
-                    "posY": 0.5,
+                    "posY": 0.35,
                     "scale": 0,
                     "transformations": []
                 },
@@ -2343,7 +2303,7 @@
                 "elementsArray": [
                 {
                     "type": "image",
-                    "imageFile": "mage-tower-outside",
+                    "imageFile": "mage-tower-outside.jpg",
                     "posX": 0.5,
                     "posY": 0.5,
                     "scale": 0,
@@ -2352,17 +2312,17 @@
                 {
                     "type": "image",
                     "imageFile": "fighter-b-color.png",
-                    "posX": 0.5,
-                    "posY": 0.5,
-                    "scale": 0,
+                    "posX": 0.1,
+                    "posY": 0.2,
+                    "scale": 0.25,
                     "transformations": []
                 },
                 {
                     "type": "image",
-                    "imageFile": "archer_b_color.png",
-                    "posX": 0.5,
-                    "posY": 0.5,
-                    "scale": 0,
+                    "imageFile": "archer-b-color.png",
+                    "posX": 0.9,
+                    "posY": 0.2,
+                    "scale": 0.25,
                     "transformations": []
                 },                
                 {
@@ -2392,24 +2352,24 @@
                 {
                     "type": "image",
                     "imageFile": "fighter-b-color.png",
-                    "posX": 0.5,
-                    "posY": 0.5,
-                    "scale": 0,
+                    "posX": 0.1,
+                    "posY": 0.2,
+                    "scale": 0.35,
                     "transformations": []
                 },
                 {
                     "type": "image",
-                    "imageFile": "archer_b_color.png",
-                    "posX": 0.5,
-                    "posY": 0.5,
-                    "scale": 0,
+                    "imageFile": "archer-b-color.png",
+                    "posX": 0.9,
+                    "posY": 0.2,
+                    "scale": 0.35,
                     "transformations": []
-                },  
+                },
                 {
                     "type": "textLabel",
                     "content": "You carefully approach the cave and find it closed the entrance covered again by the large stone.  You and Ron talk to each other and must decide now to try to catch the werewolf alive and if not able to to kill him.",
                     "posX": 0.5,
-                    "posY": 0.05,
+                    "posY": 0.2,
                     "fontSize": 24,
                     "addBackground": true
                 }
@@ -2440,10 +2400,26 @@
                     "transformations": []
                 },
                 {
+                    "type": "image",
+                    "imageFile": "fighter-b-color.png",
+                    "posX": 0.1,
+                    "posY": 0.2,
+                    "scale": 0.35,
+                    "transformations": []
+                },
+                {
+                    "type": "image",
+                    "imageFile": "archer-b-color.png",
+                    "posX": 0.9,
+                    "posY": 0.2,
+                    "scale": 0.35,
+                    "transformations": []
+                },
+                {
                     "type": "textLabel",
                     "content": "You convince Ron to help you lay a trap inside the cave and command Ron not to enter the cave for his safety since you will deal with him yourself showing Ron the sword in case that it does not work.",
                     "posX": 0.5,
-                    "posY": 0.05,
+                    "posY": 0.15,
                     "fontSize": 24,
                     "addBackground": true
                 }
@@ -2519,9 +2495,9 @@
                 },
                 {
                     "type": "image",
-                    "imageFile": "werewolf_b_color.png",
+                    "imageFile": "werewolf-f-color.png",
                     "posX": 0.5,
-                    "posY": 0.5,
+                    "posY": 0.35,
                     "scale": 0,
                     "transformations": []
                 },                
@@ -2529,7 +2505,7 @@
                     "type": "textLabel",
                     "content": "You again! Big mistake to have entered the cave and wait for me inside. I guess that you have seven lifes like a cat. This time however I will not give you any chance to escape and eat you alive.",
                     "posX": 0.5,
-                    "posY": 0.05,
+                    "posY": 0.15,
                     "fontSize": 24,
                     "addBackground": true,
                     "style": "bold"
@@ -2538,9 +2514,9 @@
                     "type": "textLabel",
                     "content": "The werewolf howls and jumps into the cave.",
                     "posX": 0.5,
-                    "posY": 0.92,
-                    "fontSize": 36,
-                    "fontSizeH": 48
+                    "posY": 0.05,
+                    "fontSize": 24,
+                    "addBackground": true
                 }                
             ]},
             "background": "black",
@@ -2560,9 +2536,9 @@
                 },
                 {
                     "type": "image",
-                    "imageFile": "werewolf_f_color.png",
+                    "imageFile": "werewolf-f-color.png",
                     "posX": 0.5,
-                    "posY": 0.5,
+                    "posY": 0.35,
                     "scale": 0,
                     "transformations": []
                 },                
@@ -2592,9 +2568,9 @@
                 },
                 {
                     "type": "image",
-                    "imageFile": "werewolf_f_color.png",
+                    "imageFile": "werewolf-f-color.png",
                     "posX": 0.5,
-                    "posY": 0.5,
+                    "posY": 0.35,
                     "scale": 0,
                     "transformations": []
                 },                
@@ -2602,7 +2578,7 @@
                     "type": "textLabel",
                     "content": "Words your grandmother taught you to recite when you had nightmares and were afraid, and which now you come to realize their origin.",
                     "posX": 0.5,
-                    "posY": 0.05,
+                    "posY": 0.4,
                     "fontSize": 24,
                     "addBackground": true
                 },
@@ -2610,10 +2586,10 @@
                     "type": "textLabel",
                     "content": "Lord Moon I honor thee with my life and will, so give me strength of heart and flesh.  Shine your light on me, make me see and bring peace to me.",
                     "posX": 0.5,
-                    "posY": 0.92,
-                    "fontSize": 36,
-                    "fontSizeH": 48,
-                    "style": "bold"
+                    "posY": 0.2,
+                    "fontSize": 24,
+                    "style": "bold",
+                    "addBackground": true
                 }
             ]},
             "background": "black",
@@ -2621,7 +2597,7 @@
             "branches": [
                 {
                     "label": "Lure him to the trap",
-                    "target": "SC080"
+                    "target": "SC077"
                 },
                 {
                     "label": "Talk to him",
@@ -2640,7 +2616,15 @@
                     "posY": 0.5,
                     "scale": 0,
                     "transformations": []
-                },           
+                },
+                {
+                    "type": "image",
+                    "imageFile": "werewolf-f-color.png",
+                    "posX": 0.5,
+                    "posY": 0.35,
+                    "scale": 0,
+                    "transformations": []
+                }, 
                 {
                     "type": "textLabel",
                     "content": "While the werewolf sees you and starts racing towards you, you turn and run to lure him into the trap around the next corner in the back of the cave.  Once the werewolf turns after you around the corner the trap triggers and he is tangled in the lasso.",
@@ -2660,25 +2644,17 @@
                 "elementsArray": [
                 {
                     "type": "image",
-                    "imageFile": "cave-inside.jpg",
+                    "imageFile": "spritelyingman.png",
                     "posX": 0.5,
-                    "posY": 0.5,
-                    "scale": 0,
-                    "transformations": []
-                },           
-                {
-                    "type": "image",
-                    "imageFile": "oldman_lying_color.png",
-                    "posX": 0.5,
-                    "posY": 0.5,
-                    "scale": 0,
+                    "posY": 0.7,
+                    "scale": 0.35,
                     "transformations": []
                 },                    
                 {
                     "type": "textLabel",
                     "content": "Unable to move and weakend, he cries out and shouts at you.",
                     "posX": 0.5,
-                    "posY": 0.05,
+                    "posY": 0.42,
                     "fontSize": 24,
                     "addBackground": true
                 },
@@ -2686,9 +2662,9 @@
                     "type": "textLabel",
                     "content": "Kill me you damned weakling if you are man enough to kill! I curse you and your kind. YOU ARE NOTHING BUT SCUM WITHOUT MERCY AND DARKNESS!!! WE JUST WANTED TO LIVE IN PEACE AND YOU BETRAYED US, TREATED US AS ANIMALS!! RATHER THAN ACCEPT AND UNDERSTAND US!!.",
                     "posX": 0.5,
-                    "posY": 0.92,
-                    "fontSize": 36,
-                    "fontSizeH": 48,
+                    "posY": 0.05,
+                    "fontSize": 24,
+                    "addBackground": true,
                     "style": "bold"
                 }                
             ]},
@@ -2701,25 +2677,17 @@
                 "elementsArray": [
                 {
                     "type": "image",
-                    "imageFile": "cave-inside.jpg",
+                    "imageFile": "spritelyingman.png",
                     "posX": 0.5,
-                    "posY": 0.5,
-                    "scale": 0,
+                    "posY": 0.7,
+                    "scale": 0.35,
                     "transformations": []
-                },           
-                {
-                    "type": "image",
-                    "imageFile": "oldman_lying_color.png",
-                    "posX": 0.5,
-                    "posY": 0.5,
-                    "scale": 0,
-                    "transformations": []
-                },                    
+                },
                 {
                     "type": "textLabel",
                     "content": "We are so few now almost gone now!! I am tired of waiting, living, of killing, hating  of fleeing just finish me now, please!!.",
                     "posX": 0.5,
-                    "posY": 0.05,
+                    "posY": 0.26,
                     "fontSize": 24,
                     "addBackground": true,
                     "style": "bold"
@@ -2728,9 +2696,9 @@
                     "type": "textLabel",
                     "content": "He ends up crying and weeping in a pityfull state.  Over and over reciting a poem that sounds strangely familiar.  You feel sorry for him and lay aside the sword.",
                     "posX": 0.5,
-                    "posY": 0.92,
-                    "fontSize": 36,
-                    "fontSizeH": 48
+                    "posY": 0.05,
+                    "fontSize": 24,
+                    "addBackground": true,
                 }                
             ]},
             "background": "black",
@@ -2742,20 +2710,12 @@
                 "elementsArray": [
                 {
                     "type": "image",
-                    "imageFile": "cave-inside.jpg",
+                    "imageFile": "spritelyingman.png",
                     "posX": 0.5,
-                    "posY": 0.5,
-                    "scale": 0,
+                    "posY": 0.7,
+                    "scale": 0.35,
                     "transformations": []
-                },           
-                {
-                    "type": "image",
-                    "imageFile": "oldman_lying_color.png",
-                    "posX": 0.5,
-                    "posY": 0.5,
-                    "scale": 0,
-                    "transformations": []
-                },                    
+                },
                 {
                     "type": "textLabel",
                     "content": "His words have touched your soul and reminded you of you when your grandmother took care of you.  Inside of you, you feel the need to comfort him that he is not alone and that you mean him no harm. You kneel down besides him and touch his shoulder, and recite the last verse for him.",
@@ -2779,15 +2739,7 @@
                     "posY": 0.5,
                     "scale": 0,
                     "transformations": []
-                },           
-                {
-                    "type": "image",
-                    "imageFile": "oldman_lying_color.png",
-                    "posX": 0.5,
-                    "posY": 0.5,
-                    "scale": 0,
-                    "transformations": []
-                },                    
+                },
                 {
                     "type": "textLabel",
                     "content": "He looks up at you puzzled, while you step back and walk towards the back of the cave. You stop besides the pool of blood lit up by the moon rays that enter the cave through the roof's hole.You take off your clothes and amulet and finally pile them neatly on one side. Bringing to mind your grandmother's image and and her words.",
@@ -2879,7 +2831,7 @@
                 },           
                 {
                     "type": "image",
-                    "imageFile": "star_s_color.png",
+                    "imageFile": "werewolf-s-starcolor-lookingup.png",
                     "posX": 0.5,
                     "posY": 0.5,
                     "scale": 0,
@@ -2911,7 +2863,7 @@
                 },           
                 {
                     "type": "image",
-                    "imageFile": "star_f_color.png",
+                    "imageFile": "werewolf-f-starcolor.png",
                     "posX": 0.5,
                     "posY": 0.5,
                     "scale": 0,
@@ -2921,7 +2873,7 @@
                     "type": "textLabel",
                     "content": "You look at the pool lit up by the moon and see your reflection. that of a huge werewolf with a white streak on the forehead. Behind you, the old man say to himself and starts to cry. It cannot be. The legend has come true.  Here is Star.",
                     "posX": 0.5,
-                    "posY": 0.05,
+                    "posY": 0.15,
                     "fontSize": 24,
                     "addBackground": true
                 }
@@ -2939,27 +2891,27 @@
             "sceneId": "SC088",
             "elements": {
                 "elementsArray": [
-                {
-                    "type": "image",
-                    "imageFile": "cave-inside.jpg",
-                    "posX": 0.5,
-                    "posY": 0.5,
-                    "scale": 0,
-                    "transformations": []
-                },           
-                {
-                    "type": "image",
-                    "imageFile": "fighter-f-color-02.png",
-                    "posX": 0.5,
-                    "posY": 0.5,
-                    "scale": 0,
-                    "transformations": []
-                },                    
+                    {
+                        "type": "image",
+                        "imageFile": "cave-bloodpool.jpg",
+                        "posX": 0.5,
+                        "posY": 0.5,
+                        "scale": 0,
+                        "transformations": []
+                    },
+                    {
+                        "type": "image",
+                        "imageFile": "fighter-f-color-02.png",
+                        "posX": 0.5,
+                        "posY": 0.35,
+                        "scale": 0,
+                        "transformations": []
+                    },
                 {
                     "type": "textLabel",
                     "content": "Wait, I mean you no harm. I am like you, let me prove it to you. I have been given these magical weapons to kill you, but I will not use them against one of my kind.",
                     "posX": 0.5,
-                    "posY": 0.05,
+                    "posY": 0.15,
                     "fontSize": 24,
                     "addBackground": true,
                     "style": "bold"
@@ -2968,9 +2920,9 @@
                     "type": "textLabel",
                     "content": "You drop the sword and the lasso. He looks at you puzzled, while you step back and walk towards the back of the cave.",
                     "posX": 0.5,
-                    "posY": 0.92,
-                    "fontSize": 36,
-                    "fontSizeH": 48
+                    "posY": 0.05,
+                    "fontSize": 24,
+                    "addBackground": true,
                 }
             ]},
             "background": "black",
@@ -2990,12 +2942,12 @@
                 },           
                 {
                     "type": "image",
-                    "imageFile": "fighter_s_color.png",
-                    "posX": 0.5,
-                    "posY": 0.5,
-                    "scale": 0,
+                    "imageFile": "fighter-s-color.png",
+                    "posX": 0.25,
+                    "posY": 0.35,
+                    "scale": 0.25,
                     "transformations": []
-                },                    
+                },
                 {
                     "type": "textLabel",
                     "content": "You stop besides the pool of blood lit up by the moon's light that enters the cave through the roof's hole.",
@@ -3022,17 +2974,17 @@
                 },           
                 {
                     "type": "image",
-                    "imageFile": "fighter_s_color.png",
-                    "posX": 0.5,
-                    "posY": 0.5,
-                    "scale": 0,
+                    "imageFile": "fighter-s-color.png",
+                    "posX": 0.25,
+                    "posY": 0.35,
+                    "scale": 0.25,
                     "transformations": []
-                },                    
+                },
                 {
                     "type": "textLabel",
                     "content": "Lord Moon I honor thee with my life and will, so give me strength of heart and flesh. Shine your light on me, make me see. and bring peace to me.",
                     "posX": 0.5,
-                    "posY": 0.05,
+                    "posY": 0.42,
                     "fontSize": 24,
                     "addBackground": true,
                     "style": "bold"
@@ -3041,9 +2993,9 @@
                     "type": "textLabel",
                     "content": "As you recite the words the moon's rays touch your head  and body.  You relax closing your eyes and notice how peace and calm make your heart beat slower and slower, but stronger and stronger. Slowly at first your body starts to change.  You feel both pain and pleasure and an incredible energy surging through your veins.",
                     "posX": 0.5,
-                    "posY": 0.92,
-                    "fontSize": 36,
-                    "fontSizeH": 48
+                    "posY": 0.05,
+                    "fontSize": 24,
+                    "addBackground": true,
                 }
             ]},
             "background": "black",
@@ -3063,7 +3015,7 @@
                 },           
                 {
                     "type": "image",
-                    "imageFile": "star_s_color.png",
+                    "imageFile": "werewolf-s-starcolor-lookingup.png",
                     "posX": 0.5,
                     "posY": 0.5,
                     "scale": 0,
@@ -3095,7 +3047,7 @@
                 },           
                 {
                     "type": "image",
-                    "imageFile": "star_f_color.png",
+                    "imageFile": "werewolf-f-starcolor.png",
                     "posX": 0.5,
                     "posY": 0.5,
                     "scale": 0,
@@ -3105,7 +3057,7 @@
                     "type": "textLabel",
                     "content": "You look at the pool lit up by the moon and see your reflection. that of a huge werewolf with a white streak on the forehead.  Behind you, the werewolf says to himself. It cannot be. The legend has come true. Here is Star.",
                     "posX": 0.5,
-                    "posY": 0.05,
+                    "posY": 0.15,
                     "fontSize": 24,
                     "addBackground": true
                 }
