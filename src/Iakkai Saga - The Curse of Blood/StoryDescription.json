@@ -3,6 +3,8 @@
     "scenes": [
         {
             "sceneId": "SC001",
+            "audio": "Title-Fantasy_Ambience_David_Fesliyan",
+            "audioLooping": true,
             "elements": {
                 "elementsArray": [
                 {
@@ -37,6 +39,7 @@
         },
         {
             "sceneId": "SC003",
+            "audioLooping": true,
             "elements": {
                 "elementsArray": [
                 {
@@ -109,6 +112,8 @@
         },
         {
             "sceneId": "SC006",
+            "audio": "Castle-Tiny_Kingdom_-_David_Fesliyan",
+            "audioLooping": true,
             "elements": {
                 "elementsArray": [
                 {
@@ -288,6 +293,8 @@
         },
         {
             "sceneId": "SC011",
+            "audio": "Wolfswood-Broken_Village_-_David_Fesliyan",
+            "audioLooping": true,
             "elements": {
                 "elementsArray": [
                 {
@@ -503,6 +510,8 @@
         },
         {
             "sceneId": "SC018",
+            "audio": "Cattle-Creepy_Vibes_-_David_Fesliyan",
+            "audioLooping": true,
             "elements": {
                 "elementsArray": [
                 {
@@ -561,6 +570,8 @@
         },
         {
             "sceneId": "SC020",
+            "audio": "woods-Relaxing_Green_Nature_-_David_Fesliyan",
+            "audioLooping": true,
             "elements": {
                 "elementsArray": [
                 {
@@ -728,6 +739,8 @@
         },
         {
             "sceneId": "SC025",
+            "audio": "Cattle-Creepy_Vibes_-_David_Fesliyan",
+            "audioLooping": true,
             "elements": {
                 "elementsArray": [
                 {
@@ -809,6 +822,8 @@
         },
         {
             "sceneId": "SC028",
+            "audio": "woods-Relaxing_Green_Nature_-_David_Fesliyan",
+            "audioLooping": true,
             "elements": {
                 "elementsArray": [
                 {
@@ -981,6 +996,8 @@
         },
         {
             "sceneId": "SC033",
+            "audio": "Cave-outside-Trouble_Is_Brewing_-_David_Fesliyan",
+            "audioLooping": true,
             "elements": {
                 "elementsArray": [
                 {
@@ -1127,6 +1144,8 @@
         },
         {
             "sceneId": "SC038",
+            "audio": "Cave-inside-The_Dark_Castle_-_David_Fesliyan",
+            "audioLooping": true,
             "elements": {
                 "elementsArray": [
                 {
@@ -1199,6 +1218,8 @@
         },
         {
             "sceneId": "SC041",
+            "audio": "Action-Dragon_Boss_Fight_-_David_Fesliyan",
+            "audioLooping": true,
             "elements": {
                 "elementsArray": [
                 {
@@ -1563,6 +1584,8 @@
         },
         {
             "sceneId": "SC046",
+            "audio": "chase-cliff-Conspiracy_Theory_-_David_Fesliyan",
+            "audioLooping": true,
             "elements": {
                 "elementsArray": [
                 {
@@ -1651,6 +1674,8 @@
         },
         {
             "sceneId": "SC048",
+            "audio": "Archmage-Haunted_Memories_-_David_Fesliyan",
+            "audioLooping": true,
             "elements": {
                 "elementsArray": [
                 {
@@ -2347,6 +2372,8 @@
         },     
         {
             "sceneId": "SC069",
+            "audio": "Cave-outside-Trouble_Is_Brewing_-_David_Fesliyan",
+            "audioLooping": true,
             "elements": {
                 "elementsArray": [
                 {
@@ -2467,6 +2494,8 @@
         },           
         {
             "sceneId": "SC073",
+            "audio": "Cave-inside-The_Dark_Castle_-_David_Fesliyan",
+            "audioLooping": true,
             "elements": {
                 "elementsArray": [
                 {
@@ -2762,6 +2791,8 @@
         },        
         {
             "sceneId": "SC084",
+            "audio": "Star-Warm_Light_-_David_Fesliyan",
+            "audioLooping": true,
             "elements": {
                 "elementsArray": [
                 {
@@ -2970,6 +3001,8 @@
         },             
         {
             "sceneId": "SC090",
+            "audio": "Star-Warm_Light_-_David_Fesliyan",
+            "audioLooping": true,
             "elements": {
                 "elementsArray": [
                 {
