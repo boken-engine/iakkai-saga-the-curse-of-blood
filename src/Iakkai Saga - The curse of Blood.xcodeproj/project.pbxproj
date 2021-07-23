@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5D76629326A5B0DE00382B4B /* Musicassets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D76629226A5B0DE00382B4B /* Musicassets.xcassets */; };
+		5D7A1B0B26AAD768000AAB56 /* clouds-sprite.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7A1B0A26AAD768000AAB56 /* clouds-sprite.png */; };
+		5D8F977C26A1AED1007474ED /* archer-s-falling.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D8F977B26A1AED1007474ED /* archer-s-falling.png */; };
+		5D99199D269D94C800F934F3 /* title-back.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5D99199B269D94C800F934F3 /* title-back.jpg */; };
+		5D99199E269D94C800F934F3 /* title-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D99199C269D94C800F934F3 /* title-logo.png */; };
+		5D9B1DBB26A06B2200D59F07 /* wolfs.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5D9B1DBA26A06B2200D59F07 /* wolfs.jpg */; };
 		5DA3055D2696DA9E007A51CE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA3055C2696DA9E007A51CE /* AppDelegate.swift */; };
 		5DA3055F2696DA9E007A51CE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA3055E2696DA9E007A51CE /* SceneDelegate.swift */; };
 		5DA305612696DA9E007A51CE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA305602696DA9E007A51CE /* ViewController.swift */; };
@@ -76,6 +82,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5D76629226A5B0DE00382B4B /* Musicassets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Musicassets.xcassets; sourceTree = "<group>"; };
+		5D7A1B0A26AAD768000AAB56 /* clouds-sprite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "clouds-sprite.png"; sourceTree = "<group>"; };
+		5D8F977B26A1AED1007474ED /* archer-s-falling.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "archer-s-falling.png"; sourceTree = "<group>"; };
+		5D99199B269D94C800F934F3 /* title-back.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "title-back.jpg"; sourceTree = "<group>"; };
+		5D99199C269D94C800F934F3 /* title-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "title-logo.png"; sourceTree = "<group>"; };
+		5D9B1DBA26A06B2200D59F07 /* wolfs.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wolfs.jpg; sourceTree = "<group>"; };
 		5DA305592696DA9E007A51CE /* Iakkai Saga - The Curse of Blood.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Iakkai Saga - The Curse of Blood.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DA3055C2696DA9E007A51CE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5DA3055E2696DA9E007A51CE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -184,6 +196,7 @@
 				5DA305622696DA9E007A51CE /* Main.storyboard */,
 				5DE49DE7269708710009C301 /* StoryDescription.json */,
 				5DA305652696DA9F007A51CE /* Assets.xcassets */,
+				5D76629226A5B0DE00382B4B /* Musicassets.xcassets */,
 				5DA305672696DA9F007A51CE /* LaunchScreen.storyboard */,
 				5DA3056A2696DA9F007A51CE /* Info.plist */,
 				5DE49DEC2697185D0009C301 /* assets */,
@@ -211,63 +224,68 @@
 		5DE49DED2697185D0009C301 /* common */ = {
 			isa = PBXGroup;
 			children = (
-				5DE49DEE2697185D0009C301 /* hm-trono.jpg */,
 				5DE49DEF2697185D0009C301 /* archer-b-color.png */,
-				5DE49DF02697185D0009C301 /* queen-f-color.png */,
-				5DE49DF12697185D0009C301 /* cave-closed.jpg */,
-				5DE49DF22697185D0009C301 /* werewolf-s-howling-color.png */,
-				5DE49DF32697185D0009C301 /* villager-f-color.png */,
-				5DE49DF42697185D0009C301 /* castle.jpg */,
-				5DE49DF52697185D0009C301 /* title.jpg */,
-				5DE49DF62697185D0009C301 /* three-items.jpg */,
-				5DE49DF72697185D0009C301 /* campfire.jpg */,
-				5DE49DF82697185D0009C301 /* archmage-f-color.png */,
-				5DE49DF92697185D0009C301 /* map.jpg */,
-				5DE49DFA2697185D0009C301 /* hm-archmage-room.jpg */,
-				5DE49DFB2697185D0009C301 /* hm-mage-tower-2.jpg */,
-				5DE49DFC2697185D0009C301 /* throne-room.jpg */,
-				5DE49DFD2697185D0009C301 /* werewolf-s-starcolor-lookingup.png */,
-				5DE49DFE2697185D0009C301 /* mage-tower.jpg */,
-				5DE49DFF2697185D0009C301 /* fighter-fight-color.png */,
-				5DE49E002697185D0009C301 /* cave-inside.jpg */,
-				5DE49E012697185D0009C301 /* hm-village-forest.jpg */,
-				5DE49E022697185D0009C301 /* fighter-b-color.png */,
-				5DE49E032697185D0009C301 /* fighter-s-falling.png */,
-				5DE49E042697185D0009C301 /* spritelyingman.png */,
-				5DE49E052697185D0009C301 /* hm-cattle.jpg */,
-				5DE49E062697185D0009C301 /* werewolf-f-color.png */,
-				5DE49E072697185D0009C301 /* cave-bloodpool.jpg */,
-				5DE49E082697185D0009C301 /* fighter-f-color-01.jpg */,
-				5DE49E092697185D0009C301 /* map-closeup.jpg */,
-				5DE49E0A2697185D0009C301 /* hm-forest-inside-alt2.jpg */,
-				5DE49E0B2697185D0009C301 /* cave.jpg */,
-				5DE49E0C2697185D0009C301 /* fighter-f-color-02.png */,
-				5DE49E0D2697185D0009C301 /* mage-tower-outside.jpg */,
-				5DE49E0E2697185D0009C301 /* hm-cave-moonlight.jpg */,
-				5DE49E0F2697185D0009C301 /* werewolf-s-snarling-color-injured.png */,
-				5DE49E102697185D0009C301 /* woods.jpg */,
+				5D8F977B26A1AED1007474ED /* archer-s-falling.png */,
 				5DE49E112697185D0009C301 /* archer-f-color.png */,
-				5DE49E122697185D0009C301 /* hm-wolf-tracks.jpg */,
-				5DE49E132697185D0009C301 /* mage-bedroom.jpg */,
-				5DE49E142697185D0009C301 /* hm-castle.jpg */,
-				5DE49E152697185D0009C301 /* hm-rivertrack.jpg */,
+				5DE49E1F2697185D0009C301 /* archer-fight-color.png */,
+				5DE49DF82697185D0009C301 /* archmage-f-color.png */,
+				5DE49DF72697185D0009C301 /* campfire.jpg */,
+				5DE49DF42697185D0009C301 /* castle.jpg */,
+				5DE49E222697185D0009C301 /* cattle.jpg */,
+				5DE49E072697185D0009C301 /* cave-bloodpool.jpg */,
+				5DE49DF12697185D0009C301 /* cave-closed.jpg */,
+				5DE49E002697185D0009C301 /* cave-inside.jpg */,
+				5DE49E1A2697185D0009C301 /* cave-moonlight.jpg */,
+				5DE49E0B2697185D0009C301 /* cave.jpg */,
+				5D7A1B0A26AAD768000AAB56 /* clouds-sprite.png */,
+				5DE49E212697185D0009C301 /* falling.jpg */,
+				5DE49E022697185D0009C301 /* fighter-b-color.png */,
+				5DE49E082697185D0009C301 /* fighter-f-color-01.jpg */,
+				5DE49E0C2697185D0009C301 /* fighter-f-color-02.png */,
+				5DE49E192697185D0009C301 /* fighter-f-color.png */,
+				5DE49DFF2697185D0009C301 /* fighter-fight-color.png */,
 				5DE49E162697185D0009C301 /* fighter-s-color.png */,
+				5DE49E032697185D0009C301 /* fighter-s-falling.png */,
+				5DE49E1B2697185D0009C301 /* hm_field-beside-woods.jpg */,
+				5DE49DFA2697185D0009C301 /* hm-archmage-room.jpg */,
+				5DE49E142697185D0009C301 /* hm-castle.jpg */,
+				5DE49E052697185D0009C301 /* hm-cattle.jpg */,
 				5DE49E172697185D0009C301 /* hm-cave-entrance.jpg */,
 				5DE49E182697185D0009C301 /* hm-cave-inside.jpg */,
-				5DE49E192697185D0009C301 /* fighter-f-color.png */,
-				5DE49E1A2697185D0009C301 /* cave-moonlight.jpg */,
-				5DE49E1B2697185D0009C301 /* hm_field-beside-woods.jpg */,
-				5DE49E1C2697185D0009C301 /* werewolf-f-starcolor.png */,
-				5DE49E1D2697185D0009C301 /* werewolf-b-color.png */,
+				5DE49E0E2697185D0009C301 /* hm-cave-moonlight.jpg */,
 				5DE49E1E2697185D0009C301 /* hm-forest-fire.jpg */,
-				5DE49E1F2697185D0009C301 /* archer-fight-color.png */,
-				5DE49E202697185D0009C301 /* wolfswood.jpg */,
-				5DE49E212697185D0009C301 /* falling.jpg */,
-				5DE49E222697185D0009C301 /* cattle.jpg */,
-				5DE49E232697185D0009C301 /* map-travel.jpg */,
+				5DE49E0A2697185D0009C301 /* hm-forest-inside-alt2.jpg */,
 				5DE49E242697185D0009C301 /* hm-freefall.jpg */,
-				5DE49E252697185D0009C301 /* wolfsteps.jpg */,
+				5DE49DFB2697185D0009C301 /* hm-mage-tower-2.jpg */,
+				5DE49E152697185D0009C301 /* hm-rivertrack.jpg */,
+				5DE49DEE2697185D0009C301 /* hm-trono.jpg */,
+				5DE49E012697185D0009C301 /* hm-village-forest.jpg */,
 				5DE49E262697185D0009C301 /* hm-weapons.jpg */,
+				5DE49E122697185D0009C301 /* hm-wolf-tracks.jpg */,
+				5DE49E132697185D0009C301 /* mage-bedroom.jpg */,
+				5DE49E0D2697185D0009C301 /* mage-tower-outside.jpg */,
+				5DE49DFE2697185D0009C301 /* mage-tower.jpg */,
+				5DE49E092697185D0009C301 /* map-closeup.jpg */,
+				5DE49E232697185D0009C301 /* map-travel.jpg */,
+				5DE49DF92697185D0009C301 /* map.jpg */,
+				5DE49DF02697185D0009C301 /* queen-f-color.png */,
+				5DE49E042697185D0009C301 /* spritelyingman.png */,
+				5DE49DF62697185D0009C301 /* three-items.jpg */,
+				5DE49DFC2697185D0009C301 /* throne-room.jpg */,
+				5D99199B269D94C800F934F3 /* title-back.jpg */,
+				5D99199C269D94C800F934F3 /* title-logo.png */,
+				5DE49DF52697185D0009C301 /* title.jpg */,
+				5DE49DF32697185D0009C301 /* villager-f-color.png */,
+				5DE49E1D2697185D0009C301 /* werewolf-b-color.png */,
+				5DE49E062697185D0009C301 /* werewolf-f-color.png */,
+				5DE49E1C2697185D0009C301 /* werewolf-f-starcolor.png */,
+				5DE49DF22697185D0009C301 /* werewolf-s-howling-color.png */,
+				5DE49E0F2697185D0009C301 /* werewolf-s-snarling-color-injured.png */,
+				5DE49DFD2697185D0009C301 /* werewolf-s-starcolor-lookingup.png */,
+				5D9B1DBA26A06B2200D59F07 /* wolfs.jpg */,
+				5DE49E252697185D0009C301 /* wolfsteps.jpg */,
+				5DE49E202697185D0009C301 /* wolfswood.jpg */,
+				5DE49E102697185D0009C301 /* woods.jpg */,
 			);
 			path = common;
 			sourceTree = "<group>";
@@ -299,6 +317,10 @@
 		5DA305512696DA9D007A51CE /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				KnownAssetTags = (
+					"David-Fesliyan-castle",
+					"David-Fesliyan-title",
+				);
 				LastSwiftUpdateCheck = 1250;
 				LastUpgradeCheck = 1250;
 				TargetAttributes = {
@@ -331,6 +353,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5DA305692696DA9F007A51CE /* LaunchScreen.storyboard in Resources */,
+				5D99199E269D94C800F934F3 /* title-logo.png in Resources */,
 				5DE49E592697185D0009C301 /* archer-fight-color.png in Resources */,
 				5DE49E442697185D0009C301 /* hm-forest-inside-alt2.jpg in Resources */,
 				5DE49E462697185D0009C301 /* fighter-f-color-02.png in Resources */,
@@ -378,12 +401,17 @@
 				5DE49E3E2697185D0009C301 /* spritelyingman.png in Resources */,
 				5DE49E342697185D0009C301 /* hm-archmage-room.jpg in Resources */,
 				5DE49E4D2697185D0009C301 /* mage-bedroom.jpg in Resources */,
+				5D99199D269D94C800F934F3 /* title-back.jpg in Resources */,
+				5D7A1B0B26AAD768000AAB56 /* clouds-sprite.png in Resources */,
 				5DE49E302697185D0009C301 /* three-items.jpg in Resources */,
 				5DE49E3B2697185D0009C301 /* hm-village-forest.jpg in Resources */,
 				5DE49E4B2697185D0009C301 /* archer-f-color.png in Resources */,
 				5DE49E2C2697185D0009C301 /* werewolf-s-howling-color.png in Resources */,
 				5DE49E5A2697185D0009C301 /* wolfswood.jpg in Resources */,
 				5DE49E2D2697185D0009C301 /* villager-f-color.png in Resources */,
+				5D8F977C26A1AED1007474ED /* archer-s-falling.png in Resources */,
+				5D76629326A5B0DE00382B4B /* Musicassets.xcassets in Resources */,
+				5D9B1DBB26A06B2200D59F07 /* wolfs.jpg in Resources */,
 				5DE49E402697185D0009C301 /* werewolf-f-color.png in Resources */,
 				5DA305642696DA9E007A51CE /* Main.storyboard in Resources */,
 				5DE49E2A2697185D0009C301 /* queen-f-color.png in Resources */,
@@ -574,7 +602,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XFSM7P69L4;
 				INFOPLIST_FILE = "Iakkai Saga - The Curse of Blood/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -582,7 +612,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "bokenengine.Iakkai-Saga---The-Curse-of-Blood";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -592,7 +622,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XFSM7P69L4;
 				INFOPLIST_FILE = "Iakkai Saga - The Curse of Blood/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -600,7 +632,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "bokenengine.Iakkai-Saga---The-Curse-of-Blood";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
