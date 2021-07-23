@@ -21,7 +21,13 @@
                     "posX": 0.5,
                     "posY": 0.5,
                     "scale": -1,
-                    "transformations": []
+                    "transformations": [
+                        {
+                            "type": "fade",
+                            "toValue": 1,
+                            "duration": 3
+                        }
+                    ]
                 }
             ]},
             "branches": [
@@ -47,8 +53,41 @@
                     "imageFile": "map.jpg",
                     "posX": 0.5,
                     "posY": 0.5,
-                    "scale": 0,
-                    "transformations": []
+                    "scale": 0.5,
+                    "transformations": [
+                        {
+                            "type": "scale",
+                            "toValue": 0.65,
+                            "duration": 10
+                        },
+                        {
+                            "type": "swipe",
+                            "toPosX": 0.2,
+                            "toPosXH": 0.2,
+                            "toPosY": 0.5,
+                            "toPosYH": 0.5,
+                            "duration": 10
+                        }
+                    ]
+                },
+                {
+                    "type": "image",
+                    "imageFile": "clouds-sprite.png",
+                    "posX": 0.5,
+                    "posY": 0.5,
+                    "scale": 0.5,
+                    "transformations": [
+                        {
+                            "type": "scale",
+                            "toValue": 1,
+                            "duration": 10
+                        },
+                        {
+                            "type": "fade",
+                            "toValue": 0,
+                            "duration": 10
+                        },
+                    ]
                 },
                 {
                     "type": "textLabel",
@@ -70,9 +109,9 @@
                 {
                     "type": "image",
                     "imageFile": "map.jpg",
-                    "posX": 0.5,
+                    "posX": 0.2,
                     "posY": 0.5,
-                    "scale": 0,
+                    "scale": 0.65,
                     "transformations": []
                 },
                 {
@@ -131,11 +170,20 @@
                                 {
                     "type": "image",
                     "imageFile": "fighter-f-color-02.png",
-                    "posX": 0.85,
-                    "posY": 0.25,
-                    "posYH": -0.2,
+                    "posX": 1,
+                    "posY": 0.1,
+                    "posYH": -0.35,
                     "scale": 0,
-                    "transformations": []
+                    "transformations": [
+                        {
+                            "type": "swipe",
+                            "toPosX": 0.85,
+                            "toPosXH": 0.85,
+                            "toPosY": 0.25,
+                            "toPosYH": -0.2,
+                            "duration": 10
+                        }
+                    ]
                 },
                 {
                     "type": "textLabel",
@@ -352,11 +400,20 @@
                 {
                     "type": "image",
                     "imageFile": "villager-f-color.png",
-                    "posX": 0.5,
+                    "posX": 0.35,
                     "posYH": -0.2,
                     "posY": 0.2,
                     "scale": 0,
-                    "transformations": []
+                    "transformations": [
+                        {
+                            "type": "swipe",
+                            "toPosX": 0.5,
+                            "toPosXH": 0.5,
+                            "toPosY": 0.2,
+                            "toPosYH": -0.2,
+                            "duration": 5
+                        }
+                    ]
                 },                
                 {
                     "type": "textLabel",
@@ -1309,10 +1366,24 @@
                     "type": "image",
                     "imageFile": "werewolf-f-color.png",
                     "posX": 0.5,
-                    "posYH": -0.3,
-                    "posY": 0.35,
+                    "posYH": -0.45,
+                    "posY": 0.2,
                     "scale": 0,
-                    "transformations": []
+                    "transformations": [
+                        {
+                            "type": "fade",
+                            "toValue": 1,
+                            "duration":  0.5
+                        },
+                        {
+                            "type": "swipe",
+                            "toPosX": 0.5,
+                            "toPosY": 0.35,
+                            "toPosXH": 0.5,
+                            "toPosYH": -0.3,
+                            "duration": 1
+                        }
+                    ]
                 },
                 {
                     "type": "textLabel",
@@ -1755,22 +1826,40 @@
                 {
                     "type": "image",
                     "imageFile": "archer-s-falling.png",
-                    "posX": 0.8,
-                    "posY": 0.8,
-                    "posYH": 0.4,
+                    "posX": 1,
+                    "posY": 1,
+                    "posYH": 1,
                     "scale": 0.2,
                     "scaleH": 0.1,
-                    "transformations": []
+                    "transformations": [
+                        {
+                            "type": "swipe",
+                            "toPosX": 0.8,
+                            "toPosXH": 0.8,
+                            "toPosY": 0.8,
+                            "toPosYH": 0.4,
+                            "duration": 0.5
+                        }
+                    ]
                 },
                 {
                     "type": "image",
                     "imageFile": "fighter-s-falling.png",
-                    "posX": 0.5,
-                    "posY": 0.75,
-                    "posYH": 0.35,
+                    "posX": 0.75,
+                    "posY": 1,
+                    "posYH": 1,
                     "scale": 0.2,
                     "scaleH": 0.1,
-                    "transformations": []
+                    "transformations": [
+                        {
+                            "type": "swipe",
+                            "toPosX": 0.5,
+                            "toPosXH": 0.5,
+                            "toPosY": 0.75,
+                            "toPosYH": 0.35,
+                            "duration": 0.5
+                        }
+                    ]
                 },                
                 {
                     "type": "textLabel",
@@ -3099,7 +3188,13 @@
                     "posY": 0.5,
                     "posYH": -0.4,
                     "scale": 0,
-                    "transformations": []
+                    "transformations": [
+                        {
+                            "type": "fade",
+                            "toValue": 1,
+                            "duration": 3
+                        }
+                    ]
                 },                    
                 {
                     "type": "textLabel",
@@ -3297,7 +3392,13 @@
                     "posY": 0.5,
                     "posYH": -0.4,
                     "scale": 0,
-                    "transformations": []
+                    "transformations": [
+                        {
+                            "type": "fade",
+                            "toValue": 1,
+                            "duration": 3
+                        }
+                    ]
                 },                    
                 {
                     "type": "textLabel",
@@ -3366,19 +3467,68 @@
                 },
                 {
                     "type": "textLabel",
-                    "content": "CREDITS.",
+                    "content": "CREDITS",
                     "posX": 0.5,
                     "posY": 0.9,
-                    "fontSize": 36,
-                    "fontSizeH": 48
+                    "fontSize": 30,
+                    "fontSizeH": 60
                 },
                 {
                     "type": "textLabel",
-                    "content": "Design and development:\nConstantin Bosse, José Celano, Fernando Torres, Yeray Rodríguez",
+                    "content": "Design and development:",
                     "posX": 0.5,
                     "posY": 0.8,
-                    "fontSize": 36,
-                    "fontSizeH": 48
+                    "fontSize": 18,
+                    "fontSizeH": 36
+                },
+                {
+                    "type": "textLabel",
+                    "content": "Constantin Bosse, José Celano",
+                    "posX": 0.5,
+                    "posY": 0.75,
+                    "fontSize": 18,
+                    "fontSizeH": 36
+                },
+                {
+                    "type": "textLabel",
+                    "content": "Fernando Torres, Yeray Rodríguez",
+                    "posX": 0.5,
+                    "posY": 0.725,
+                    "posYH": 0.7,
+                    "fontSize": 18,
+                    "fontSizeH": 36
+                },
+                {
+                    "type": "textLabel",
+                    "content": "Music:",
+                    "posX": 0.5,
+                    "posY": 0.6,
+                    "fontSize": 18,
+                    "fontSizeH": 36
+                },
+                {
+                    "type": "textLabel",
+                    "content": "Fesliyan Studios (fesliyanstudios.com)",
+                    "posX": 0.5,
+                    "posY": 0.55,
+                    "fontSize": 18,
+                    "fontSizeH": 36
+                },
+                {
+                    "type": "textLabel",
+                    "content": "Photos:",
+                    "posX": 0.5,
+                    "posY": 0.45,
+                    "fontSize": 18,
+                    "fontSizeH": 36
+                },
+                {
+                    "type": "textLabel",
+                    "content": "Unsplash.com, Pexels.com",
+                    "posX": 0.5,
+                    "posY": 0.4,
+                    "fontSize": 18,
+                    "fontSizeH": 36
                 },
             ]},
             "background": "black",
