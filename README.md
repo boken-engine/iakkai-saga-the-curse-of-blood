@@ -13,6 +13,6 @@
 
 <img src="raw/extra/hunter.png" alt="" width="200"/>&nbsp;
 <img src="raw/extra/village.png" alt="" width="200"/>&nbsp;
-<img src="raw/extra/tower.png" alt="" width="200"/>&nbsp
+<img src="raw/extra/tower.png" alt="" width="200"/>&nbsp;
 
 <p>Feel free to download the XCode project and create your own version of the story, using all the feature offered by the <a href="https://github.com/boken-engine/boken-engine">Boken Engine</a> framework.
