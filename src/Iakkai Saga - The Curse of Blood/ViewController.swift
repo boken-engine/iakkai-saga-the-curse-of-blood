@@ -14,6 +14,7 @@ class ViewController: UIViewController {
 
     var sceneManager: SceneManager? = nil
     var lastUpdateTime: Int64 = 0;
+    var rotationManager: RotationManager? = nil;
     
     override func viewDidLoad() {
         
@@ -27,27 +28,8 @@ class ViewController: UIViewController {
 
         sceneManager!.setRootView(self.view)
         try! sceneManager!.loadTitleScene()
-        NotificationCenter.default.addObserver(self, selector: #selector(self.deviceHasRotated),
-           name: UIDevice.orientationDidChangeNotification,
-             object: nil)
+        
+        rotationManager = RotationManager(sceneManager: sceneManager!)
     }
 
-    func printDate() -> String {
-        let date = Date()
-        let formatter = DateFormatter()
-        formatter.dateFormat = "HH:mm:ss.SSSS"
-        return formatter.string(from: date)
-    }
-    
-    @objc func deviceHasRotated() {
-        DispatchQueue.main.asyncAfter(deadline: .now()) {
-            let currentTime = Int64(Date().timeIntervalSince1970 * 1000);
-            print("Device orientation change detected at "+String(currentTime))
-            if (currentTime - self.lastUpdateTime > 1000) {
-                try! self.sceneManager!.loadCurrentScene()
-                print("Reloading current scene")
-            }
-            self.lastUpdateTime = currentTime
-        }
-    }
 }
