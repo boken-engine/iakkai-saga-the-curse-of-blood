@@ -42,15 +42,23 @@ jobs:
           for file in $files_array 
           do
               file_dir=$(dirname $file)
+              
+              # Get image size and show it
               width=$(magick identify -ping -format '%w' $file[0])
               height=$(magick identify -ping -format '%w' $file[0])
               echo -e "- \e[97m$file\e[0m ($width x $height):"              
+              
+              # Ignore files in "extra" subfolder
               if [[ $file_dir == raw/extra* ]]; then
                   echo -e "  \e[3mIgnoring asset in 'extra' folder\e[0m"
               else          
+              
+                  # Retrieve and store some image metadata 
                   keywords=$(magick identify -quiet -format %[IPTC:2:25] $file[0])
                   copyright=$(magick identify -quiet -format %[EXIF:COPYRIGHT*] $file[0])
                   author=$(magick identify -quiet -format %[IPTC:2:80] $file[0])
+                  
+                  # Warn about missing data
                   if [ -z "$author" ]; then                                            
                       echo -e "  \e[93mWarning: no author information found\e[0m"
                   else
@@ -66,12 +74,16 @@ jobs:
                       echo -e "  \e[93mWarning: no copyright information found\e[0m"
                   else
                       echo -e "  Image copyright information: \e[36m$copyright\e[0m"
-                  fi                                    
+                  fi 
+                  
+                  # Check if the image is a sprite ("sprite" keyword is detected)
                   if [[ $(echo "$keywords" |  tr '[:lower:]' '[:upper:]' ) == *"SPRITE"* ]]; then
                       isSprite=true
                   else
                       isSprite=false      
                   fi
+                  
+                  # Set destination filename, folder and format
                   name_ext=$(basename $file)
                   name=$(echo "$name_ext" | cut -f 1 -d '.') 
                   ext="${name_ext##*.}"                  
@@ -81,8 +93,10 @@ jobs:
                   else
                       echo "  Sprite keyword not detected: destination format is JPEG"
                       new_ext=".jpg"
-                  fi
+                  fi                                    
                   output_file="${file_dir/raw/src/assets}/$name$new_ext"               
+                  
+                  # Actual image processing
                   mkdir -p ${file_dir/raw/src/assets}
                   if (( width > max_size || height > max_size )); then
                       echo "  Must be processed as is bigger than $max_size"
