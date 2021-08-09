@@ -43,16 +43,19 @@ jobs:
           do
               file_dir=$(dirname $file)
               
-              # Get image size and show it
-              width=$(magick identify -ping -format '%w' $file[0])
-              height=$(magick identify -ping -format '%w' $file[0])
-              echo -e "- \e[97m$file\e[0m ($width x $height):"              
+              
+              echo -e "- \e[97m$file\e[0m:"              
               
               # Ignore files in "extra" subfolder
               if [[ $file_dir == raw/extra* ]]; then
                   echo -e "  \e[3mIgnoring asset in 'extra' folder\e[0m"
               else          
-              
+
+                  # Get image size and show it
+                  width=$(magick identify -ping -format '%w' $file[0])
+                  height=$(magick identify -ping -format '%w' $file[0])
+                  echo -e "  $width x $height px"              
+
                   # Retrieve and store some image metadata 
                   keywords=$(magick identify -quiet -format %[IPTC:2:25] $file[0])
                   copyright=$(magick identify -quiet -format %[EXIF:COPYRIGHT*] $file[0])
