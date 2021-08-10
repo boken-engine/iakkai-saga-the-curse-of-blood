@@ -21,7 +21,6 @@
 		5DA305692696DA9F007A51CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DA305672696DA9F007A51CE /* LaunchScreen.storyboard */; };
 		5DE49DE8269708710009C301 /* StoryDescription.json in Resources */ = {isa = PBXBuildFile; fileRef = 5DE49DE7269708710009C301 /* StoryDescription.json */; };
 		5DE49DE9269708CC0009C301 /* BokenEngine.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DE49DE22696F2060009C301 /* BokenEngine.xcframework */; };
-		5DE49E282697185D0009C301 /* hm-trono.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5DE49DEE2697185D0009C301 /* hm-trono.jpg */; };
 		5DE49E292697185D0009C301 /* archer-b-color.png in Resources */ = {isa = PBXBuildFile; fileRef = 5DE49DEF2697185D0009C301 /* archer-b-color.png */; };
 		5DE49E2A2697185D0009C301 /* queen-f-color.png in Resources */ = {isa = PBXBuildFile; fileRef = 5DE49DF02697185D0009C301 /* queen-f-color.png */; };
 		5DE49E2B2697185D0009C301 /* cave-closed.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5DE49DF12697185D0009C301 /* cave-closed.jpg */; };
@@ -33,51 +32,36 @@
 		5DE49E312697185D0009C301 /* campfire.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5DE49DF72697185D0009C301 /* campfire.jpg */; };
 		5DE49E322697185D0009C301 /* archmage-f-color.png in Resources */ = {isa = PBXBuildFile; fileRef = 5DE49DF82697185D0009C301 /* archmage-f-color.png */; };
 		5DE49E332697185D0009C301 /* map.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5DE49DF92697185D0009C301 /* map.jpg */; };
-		5DE49E342697185D0009C301 /* hm-archmage-room.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5DE49DFA2697185D0009C301 /* hm-archmage-room.jpg */; };
-		5DE49E352697185D0009C301 /* hm-mage-tower-2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5DE49DFB2697185D0009C301 /* hm-mage-tower-2.jpg */; };
 		5DE49E362697185D0009C301 /* throne-room.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5DE49DFC2697185D0009C301 /* throne-room.jpg */; };
 		5DE49E372697185D0009C301 /* werewolf-s-starcolor-lookingup.png in Resources */ = {isa = PBXBuildFile; fileRef = 5DE49DFD2697185D0009C301 /* werewolf-s-starcolor-lookingup.png */; };
 		5DE49E382697185D0009C301 /* mage-tower.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5DE49DFE2697185D0009C301 /* mage-tower.jpg */; };
 		5DE49E392697185D0009C301 /* fighter-fight-color.png in Resources */ = {isa = PBXBuildFile; fileRef = 5DE49DFF2697185D0009C301 /* fighter-fight-color.png */; };
 		5DE49E3A2697185D0009C301 /* cave-inside.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5DE49E002697185D0009C301 /* cave-inside.jpg */; };
-		5DE49E3B2697185D0009C301 /* hm-village-forest.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5DE49E012697185D0009C301 /* hm-village-forest.jpg */; };
 		5DE49E3C2697185D0009C301 /* fighter-b-color.png in Resources */ = {isa = PBXBuildFile; fileRef = 5DE49E022697185D0009C301 /* fighter-b-color.png */; };
 		5DE49E3D2697185D0009C301 /* fighter-s-falling.png in Resources */ = {isa = PBXBuildFile; fileRef = 5DE49E032697185D0009C301 /* fighter-s-falling.png */; };
 		5DE49E3E2697185D0009C301 /* spritelyingman.png in Resources */ = {isa = PBXBuildFile; fileRef = 5DE49E042697185D0009C301 /* spritelyingman.png */; };
-		5DE49E3F2697185D0009C301 /* hm-cattle.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5DE49E052697185D0009C301 /* hm-cattle.jpg */; };
 		5DE49E402697185D0009C301 /* werewolf-f-color.png in Resources */ = {isa = PBXBuildFile; fileRef = 5DE49E062697185D0009C301 /* werewolf-f-color.png */; };
 		5DE49E412697185D0009C301 /* cave-bloodpool.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5DE49E072697185D0009C301 /* cave-bloodpool.jpg */; };
 		5DE49E422697185D0009C301 /* fighter-f-color-01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5DE49E082697185D0009C301 /* fighter-f-color-01.jpg */; };
 		5DE49E432697185D0009C301 /* map-closeup.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5DE49E092697185D0009C301 /* map-closeup.jpg */; };
-		5DE49E442697185D0009C301 /* hm-forest-inside-alt2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5DE49E0A2697185D0009C301 /* hm-forest-inside-alt2.jpg */; };
 		5DE49E452697185D0009C301 /* cave.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5DE49E0B2697185D0009C301 /* cave.jpg */; };
 		5DE49E462697185D0009C301 /* fighter-f-color-02.png in Resources */ = {isa = PBXBuildFile; fileRef = 5DE49E0C2697185D0009C301 /* fighter-f-color-02.png */; };
 		5DE49E472697185D0009C301 /* mage-tower-outside.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5DE49E0D2697185D0009C301 /* mage-tower-outside.jpg */; };
-		5DE49E482697185D0009C301 /* hm-cave-moonlight.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5DE49E0E2697185D0009C301 /* hm-cave-moonlight.jpg */; };
 		5DE49E492697185D0009C301 /* werewolf-s-snarling-color-injured.png in Resources */ = {isa = PBXBuildFile; fileRef = 5DE49E0F2697185D0009C301 /* werewolf-s-snarling-color-injured.png */; };
 		5DE49E4A2697185D0009C301 /* woods.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5DE49E102697185D0009C301 /* woods.jpg */; };
 		5DE49E4B2697185D0009C301 /* archer-f-color.png in Resources */ = {isa = PBXBuildFile; fileRef = 5DE49E112697185D0009C301 /* archer-f-color.png */; };
-		5DE49E4C2697185D0009C301 /* hm-wolf-tracks.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5DE49E122697185D0009C301 /* hm-wolf-tracks.jpg */; };
 		5DE49E4D2697185D0009C301 /* mage-bedroom.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5DE49E132697185D0009C301 /* mage-bedroom.jpg */; };
-		5DE49E4E2697185D0009C301 /* hm-castle.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5DE49E142697185D0009C301 /* hm-castle.jpg */; };
-		5DE49E4F2697185D0009C301 /* hm-rivertrack.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5DE49E152697185D0009C301 /* hm-rivertrack.jpg */; };
 		5DE49E502697185D0009C301 /* fighter-s-color.png in Resources */ = {isa = PBXBuildFile; fileRef = 5DE49E162697185D0009C301 /* fighter-s-color.png */; };
-		5DE49E512697185D0009C301 /* hm-cave-entrance.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5DE49E172697185D0009C301 /* hm-cave-entrance.jpg */; };
-		5DE49E522697185D0009C301 /* hm-cave-inside.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5DE49E182697185D0009C301 /* hm-cave-inside.jpg */; };
 		5DE49E532697185D0009C301 /* fighter-f-color.png in Resources */ = {isa = PBXBuildFile; fileRef = 5DE49E192697185D0009C301 /* fighter-f-color.png */; };
 		5DE49E542697185D0009C301 /* cave-moonlight.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5DE49E1A2697185D0009C301 /* cave-moonlight.jpg */; };
-		5DE49E552697185D0009C301 /* hm_field-beside-woods.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5DE49E1B2697185D0009C301 /* hm_field-beside-woods.jpg */; };
 		5DE49E562697185D0009C301 /* werewolf-f-starcolor.png in Resources */ = {isa = PBXBuildFile; fileRef = 5DE49E1C2697185D0009C301 /* werewolf-f-starcolor.png */; };
 		5DE49E572697185D0009C301 /* werewolf-b-color.png in Resources */ = {isa = PBXBuildFile; fileRef = 5DE49E1D2697185D0009C301 /* werewolf-b-color.png */; };
-		5DE49E582697185D0009C301 /* hm-forest-fire.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5DE49E1E2697185D0009C301 /* hm-forest-fire.jpg */; };
 		5DE49E592697185D0009C301 /* archer-fight-color.png in Resources */ = {isa = PBXBuildFile; fileRef = 5DE49E1F2697185D0009C301 /* archer-fight-color.png */; };
 		5DE49E5A2697185D0009C301 /* wolfswood.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5DE49E202697185D0009C301 /* wolfswood.jpg */; };
 		5DE49E5B2697185D0009C301 /* falling.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5DE49E212697185D0009C301 /* falling.jpg */; };
 		5DE49E5C2697185D0009C301 /* cattle.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5DE49E222697185D0009C301 /* cattle.jpg */; };
 		5DE49E5D2697185D0009C301 /* map-travel.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5DE49E232697185D0009C301 /* map-travel.jpg */; };
-		5DE49E5E2697185D0009C301 /* hm-freefall.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5DE49E242697185D0009C301 /* hm-freefall.jpg */; };
 		5DE49E5F2697185D0009C301 /* wolfsteps.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5DE49E252697185D0009C301 /* wolfsteps.jpg */; };
-		5DE49E602697185D0009C301 /* hm-weapons.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5DE49E262697185D0009C301 /* hm-weapons.jpg */; };
 		5DE49E612697185D0009C301 /* contact-sheet.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5DE49E272697185D0009C301 /* contact-sheet.jpg */; };
 /* End PBXBuildFile section */
 
@@ -98,7 +82,6 @@
 		5DA3056A2696DA9F007A51CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5DE49DE22696F2060009C301 /* BokenEngine.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = BokenEngine.xcframework; path = Carthage/Build/BokenEngine.xcframework; sourceTree = "<group>"; };
 		5DE49DE7269708710009C301 /* StoryDescription.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = StoryDescription.json; sourceTree = "<group>"; };
-		5DE49DEE2697185D0009C301 /* hm-trono.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "hm-trono.jpg"; sourceTree = "<group>"; };
 		5DE49DEF2697185D0009C301 /* archer-b-color.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "archer-b-color.png"; sourceTree = "<group>"; };
 		5DE49DF02697185D0009C301 /* queen-f-color.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "queen-f-color.png"; sourceTree = "<group>"; };
 		5DE49DF12697185D0009C301 /* cave-closed.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "cave-closed.jpg"; sourceTree = "<group>"; };
@@ -110,51 +93,36 @@
 		5DE49DF72697185D0009C301 /* campfire.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = campfire.jpg; sourceTree = "<group>"; };
 		5DE49DF82697185D0009C301 /* archmage-f-color.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "archmage-f-color.png"; sourceTree = "<group>"; };
 		5DE49DF92697185D0009C301 /* map.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = map.jpg; sourceTree = "<group>"; };
-		5DE49DFA2697185D0009C301 /* hm-archmage-room.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "hm-archmage-room.jpg"; sourceTree = "<group>"; };
-		5DE49DFB2697185D0009C301 /* hm-mage-tower-2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "hm-mage-tower-2.jpg"; sourceTree = "<group>"; };
 		5DE49DFC2697185D0009C301 /* throne-room.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "throne-room.jpg"; sourceTree = "<group>"; };
 		5DE49DFD2697185D0009C301 /* werewolf-s-starcolor-lookingup.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "werewolf-s-starcolor-lookingup.png"; sourceTree = "<group>"; };
 		5DE49DFE2697185D0009C301 /* mage-tower.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "mage-tower.jpg"; sourceTree = "<group>"; };
 		5DE49DFF2697185D0009C301 /* fighter-fight-color.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fighter-fight-color.png"; sourceTree = "<group>"; };
 		5DE49E002697185D0009C301 /* cave-inside.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "cave-inside.jpg"; sourceTree = "<group>"; };
-		5DE49E012697185D0009C301 /* hm-village-forest.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "hm-village-forest.jpg"; sourceTree = "<group>"; };
 		5DE49E022697185D0009C301 /* fighter-b-color.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fighter-b-color.png"; sourceTree = "<group>"; };
 		5DE49E032697185D0009C301 /* fighter-s-falling.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fighter-s-falling.png"; sourceTree = "<group>"; };
 		5DE49E042697185D0009C301 /* spritelyingman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spritelyingman.png; sourceTree = "<group>"; };
-		5DE49E052697185D0009C301 /* hm-cattle.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "hm-cattle.jpg"; sourceTree = "<group>"; };
 		5DE49E062697185D0009C301 /* werewolf-f-color.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "werewolf-f-color.png"; sourceTree = "<group>"; };
 		5DE49E072697185D0009C301 /* cave-bloodpool.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "cave-bloodpool.jpg"; sourceTree = "<group>"; };
 		5DE49E082697185D0009C301 /* fighter-f-color-01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "fighter-f-color-01.jpg"; sourceTree = "<group>"; };
 		5DE49E092697185D0009C301 /* map-closeup.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "map-closeup.jpg"; sourceTree = "<group>"; };
-		5DE49E0A2697185D0009C301 /* hm-forest-inside-alt2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "hm-forest-inside-alt2.jpg"; sourceTree = "<group>"; };
 		5DE49E0B2697185D0009C301 /* cave.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cave.jpg; sourceTree = "<group>"; };
 		5DE49E0C2697185D0009C301 /* fighter-f-color-02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fighter-f-color-02.png"; sourceTree = "<group>"; };
 		5DE49E0D2697185D0009C301 /* mage-tower-outside.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "mage-tower-outside.jpg"; sourceTree = "<group>"; };
-		5DE49E0E2697185D0009C301 /* hm-cave-moonlight.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "hm-cave-moonlight.jpg"; sourceTree = "<group>"; };
 		5DE49E0F2697185D0009C301 /* werewolf-s-snarling-color-injured.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "werewolf-s-snarling-color-injured.png"; sourceTree = "<group>"; };
 		5DE49E102697185D0009C301 /* woods.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = woods.jpg; sourceTree = "<group>"; };
 		5DE49E112697185D0009C301 /* archer-f-color.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "archer-f-color.png"; sourceTree = "<group>"; };
-		5DE49E122697185D0009C301 /* hm-wolf-tracks.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "hm-wolf-tracks.jpg"; sourceTree = "<group>"; };
 		5DE49E132697185D0009C301 /* mage-bedroom.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "mage-bedroom.jpg"; sourceTree = "<group>"; };
-		5DE49E142697185D0009C301 /* hm-castle.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "hm-castle.jpg"; sourceTree = "<group>"; };
-		5DE49E152697185D0009C301 /* hm-rivertrack.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "hm-rivertrack.jpg"; sourceTree = "<group>"; };
 		5DE49E162697185D0009C301 /* fighter-s-color.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fighter-s-color.png"; sourceTree = "<group>"; };
-		5DE49E172697185D0009C301 /* hm-cave-entrance.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "hm-cave-entrance.jpg"; sourceTree = "<group>"; };
-		5DE49E182697185D0009C301 /* hm-cave-inside.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "hm-cave-inside.jpg"; sourceTree = "<group>"; };
 		5DE49E192697185D0009C301 /* fighter-f-color.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fighter-f-color.png"; sourceTree = "<group>"; };
 		5DE49E1A2697185D0009C301 /* cave-moonlight.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "cave-moonlight.jpg"; sourceTree = "<group>"; };
-		5DE49E1B2697185D0009C301 /* hm_field-beside-woods.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "hm_field-beside-woods.jpg"; sourceTree = "<group>"; };
 		5DE49E1C2697185D0009C301 /* werewolf-f-starcolor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "werewolf-f-starcolor.png"; sourceTree = "<group>"; };
 		5DE49E1D2697185D0009C301 /* werewolf-b-color.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "werewolf-b-color.png"; sourceTree = "<group>"; };
-		5DE49E1E2697185D0009C301 /* hm-forest-fire.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "hm-forest-fire.jpg"; sourceTree = "<group>"; };
 		5DE49E1F2697185D0009C301 /* archer-fight-color.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "archer-fight-color.png"; sourceTree = "<group>"; };
 		5DE49E202697185D0009C301 /* wolfswood.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wolfswood.jpg; sourceTree = "<group>"; };
 		5DE49E212697185D0009C301 /* falling.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = falling.jpg; sourceTree = "<group>"; };
 		5DE49E222697185D0009C301 /* cattle.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cattle.jpg; sourceTree = "<group>"; };
 		5DE49E232697185D0009C301 /* map-travel.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "map-travel.jpg"; sourceTree = "<group>"; };
-		5DE49E242697185D0009C301 /* hm-freefall.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "hm-freefall.jpg"; sourceTree = "<group>"; };
 		5DE49E252697185D0009C301 /* wolfsteps.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wolfsteps.jpg; sourceTree = "<group>"; };
-		5DE49E262697185D0009C301 /* hm-weapons.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "hm-weapons.jpg"; sourceTree = "<group>"; };
 		5DE49E272697185D0009C301 /* contact-sheet.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "contact-sheet.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -246,22 +214,6 @@
 				5DE49DFF2697185D0009C301 /* fighter-fight-color.png */,
 				5DE49E162697185D0009C301 /* fighter-s-color.png */,
 				5DE49E032697185D0009C301 /* fighter-s-falling.png */,
-				5DE49E1B2697185D0009C301 /* hm_field-beside-woods.jpg */,
-				5DE49DFA2697185D0009C301 /* hm-archmage-room.jpg */,
-				5DE49E142697185D0009C301 /* hm-castle.jpg */,
-				5DE49E052697185D0009C301 /* hm-cattle.jpg */,
-				5DE49E172697185D0009C301 /* hm-cave-entrance.jpg */,
-				5DE49E182697185D0009C301 /* hm-cave-inside.jpg */,
-				5DE49E0E2697185D0009C301 /* hm-cave-moonlight.jpg */,
-				5DE49E1E2697185D0009C301 /* hm-forest-fire.jpg */,
-				5DE49E0A2697185D0009C301 /* hm-forest-inside-alt2.jpg */,
-				5DE49E242697185D0009C301 /* hm-freefall.jpg */,
-				5DE49DFB2697185D0009C301 /* hm-mage-tower-2.jpg */,
-				5DE49E152697185D0009C301 /* hm-rivertrack.jpg */,
-				5DE49DEE2697185D0009C301 /* hm-trono.jpg */,
-				5DE49E012697185D0009C301 /* hm-village-forest.jpg */,
-				5DE49E262697185D0009C301 /* hm-weapons.jpg */,
-				5DE49E122697185D0009C301 /* hm-wolf-tracks.jpg */,
 				5DE49E132697185D0009C301 /* mage-bedroom.jpg */,
 				5DE49E0D2697185D0009C301 /* mage-tower-outside.jpg */,
 				5DE49DFE2697185D0009C301 /* mage-tower.jpg */,
@@ -355,42 +307,30 @@
 				5DA305692696DA9F007A51CE /* LaunchScreen.storyboard in Resources */,
 				5D99199E269D94C800F934F3 /* title-logo.png in Resources */,
 				5DE49E592697185D0009C301 /* archer-fight-color.png in Resources */,
-				5DE49E442697185D0009C301 /* hm-forest-inside-alt2.jpg in Resources */,
 				5DE49E462697185D0009C301 /* fighter-f-color-02.png in Resources */,
-				5DE49E4E2697185D0009C301 /* hm-castle.jpg in Resources */,
 				5DE49E412697185D0009C301 /* cave-bloodpool.jpg in Resources */,
-				5DE49E602697185D0009C301 /* hm-weapons.jpg in Resources */,
 				5DE49E502697185D0009C301 /* fighter-s-color.png in Resources */,
-				5DE49E282697185D0009C301 /* hm-trono.jpg in Resources */,
 				5DE49E5D2697185D0009C301 /* map-travel.jpg in Resources */,
 				5DE49E562697185D0009C301 /* werewolf-f-starcolor.png in Resources */,
-				5DE49E582697185D0009C301 /* hm-forest-fire.jpg in Resources */,
 				5DE49E612697185D0009C301 /* contact-sheet.jpg in Resources */,
-				5DE49E512697185D0009C301 /* hm-cave-entrance.jpg in Resources */,
 				5DE49E392697185D0009C301 /* fighter-fight-color.png in Resources */,
 				5DE49E432697185D0009C301 /* map-closeup.jpg in Resources */,
 				5DE49E452697185D0009C301 /* cave.jpg in Resources */,
 				5DE49E322697185D0009C301 /* archmage-f-color.png in Resources */,
 				5DE49E3A2697185D0009C301 /* cave-inside.jpg in Resources */,
-				5DE49E352697185D0009C301 /* hm-mage-tower-2.jpg in Resources */,
 				5DE49E532697185D0009C301 /* fighter-f-color.png in Resources */,
 				5DE49E472697185D0009C301 /* mage-tower-outside.jpg in Resources */,
 				5DE49E312697185D0009C301 /* campfire.jpg in Resources */,
-				5DE49E3F2697185D0009C301 /* hm-cattle.jpg in Resources */,
-				5DE49E552697185D0009C301 /* hm_field-beside-woods.jpg in Resources */,
 				5DE49E5C2697185D0009C301 /* cattle.jpg in Resources */,
-				5DE49E482697185D0009C301 /* hm-cave-moonlight.jpg in Resources */,
 				5DE49E332697185D0009C301 /* map.jpg in Resources */,
 				5DE49E382697185D0009C301 /* mage-tower.jpg in Resources */,
 				5DE49E2F2697185D0009C301 /* title.jpg in Resources */,
-				5DE49E4C2697185D0009C301 /* hm-wolf-tracks.jpg in Resources */,
 				5DE49E3C2697185D0009C301 /* fighter-b-color.png in Resources */,
 				5DE49E372697185D0009C301 /* werewolf-s-starcolor-lookingup.png in Resources */,
 				5DE49E2E2697185D0009C301 /* castle.jpg in Resources */,
 				5DE49E422697185D0009C301 /* fighter-f-color-01.jpg in Resources */,
 				5DE49E572697185D0009C301 /* werewolf-b-color.png in Resources */,
 				5DE49E362697185D0009C301 /* throne-room.jpg in Resources */,
-				5DE49E5E2697185D0009C301 /* hm-freefall.jpg in Resources */,
 				5DA305662696DA9F007A51CE /* Assets.xcassets in Resources */,
 				5DE49DE8269708710009C301 /* StoryDescription.json in Resources */,
 				5DE49E4A2697185D0009C301 /* woods.jpg in Resources */,
@@ -399,12 +339,10 @@
 				5DE49E3D2697185D0009C301 /* fighter-s-falling.png in Resources */,
 				5DE49E542697185D0009C301 /* cave-moonlight.jpg in Resources */,
 				5DE49E3E2697185D0009C301 /* spritelyingman.png in Resources */,
-				5DE49E342697185D0009C301 /* hm-archmage-room.jpg in Resources */,
 				5DE49E4D2697185D0009C301 /* mage-bedroom.jpg in Resources */,
 				5D99199D269D94C800F934F3 /* title-back.jpg in Resources */,
 				5D7A1B0B26AAD768000AAB56 /* clouds-sprite.png in Resources */,
 				5DE49E302697185D0009C301 /* three-items.jpg in Resources */,
-				5DE49E3B2697185D0009C301 /* hm-village-forest.jpg in Resources */,
 				5DE49E4B2697185D0009C301 /* archer-f-color.png in Resources */,
 				5DE49E2C2697185D0009C301 /* werewolf-s-howling-color.png in Resources */,
 				5DE49E5A2697185D0009C301 /* wolfswood.jpg in Resources */,
@@ -416,8 +354,6 @@
 				5DA305642696DA9E007A51CE /* Main.storyboard in Resources */,
 				5DE49E2A2697185D0009C301 /* queen-f-color.png in Resources */,
 				5DE49E292697185D0009C301 /* archer-b-color.png in Resources */,
-				5DE49E4F2697185D0009C301 /* hm-rivertrack.jpg in Resources */,
-				5DE49E522697185D0009C301 /* hm-cave-inside.jpg in Resources */,
 				5DE49E5B2697185D0009C301 /* falling.jpg in Resources */,
 				5DE49E5F2697185D0009C301 /* wolfsteps.jpg in Resources */,
 			);
@@ -601,16 +537,18 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = XFSM7P69L4;
+				DEVELOPMENT_TEAM = TZBS3RL5DR;
 				INFOPLIST_FILE = "Iakkai Saga - The Curse of Blood/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "bokenengine.Iakkai-Saga---The-Curse-of-Blood";
+				PRODUCT_BUNDLE_IDENTIFIER = "bokenengine.Iakkai-Saga---The-Curse-of-Blood-yr";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -622,7 +560,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = XFSM7P69L4;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "Iakkai Saga - The Curse of Blood/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				LD_RUNPATH_SEARCH_PATHS = (
