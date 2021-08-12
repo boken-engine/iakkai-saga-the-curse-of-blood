@@ -142,7 +142,7 @@
                 },
                 {
                     "type": "textLabel",
-                    "content": "You belong to the kingdom of men, in the Midlands, where King Alias has been ruling in peace for many years. King Alias united and led the kingdoms of light to victory over the ancient darkness and brought understanding among the many races.",
+                    "content": "You belong to the kingdom of men, in the Midlands, where Queen Alias has been ruling in peace for many years. Queen Alias united and led the kingdoms of light to victory over the ancient darkness and brought understanding among the many races.",
                     "posX": 0.5,
                     "posY": 0.05,
                     "fontSize": 24,
@@ -187,7 +187,7 @@
                 },
                 {
                     "type": "textLabel",
-                    "content": "You were born and raised close to the castle where the Queen took notice of you. Your noble heart, growing skills and interest in the world made you enter his service and now she is asking of your assistance.",
+                    "content": "You were born and raised close to the castle where the Queen took notice of you. Your noble heart, growing skills and interest in the world made you enter her service and now she is asking of your assistance.",
                     "posX": 0.5,
                     "posY": 0.05,
                     "fontSize": 24,
@@ -417,7 +417,7 @@
                 },                
                 {
                     "type": "textLabel",
-                    "content": "At arrival to the village people you are met by the village council who recognize the queens uniform that you wear.",
+                    "content": "At your arrival to the village, you are met by the village council members who recognize the queens uniform that you wear.",
                     "posX": 0.5,
                     "posY": 0.05,
                     "fontSize": 24,
@@ -452,7 +452,7 @@
                 },
                 {
                     "type": "textLabel",
-                    "content": "Good day! Has the king sent you to help us?",
+                    "content": "Good day! Has the queen sent you to help us?",
                     "posX": 0.5,
                     "posY": 0.2,
                     "fontSize": 24,
@@ -1018,7 +1018,7 @@
                 },                
                 {
                     "type": "textLabel",
-                    "content": "This definetly is no normal wolf, and I fear we will face it soon. During the whole track it has not eaten. and at times I have seen something that confuses me marks similar to human hands.",
+                    "content": "This definetly is no normal wolf, and I fear we will face it soon. During the whole track it has not eaten. and at times I have seen something that confuses me, marks similar to human hands.",
                     "posX": 0.5,
                     "posY": 0.05,
                     "fontSize": 24,
@@ -1134,7 +1134,7 @@
                 },
                 {
                     "type": "textLabel",
-                    "content": "The next day short before sunset the trails leads to a cave by a cliff with a small lake and river below. A large stone is set in front of its entrance and you find many tracks of humans and wolves. The stone is smeared with blood.",
+                    "content": "The next day, short before sunset the trail leads to a cave by a cliff with a small lake and river below. A large stone is set in front of its entrance and you find many tracks of humans and wolves. The stone is smeared with blood.",
                     "posX": 0.5,
                     "posY": 0.3,
                     "fontSize": 24,
@@ -1169,7 +1169,7 @@
                 },
                 {
                     "type": "textLabel",
-                    "content": "You two hide against the wind about 100 meters in the shadows of some large trees with clear sight of the entrance. After a couple hours the moon rises and you see a dark clad figure approaching the cave. The figure stops and lifts his head and starts looking around searching.",
+                    "content": "You two hide against the wind about 100 meters in the shadows of some large trees with clear sight of the entrance. After a couple hours the moon rises and you see a dark clad figure approaching the cave. The figure stops and lifts its head and starts looking around searching.",
                     "posX": 0.5,
                     "posY": 0.05,
                     "fontSize": 24,
@@ -1194,7 +1194,7 @@
                 },
                 {
                     "type": "textLabel",
-                    "content": "The minutes pass and his eyes pierce the darkness looking for something. His head moves and he finally stares in your direction as if he had seen you. After some minutes he turns around and moves towards the cave's entrance, and with one strong push of his arms tilts the stone to one side to then enter the cave.",
+                    "content": "The minutes pass and its eyes pierce the darkness looking for something. His head moves and he finally stares in your direction as if he had seen you. After some minutes he turns around and moves towards the cave's entrance, and with one strong push of its arms, tilts the stone to one side to then enter the cave.",
                     "posX": 0.5,
                     "posY": 0.05,
                     "fontSize": 24,
@@ -1219,7 +1219,7 @@
                 },
                 {
                     "type": "textLabel",
-                    "content": "While waiting the darkness covers the forest. The last birds return to their nests and woods become quiet and the silence spreads everywhere. The moon rises, and you see how a fire is lit inside the cave.",
+                    "content": "While waiting the darkness covers the forest. The last birds return to their nests and the woods become quiet and the silence spreads everywhere. The moon rises, and you see how a fire is lit inside the cave.",
                     "posX": 0.5,
                     "posY": 0.25,
                     "fontSize": 24,
@@ -1287,7 +1287,7 @@
                 },
                 {
                     "type": "textLabel",
-                    "content": "When you enter the cave, you find clear signs of humans, a fire place some clothes made of large animal skins, and what appear to be weapons. Further down in the cave you find some animal skin clothes on the floor, a large pool of blood what seems to be small altar and an opening in the roof 3 meters from the floor from which light can enter.",
+                    "content": "When you enter the cave, you find clear signs of humans, a fire place some clothes made of large animal skins, and what appear to be weapons. Further down in the cave you find some animal skin clothes on the floor, a large pool of blood, what seems to be small altar and an opening in the roof 3 meters from the floor from which light can enter.",
                     "posX": 0.5,
                     "posY": 0.05,
                     "fontSize": 24,
@@ -1337,7 +1337,7 @@
                 },
                 {
                     "type": "textLabel",
-                    "content": "Further down in the cave you find some animal skin clothes on the floor, a large pool of blood what seems to be small altar and an opening in the roof 3 meters from the floor from which light can enter.",
+                    "content": "Further down in the cave you find some animal skin clothes on the floor, a large pool of blood, what seems to be small altar and an opening in the roof 3 meters from the floor from which light can enter.",
                     "posX": 0.5,
                     "posY": 0.05,
                     "fontSize": 24,
@@ -1494,7 +1494,7 @@
                 },                
                 {
                     "type": "textLabel",
-                    "content": "You and the Hunter ready yourselves for its attack. The hunter with bow and arrow and you with your shield and sword. The hunter shoots his first arrow and hits the creature in the chest, thus it howls and attacks. It jumps at you not caring about the hunter's arrows. Its left claw rips away your shield, the right claw tries to grab you by the shoulder and the wolf head shoots forward to bite your throat..",
+                    "content": "You and the Hunter ready yourselves for its attack. The hunter with bow and arrow and you with your shield and sword. The hunter shoots his first arrow and hits the creature in the chest, thus it howls and attacks. It jumps at you not caring about the hunter's arrows. Its left claw rips your shield away, the right claw tries to grab you by the shoulder and the wolf head shoots forward to bite your throat..",
                     "posX": 0.5,
                     "posY": 0.05,
                     "fontSize": 24,
@@ -1546,7 +1546,7 @@
                 },
                 {
                     "type": "textLabel",
-                    "content": "Using your reaction you manage to hit the creature from the side. In a trained move your sword enters the creatures side from the armpit up and until its hilt cutting through flesh like butter. The creature howls out of pain and stumbles to then kick you away from it, with its blood rushing out of the wound.",
+                    "content": "Using your reaction you manage to hit the creature from the side. In a trained move your sword enters the creatures side from the armpit up and until its hilt cutting through flesh like butter. The creature howls out in pain and stumbles to then kick you away from it, with its blood rushing out of the wound.",
                     "posX": 0.5,
                     "posY": 0.05,
                     "fontSize": 24,
@@ -1614,7 +1614,7 @@
                 },
                 {
                     "type": "textLabel",
-                    "content": "You are worthy! What a pity though that you are not of my tribe so I have to kill you anyway",
+                    "content": "You are worthy! What a pity though that you are not of my kind so I have to kill you anyway",
                     "posX": 0.5,
                     "posY": 0.3,
                     "posYH": 0.35,
@@ -1956,7 +1956,7 @@
                 },                
                 {
                     "type": "textLabel",
-                    "content": "When you step outside of your bed you hear steps approaching in the hallway and then the door to your room opens. The hunter and another person enter. The stranger, is tall and thin almost looking frail. Her attire is a large robe of intense blue covered with what you recognize as ancient runes. Both the hunter and the stranger have a surprised look on their face and remain quiet for a moment.",
+                    "content": "When you step outside of your bed you hear steps approaching in the hallway and then the door to your room opens. The hunter and another person enter. The stranger, is a small woman. Her attire is a large robe of intense blue covered with what you recognize as ancient runes. Both the hunter and the stranger have a surprised look on their face and remain quiet for a moment.",
                     "posX": 0.5,
                     "posY": 0.05,
                     "fontSize": 24,
@@ -2072,7 +2072,7 @@
                 },
                 {
                     "type": "textLabel",
-                    "content": "You nod and quietly sit down on the bed, letting him take away the bandages. Alchimeo examines with his fingers pressing at different locations of your back, asking if you feel pain. You feel none at all.",
+                    "content": "You nod and quietly sit down on the bed, letting him take away the bandages. Alchimea examines with her fingers pressing at different locations of your back, asking if you feel pain. You feel none at all.",
                     "posX": 0.5,
                     "posY": 0.05,
                     "addBackground": true,
@@ -2126,7 +2126,7 @@
                 },
                 {
                     "type": "textLabel",
-                    "content": "Ron leaves the room and you hear him walking down the hallway. Alchimeo grabs a chair and sits down in front of you and speaks:",
+                    "content": "Ron leaves the room and you hear him walking down the hallway. Alchimea grabs a chair and sits down in front of you and speaks:",
                     "posX": 0.5,
                     "posY": 0.15,
                     "fontSize": 24,
@@ -2171,7 +2171,7 @@
                 },
                 {
                     "type": "textLabel",
-                    "content": "I asked Ron to leave the room so that you and I could speak alone. You are lucky and on the other hand unlucky to be alive. Lucky because you can walk and continue living, but unlucky because you are not a normal human anymore. You now have been given a gift that some would call a curse.",
+                    "content": "I asked Ron to leave the room so that we could speak alone. You are lucky and on the other hand unlucky to be alive. Lucky because you can walk and continue living, but unlucky because you are not a normal human anymore. You now have been given a gift that some would call a curse.",
                     "posX": 0.5,
                     "posY": 0.05,
                     "fontSize": 24,
@@ -2207,7 +2207,7 @@
                 },
                 {
                     "type": "textLabel",
-                    "content": "The creature you encountered probably belonged to the ancient Iakkai the first inhabitants of these lands. They have been thought to be extint but seemingly some are still alive. The Iakkai are gifted with magical abilities to transform their bodies and assume different animals in hybrid form. What they have is called the gift or curse of blood since it can only be passed on among the Iakkai people through blood.",
+                    "content": "The creature you encountered probably belonged to the ancient Iakkai the first inhabitants of these lands. They have been thought to be extinct but seemingly some are still alive. The Iakkai are gifted with magical abilities to transform their bodies and assume different animals in hybrid form. What they have is called the gift or curse of blood since it can only be passed on among the Iakkai people through blood.",
                     "posX": 0.5,
                     "posY": 0.05,
                     "fontSize": 24,
@@ -2493,7 +2493,7 @@
                 },
                 {
                     "type": "textLabel",
-                    "content": "The Iakkai's healing power is slowed down when hurt through silver weapons.",
+                    "content": "The Iakkai's healing power is slowed down when hurt by silver weapons.",
                     "posX": 0.5,
                     "posY": 0.05,
                     "fontSize": 24,
@@ -2519,7 +2519,7 @@
                 },
                 {
                     "type": "textLabel",
-                    "content": "The rope is to lay a trap and bind the Iakkai if you can capture him  It will deactivate its magic. The weapons are if you cannot do this and must defend yourselves. The amulet prevents you from changing your shape but gives you access to your magic abilities of greater strength",
+                    "content": "The rope is to lay a trap and bind the Iakkai if you can capture it. It will deactivate its magic. The weapons are if you cannot do this and must defend yourselves. The amulet prevents you from changing your shape but gives you access to your magic abilities of greater strength",
                     "posX": 0.5,
                     "posY": 0.05,
                     "fontSize": 24,
@@ -2545,7 +2545,7 @@
                 },
                 {
                     "type": "textLabel",
-                    "content": "Keep it always close to your chest in touch with your bare skin. It will warm up when you use your magic and help you control yourself.",
+                    "content": "Keep it always close to your chest, in touch with your bare skin. It will warm up when you use your magic and help you control yourself.",
                     "posX": 0.5,
                     "posY": 0.05,
                     "fontSize": 24,
@@ -2581,7 +2581,7 @@
                 },
                 {
                     "type": "textLabel",
-                    "content": "You still do not know how to control your new powers. It is something you will have to learn, the amulet will tell you when you are using them, and help you get to know what triggers these and how to use them. Your healing however does not seem to depend on you being transformed, so be careful that nobody notices it. So go now and try to bring the Moon Iakkai to me so we can speak with him.",
+                    "content": "You still do not know how to control your new powers. It is something you will have to learn, the amulet will tell you when you are using them, and help you get to know what triggers these and how to use them. Your healing however does not seem to depend on you being transformed, so be careful that nobody notices it. So go now and try to bring the Moon Iakkai to me so we can speak with it.",
                     "posX": 0.5,
                     "posY": 0.05,
                     "fontSize": 24,
@@ -2629,7 +2629,7 @@
                 },                
                 {
                     "type": "textLabel",
-                    "content": "You depart from the Mage Tower and travelling back along the shore of the river towards the point where you fell into it. After a week you manage to climb up into the mountains and reach the point.",
+                    "content": "You depart from the Mage Tower, travelling back along the river shore back to the point where you fell into it. After a week climbing up into the mountains you reach the point.",
                     "posX": 0.5,
                     "posY": 0.05,
                     "fontSize": 24,
@@ -2678,7 +2678,7 @@
                 },
                 {
                     "type": "textLabel",
-                    "content": "You carefully approach the cave and find it closed the entrance covered again by the large stone.  You and Ron talk to each other and must decide now to try to catch the werewolf alive and if not able to to kill him.",
+                    "content": "You carefully approach the cave and find it closed the entrance covered again by the large stone. You and Ron talk to each other and must decide now to try to catch the werewolf alive, and if not able to, kill him.",
                     "posX": 0.5,
                     "posY": 0.2,
                     "posYH": 0.3,
@@ -2736,7 +2736,7 @@
                 },
                 {
                     "type": "textLabel",
-                    "content": "You convince Ron to help you lay a trap inside the cave and command Ron not to enter the cave for his safety since you will deal with him yourself showing Ron the sword in case that it does not work.",
+                    "content": "You convince Ron to help you lay a trap inside the cave and command Ron to not enter the cave. You meand to deal with the Iakkai yourself, showing Ron the sword in case that it does not work.",
                     "posX": 0.5,
                     "posY": 0.15,
                     "fontSize": 24,
@@ -2767,7 +2767,7 @@
                 },
                 {
                     "type": "textLabel",
-                    "content": "You convince Ron to stay outside and trust your judgement. You tell him that you will lay the trap yourself and come out once he has captured or killed the werewolf. If in the morning he were not to come out he should wait for the figure to come out again and kill him with the arrows.",
+                    "content": "You convince Ron to stay outside and trust your judgement. You tell him that you will lay the trap yourself and come out once he has captured or killed the werewolf. If in the morning you were not to come out, he should wait for the Iakkai to come out again and kill him with the arrows.",
                     "posX": 0.5,
                     "posY": 0.05,
                     "fontSize": 24,
@@ -2794,7 +2794,7 @@
                 },
                 {
                     "type": "textLabel",
-                    "content": "As you wait inside the cave and Ron is observing from the distance, the same person clad in dark robes approaches without fear and stops under some pinetrees 30 meters before the entrance. Ron see's how he bends and starts to change until the werewolf appears from under the robe, and it lifts its nose into the air smelling it.  It looks around and slowly starts pacing towards the entrance.",
+                    "content": "As you wait inside the cave and Ron is observing from the distance, the same person clad in dark robes approaches, but stops under some pinetrees 30 meters before the entrance. Ron see's how it bends and starts to change until the werewolf appears from under the robe, and it lifts its nose into the air smelling it.  It looks around and slowly starts pacing towards the entrance.",
                     "posX": 0.5,
                     "posY": 0.05,
                     "fontSize": 24,
@@ -2906,7 +2906,7 @@
                 },                
                 {
                     "type": "textLabel",
-                    "content": "Words your grandmother taught you to recite when you had nightmares and were afraid, and which now you come to realize their origin.",
+                    "content": "Words your grandmother taught you to recite when you had nightmares and were afraid, and of which you now come to realize their origin.",
                     "posX": 0.5,
                     "posY": 0.4,
                     "posYH": 0.5,
@@ -2962,7 +2962,7 @@
                 }, 
                 {
                     "type": "textLabel",
-                    "content": "While the werewolf sees you and starts racing towards you, you turn and run to lure him into the trap around the next corner in the back of the cave.  Once the werewolf turns after you around the corner the trap triggers and he is tangled in the lasso.",
+                    "content": "While the werewolf starts racing towards you, you turn and run to lure him into the trap further down the cave.  The werewolf triggers the trap and is tangled in the lasso.",
                     "posX": 0.5,
                     "posY": 0.05,
                     "fontSize": 24,
@@ -2998,7 +2998,7 @@
                 },
                 {
                     "type": "textLabel",
-                    "content": "Kill me you damned weakling if you are man enough to kill! I curse you and your kind. YOU ARE NOTHING BUT SCUM WITHOUT MERCY AND DARKNESS!!! WE JUST WANTED TO LIVE IN PEACE AND YOU BETRAYED US, TREATED US AS ANIMALS!! RATHER THAN ACCEPT AND UNDERSTAND US!!.",
+                    "content": "Kill me you damned weakling if you are man enough to kill! I curse you and your kind. YOU ARE NOTHING BUT SCUM WITHOUT MERCY AND DARKNESS!!! WE JUST WANTED TO LIVE IN PEACE AND YOU BETRAYED US, TREATED US LIKE ANIMALS!! RATHER THAN ACCEPT AND UNDERSTAND US!!.",
                     "posX": 0.5,
                     "posY": 0.05,
                     "fontSize": 24,
@@ -3025,7 +3025,7 @@
                 },
                 {
                     "type": "textLabel",
-                    "content": "We are so few now almost gone now!! I am tired of waiting, living, of killing, hating  of fleeing just finish me now, please!!.",
+                    "content": "We are so few now almost gone now!! I am tired of waiting, living, of killing, hating, of fleeing just finish me now, please!!.",
                     "posX": 0.5,
                     "posY": 0.26,
                     "fontSize": 24,
@@ -3062,7 +3062,7 @@
                 },
                 {
                     "type": "textLabel",
-                    "content": "His words have touched your soul and reminded you of you when your grandmother took care of you.  Inside of you, you feel the need to comfort him that he is not alone and that you mean him no harm. You kneel down besides him and touch his shoulder, and recite the last verse for him.",
+                    "content": "His words have touched your soul and remind you of you when your grandmother took care of you.  Inside of you, you feel the need to comfort him that he is not alone and that you mean him no harm. You kneel down besides him and touch his shoulder, and recite the last verse for him.",
                     "posX": 0.5,
                     "posY": 0.05,
                     "fontSize": 24,
@@ -3087,7 +3087,7 @@
                 },
                 {
                     "type": "textLabel",
-                    "content": "He looks up at you puzzled, while you step back and walk towards the back of the cave. You stop besides the pool of blood lit up by the moon rays that enter the cave through the roof's hole.You take off your clothes and amulet and finally pile them neatly on one side. Bringing to mind your grandmother's image and and her words.",
+                    "content": "He looks up at you puzzled, while you step back and walk towards the back of the cave. You stop besides the pool of blood lit up by the moon rays that enter the cave through the roof's hole. You take off your clothes and amulet and finally pile them neatly on one side. Bringing to mind your grandmother's image and and her words.",
                     "posX": 0.5,
                     "posY": 0.05,
                     "fontSize": 24,
@@ -3232,7 +3232,7 @@
                 },                    
                 {
                     "type": "textLabel",
-                    "content": "You look at the pool lit up by the moon and see your reflection. that of a huge werewolf with a white streak on the forehead. Behind you, the old man say to himself and starts to cry. It cannot be. The legend has come true.  Here is Star.",
+                    "content": "You look at the pool lit up by the moon and see your reflection. that of a huge werewolf with a white streak on the forehead. Behind you, the old man says to himself and starts to cry: It cannot be!! The legend has come true!!  Here is Star!!",
                     "posX": 0.5,
                     "posY": 0.15,
                     "fontSize": 24,
@@ -3316,7 +3316,7 @@
                 },
                 {
                     "type": "textLabel",
-                    "content": "You stop besides the pool of blood lit up by the moon's light that enters the cave through the roof's hole.",
+                    "content": "You take of your clothes and stop besides the pool of blood, lit up by the moon's light that enters the cave through the roof's hole.",
                     "posX": 0.5,
                     "posY": 0.05,
                     "fontSize": 24,
@@ -3436,7 +3436,7 @@
                 },                    
                 {
                     "type": "textLabel",
-                    "content": "You look at the pool lit up by the moon and see your reflection. that of a huge werewolf with a white streak on the forehead.  Behind you, the werewolf says to himself. It cannot be. The legend has come true. Here is Star.",
+                    "content": "You look at the pool lit up by the moon and see your reflection. that of a huge werewolf with a white streak on the forehead.  Behind you, the werewolf says to himself: It cannot be!! The legend has come true!! Here is Star!!",
                     "posX": 0.5,
                     "posY": 0.15,
                     "fontSize": 24,
