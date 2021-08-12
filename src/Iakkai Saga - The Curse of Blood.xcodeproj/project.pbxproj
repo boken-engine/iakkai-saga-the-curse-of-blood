@@ -124,6 +124,7 @@
 		5DE49E232697185D0009C301 /* map-travel.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "map-travel.jpg"; sourceTree = "<group>"; };
 		5DE49E252697185D0009C301 /* wolfsteps.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wolfsteps.jpg; sourceTree = "<group>"; };
 		5DE49E272697185D0009C301 /* contact-sheet.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "contact-sheet.jpg"; sourceTree = "<group>"; };
+		A4E4A66126C536900017110F /* Iakkai Saga - The Curse of Blood.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Iakkai Saga - The Curse of Blood.entitlements"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -158,6 +159,7 @@
 		5DA3055B2696DA9E007A51CE /* Iakkai Saga - The Curse of Blood */ = {
 			isa = PBXGroup;
 			children = (
+				A4E4A66126C536900017110F /* Iakkai Saga - The Curse of Blood.entitlements */,
 				5DA3055C2696DA9E007A51CE /* AppDelegate.swift */,
 				5DA3055E2696DA9E007A51CE /* SceneDelegate.swift */,
 				5DA305602696DA9E007A51CE /* ViewController.swift */,
@@ -537,18 +539,20 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Iakkai Saga - The Curse of Blood/Iakkai Saga - The Curse of Blood.entitlements";
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = TZBS3RL5DR;
+				DEVELOPMENT_TEAM = 3J6NF29UZL;
 				INFOPLIST_FILE = "Iakkai Saga - The Curse of Blood/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "bokenengine.Iakkai-Saga---The-Curse-of-Blood-yr";
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.boken-engine.iakkai-saga-the-curse-of-blood-debug";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -559,16 +563,18 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Iakkai Saga - The Curse of Blood/Iakkai Saga - The Curse of Blood.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 3J6NF29UZL;
 				INFOPLIST_FILE = "Iakkai Saga - The Curse of Blood/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "bokenengine.Iakkai-Saga---The-Curse-of-Blood";
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.boken-engine.iakkai-saga-the-curse-of-blood";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
