@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 52;
+	objectVersion = 50;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -20,7 +20,6 @@
 		5DA305662696DA9F007A51CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DA305652696DA9F007A51CE /* Assets.xcassets */; };
 		5DA305692696DA9F007A51CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DA305672696DA9F007A51CE /* LaunchScreen.storyboard */; };
 		5DE49DE8269708710009C301 /* StoryDescription.json in Resources */ = {isa = PBXBuildFile; fileRef = 5DE49DE7269708710009C301 /* StoryDescription.json */; };
-		5DE49DE9269708CC0009C301 /* BokenEngine.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DE49DE22696F2060009C301 /* BokenEngine.xcframework */; };
 		5DE49E292697185D0009C301 /* archer-b-color.png in Resources */ = {isa = PBXBuildFile; fileRef = 5DE49DEF2697185D0009C301 /* archer-b-color.png */; };
 		5DE49E2A2697185D0009C301 /* queen-f-color.png in Resources */ = {isa = PBXBuildFile; fileRef = 5DE49DF02697185D0009C301 /* queen-f-color.png */; };
 		5DE49E2B2697185D0009C301 /* cave-closed.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5DE49DF12697185D0009C301 /* cave-closed.jpg */; };
@@ -63,7 +62,39 @@
 		5DE49E5D2697185D0009C301 /* map-travel.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5DE49E232697185D0009C301 /* map-travel.jpg */; };
 		5DE49E5F2697185D0009C301 /* wolfsteps.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5DE49E252697185D0009C301 /* wolfsteps.jpg */; };
 		5DE49E612697185D0009C301 /* contact-sheet.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5DE49E272697185D0009C301 /* contact-sheet.jpg */; };
+		A4FB4FC726C68EDD006E4A25 /* BokenEngine.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A4FB4FC126C68D1F006E4A25 /* BokenEngine.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A4FB4FC026C68D1F006E4A25 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A4FB4FBB26C68D1F006E4A25 /* BokenEngine.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 5D0DF6EB25B056B80099F811;
+			remoteInfo = BokenEngine;
+		};
+		A4FB4FC226C68D1F006E4A25 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A4FB4FBB26C68D1F006E4A25 /* BokenEngine.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 5D0DF6F425B056B90099F811;
+			remoteInfo = BokenEngineTests;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A4FB4FC626C68D91006E4A25 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 12;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				A4FB4FC726C68EDD006E4A25 /* BokenEngine.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		5D76629226A5B0DE00382B4B /* Musicassets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Musicassets.xcassets; sourceTree = "<group>"; };
@@ -80,7 +111,6 @@
 		5DA305652696DA9F007A51CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5DA305682696DA9F007A51CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5DA3056A2696DA9F007A51CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5DE49DE22696F2060009C301 /* BokenEngine.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = BokenEngine.xcframework; path = Carthage/Build/BokenEngine.xcframework; sourceTree = "<group>"; };
 		5DE49DE7269708710009C301 /* StoryDescription.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = StoryDescription.json; sourceTree = "<group>"; };
 		5DE49DEF2697185D0009C301 /* archer-b-color.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "archer-b-color.png"; sourceTree = "<group>"; };
 		5DE49DF02697185D0009C301 /* queen-f-color.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "queen-f-color.png"; sourceTree = "<group>"; };
@@ -125,6 +155,8 @@
 		5DE49E252697185D0009C301 /* wolfsteps.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wolfsteps.jpg; sourceTree = "<group>"; };
 		5DE49E272697185D0009C301 /* contact-sheet.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "contact-sheet.jpg"; sourceTree = "<group>"; };
 		A4E4A66126C536900017110F /* Iakkai Saga - The Curse of Blood.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Iakkai Saga - The Curse of Blood.entitlements"; sourceTree = "<group>"; };
+		A4FB4FBA26C68BB3006E4A25 /* boken-engine */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "boken-engine"; path = "../../boken-engine"; sourceTree = "<group>"; };
+		A4FB4FBB26C68D1F006E4A25 /* BokenEngine.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = BokenEngine.xcodeproj; path = "../../boken-engine/BokenEngine.xcodeproj"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,7 +164,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5DE49DE9269708CC0009C301 /* BokenEngine.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -144,7 +175,7 @@
 			children = (
 				5DA3055B2696DA9E007A51CE /* Iakkai Saga - The Curse of Blood */,
 				5DA3055A2696DA9E007A51CE /* Products */,
-				5DE49DE12696F2060009C301 /* Frameworks */,
+				A4FB4FB926C68BB3006E4A25 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -172,14 +203,6 @@
 				5DE49DEC2697185D0009C301 /* assets */,
 			);
 			path = "Iakkai Saga - The Curse of Blood";
-			sourceTree = "<group>";
-		};
-		5DE49DE12696F2060009C301 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				5DE49DE22696F2060009C301 /* BokenEngine.xcframework */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		5DE49DEC2697185D0009C301 /* assets */ = {
@@ -244,6 +267,24 @@
 			path = common;
 			sourceTree = "<group>";
 		};
+		A4FB4FB926C68BB3006E4A25 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A4FB4FBB26C68D1F006E4A25 /* BokenEngine.xcodeproj */,
+				A4FB4FBA26C68BB3006E4A25 /* boken-engine */,
+			);
+			name = Frameworks;
+			sourceTree = SOURCE_ROOT;
+		};
+		A4FB4FBC26C68D1F006E4A25 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A4FB4FC126C68D1F006E4A25 /* BokenEngine.framework */,
+				A4FB4FC326C68D1F006E4A25 /* BokenEngineTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -254,7 +295,7 @@
 				5DA305552696DA9E007A51CE /* Sources */,
 				5DA305562696DA9E007A51CE /* Frameworks */,
 				5DA305572696DA9E007A51CE /* Resources */,
-				5DE49DE62696F20D0009C301 /* ShellScript */,
+				A4FB4FC626C68D91006E4A25 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -277,6 +318,7 @@
 				);
 				LastSwiftUpdateCheck = 1250;
 				LastUpgradeCheck = 1250;
+				ORGANIZATIONNAME = "The Iakkai Team";
 				TargetAttributes = {
 					5DA305582696DA9E007A51CE = {
 						CreatedOnToolsVersion = 12.5;
@@ -294,12 +336,35 @@
 			mainGroup = 5DA305502696DA9D007A51CE;
 			productRefGroup = 5DA3055A2696DA9E007A51CE /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = A4FB4FBC26C68D1F006E4A25 /* Products */;
+					ProjectRef = A4FB4FBB26C68D1F006E4A25 /* BokenEngine.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				5DA305582696DA9E007A51CE /* Iakkai Saga - The Curse of Blood */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		A4FB4FC126C68D1F006E4A25 /* BokenEngine.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = BokenEngine.framework;
+			remoteRef = A4FB4FC026C68D1F006E4A25 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A4FB4FC326C68D1F006E4A25 /* BokenEngineTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = BokenEngineTests.xctest;
+			remoteRef = A4FB4FC226C68D1F006E4A25 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		5DA305572696DA9E007A51CE /* Resources */ = {
@@ -362,28 +427,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		5DE49DE62696F20D0009C301 /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"$(SRCROOT)/input.xcfilelist",
-			);
-			inputPaths = (
-			);
-			outputFileListPaths = (
-				"$(SRCROOT)/output.xcfilelist",
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "/opt/homebrew/bin/carthage copy-frameworks\n";
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		5DA305552696DA9E007A51CE /* Sources */ = {
@@ -542,6 +585,7 @@
 				CODE_SIGN_ENTITLEMENTS = "Iakkai Saga - The Curse of Blood/Iakkai Saga - The Curse of Blood.entitlements";
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_TEAM = 3J6NF29UZL;
 				INFOPLIST_FILE = "Iakkai Saga - The Curse of Blood/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
@@ -549,12 +593,13 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = "dev.boken-engine.iakkai-saga-the-curse-of-blood-debug";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = "1,2,6";
 			};
 			name = Debug;
 		};
@@ -565,6 +610,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = "Iakkai Saga - The Curse of Blood/Iakkai Saga - The Curse of Blood.entitlements";
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_TEAM = 3J6NF29UZL;
 				INFOPLIST_FILE = "Iakkai Saga - The Curse of Blood/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
@@ -572,11 +618,12 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = "dev.boken-engine.iakkai-saga-the-curse-of-blood";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = "1,2,6";
 			};
 			name = Release;
 		};
