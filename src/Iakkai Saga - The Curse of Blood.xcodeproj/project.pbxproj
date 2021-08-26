@@ -62,8 +62,6 @@
 		5DE49E5D2697185D0009C301 /* map-travel.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5DE49E232697185D0009C301 /* map-travel.jpg */; };
 		5DE49E5F2697185D0009C301 /* wolfsteps.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5DE49E252697185D0009C301 /* wolfsteps.jpg */; };
 		5DE49E612697185D0009C301 /* contact-sheet.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5DE49E272697185D0009C301 /* contact-sheet.jpg */; };
-		A489142226CD6BAE00A2CD52 /* BokenEngine.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A489142126CD6BAE00A2CD52 /* BokenEngine.framework */; };
-		A489142326CD6BAE00A2CD52 /* BokenEngine.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A489142126CD6BAE00A2CD52 /* BokenEngine.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -73,7 +71,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				A489142326CD6BAE00A2CD52 /* BokenEngine.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,11 +135,7 @@
 		5DE49E232697185D0009C301 /* map-travel.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "map-travel.jpg"; sourceTree = "<group>"; };
 		5DE49E252697185D0009C301 /* wolfsteps.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wolfsteps.jpg; sourceTree = "<group>"; };
 		5DE49E272697185D0009C301 /* contact-sheet.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "contact-sheet.jpg"; sourceTree = "<group>"; };
-		A489141F26CD6AAE00A2CD52 /* BokenEngine.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BokenEngine.framework; path = "Carthage/Build/BokenEngine.xcframework/ios-arm64_x86_64-simulator/BokenEngine.framework"; sourceTree = "<group>"; };
-		A489142126CD6BAE00A2CD52 /* BokenEngine.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = BokenEngine.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4E4A66126C536900017110F /* Iakkai Saga - The Curse of Blood.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Iakkai Saga - The Curse of Blood.entitlements"; sourceTree = "<group>"; };
-		A4FB4FBA26C68BB3006E4A25 /* boken-engine */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "boken-engine"; path = "../../boken-engine"; sourceTree = "<group>"; };
-		A4FB4FBB26C68D1F006E4A25 /* BokenEngine.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = BokenEngine.xcodeproj; path = "../../boken-engine/BokenEngine.xcodeproj"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,7 +143,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A489142226CD6BAE00A2CD52 /* BokenEngine.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -160,10 +152,8 @@
 		5DA305502696DA9D007A51CE = {
 			isa = PBXGroup;
 			children = (
-				A489141F26CD6AAE00A2CD52 /* BokenEngine.framework */,
 				5DA3055B2696DA9E007A51CE /* Iakkai Saga - The Curse of Blood */,
 				5DA3055A2696DA9E007A51CE /* Products */,
-				A4FB4FB926C68BB3006E4A25 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -254,16 +244,6 @@
 			);
 			path = common;
 			sourceTree = "<group>";
-		};
-		A4FB4FB926C68BB3006E4A25 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				A489142126CD6BAE00A2CD52 /* BokenEngine.framework */,
-				A4FB4FBB26C68D1F006E4A25 /* BokenEngine.xcodeproj */,
-				A4FB4FBA26C68BB3006E4A25 /* boken-engine */,
-			);
-			name = Frameworks;
-			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
