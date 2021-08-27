@@ -18,7 +18,7 @@
 
 ## Install from binaries
   
-  * For iOS deveices you can get the app from the Apple App Store: [Iakka](https://apps.apple.com/app/id1580924283#?platform=ipad)
+  * For iOS devices you can get the app from the Apple App Store: [Iakkai Saga store entry](https://apps.apple.com/app/id1580924283#?platform=ipad)
   * For macOS you can download and install it from [releases](https://github.com/boken-engine/iakkai-saga-the-curse-of-blood/releases)
  
 ## Build
@@ -27,13 +27,11 @@ Requirements:
   
   * Swift >5
   * xcode >12
-  * Carthage > 0.38.0
-  * Cocoapods [on review for Swift 5]
   
-Install:
+Build:
   
-  * git clone this repo
-  * cd src and run `carthage build --use-xcframeworks`
+  * __git clone__ this repo
+  * Open the workspace with XCode and build it using the interface tools
   
   
   
