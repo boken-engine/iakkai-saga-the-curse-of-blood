@@ -2,7 +2,7 @@
 
 <p><strong>Welcome adventurer!</strong> You are about to embark in the world of Iakkai. It is a world of magic and ancient lore</p>
 
-<p><i>The Curse of Blood</i> is the first episode of the Interactive Fiction series "The Iakkai Saga", powered by the <a href="https://github.com/boken-engine/boken-engine">Boken Engine</a> framework.
+<p><i>The Curse of Blood</i> is the first episode of the Interactive Fiction series "The Iakkai Saga", powered by the <a href="https://github.com/boken-engine/boken-engine">Boken Engine</a> package.
 
 <img src="raw/extra/map.png" alt="" width="200"/>&nbsp;
 <img src="raw/extra/castle.png" alt="" width="200"/>&nbsp;
@@ -14,7 +14,7 @@
 <img src="raw/extra/village.png" alt="" width="200"/>&nbsp;
 <img src="raw/extra/tower.png" alt="" width="200"/>&nbsp;
 
-<p>Feel free to download the XCode project and create your own version of the story, using all the feature offered by the <a href="https://github.com/boken-engine/boken-engine">Boken Engine</a> framework.
+<p>Feel free to download the XCode project and create your own version of the story, using all the feature offered by the <a href="https://github.com/boken-engine/boken-engine">Boken Engine</a> package.
 
 ## Install from binaries
   
