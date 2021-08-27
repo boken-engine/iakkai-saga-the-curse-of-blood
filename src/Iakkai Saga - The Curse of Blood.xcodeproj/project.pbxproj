@@ -262,6 +262,8 @@
 			dependencies = (
 			);
 			name = "Iakkai Saga - The Curse of Blood";
+			packageProductDependencies = (
+			);
 			productName = "Iakkai Saga - The Curse of Blood";
 			productReference = 5DA305592696DA9E007A51CE /* Iakkai Saga - The Curse of Blood.app */;
 			productType = "com.apple.product-type.application";
@@ -294,6 +296,8 @@
 				Base,
 			);
 			mainGroup = 5DA305502696DA9D007A51CE;
+			packageReferences = (
+			);
 			productRefGroup = 5DA3055A2696DA9E007A51CE /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
