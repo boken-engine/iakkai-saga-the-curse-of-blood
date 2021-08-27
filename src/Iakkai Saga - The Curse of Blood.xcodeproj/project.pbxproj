@@ -62,6 +62,7 @@
 		5DE49E5D2697185D0009C301 /* map-travel.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5DE49E232697185D0009C301 /* map-travel.jpg */; };
 		5DE49E5F2697185D0009C301 /* wolfsteps.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5DE49E252697185D0009C301 /* wolfsteps.jpg */; };
 		5DE49E612697185D0009C301 /* contact-sheet.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5DE49E272697185D0009C301 /* contact-sheet.jpg */; };
+		5DE6065126D8E71A00DBB83D /* BokenEngine in Frameworks */ = {isa = PBXBuildFile; productRef = 5DE6065026D8E71A00DBB83D /* BokenEngine */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -143,6 +144,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5DE6065126D8E71A00DBB83D /* BokenEngine in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,6 +265,7 @@
 			);
 			name = "Iakkai Saga - The Curse of Blood";
 			packageProductDependencies = (
+				5DE6065026D8E71A00DBB83D /* BokenEngine */,
 			);
 			productName = "Iakkai Saga - The Curse of Blood";
 			productReference = 5DA305592696DA9E007A51CE /* Iakkai Saga - The Curse of Blood.app */;
@@ -297,6 +300,7 @@
 			);
 			mainGroup = 5DA305502696DA9D007A51CE;
 			packageReferences = (
+				5DE6064F26D8E71A00DBB83D /* XCRemoteSwiftPackageReference "boken-engine" */,
 			);
 			productRefGroup = 5DA3055A2696DA9E007A51CE /* Products */;
 			projectDirPath = "";
@@ -590,6 +594,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		5DE6064F26D8E71A00DBB83D /* XCRemoteSwiftPackageReference "boken-engine" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/boken-engine/boken-engine";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.3.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		5DE6065026D8E71A00DBB83D /* BokenEngine */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5DE6064F26D8E71A00DBB83D /* XCRemoteSwiftPackageReference "boken-engine" */;
+			productName = BokenEngine;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 5DA305512696DA9D007A51CE /* Project object */;
 }
