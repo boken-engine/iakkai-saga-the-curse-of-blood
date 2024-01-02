@@ -25,7 +25,7 @@ jobs:
         with:
           files: raw
           separator: ","
-        uses: tj-actions/changed-files@v5.2  
+        uses: tj-actions/changed-files@v41  
       - uses: mfinelli/setup-imagemagick@v1        
       - name: Process all modified files
         run: |
